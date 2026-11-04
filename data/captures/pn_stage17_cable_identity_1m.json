@@ -1,0 +1,18 @@
+{
+  "source": "User confirmed in the current conversation on 2026-10-28",
+  "length_mm": 1000,
+  "length_basis": "operator_declared_known_physical_length",
+  "available_same_model_lengths_m": [1, 3, 5, 15],
+  "manufacturer_and_model": null,
+  "stage17_runs": [
+    {"sequence": 6, "state": "matched", "file": "pn_capture_20261028_222847_474.txt"},
+    {"sequence": 7, "state": "matched", "file": "pn_capture_20261028_223223_139.txt"},
+    {"sequence": 8, "state": "matched", "file": "pn_capture_20261028_223255_179.txt"},
+    {"sequence": 9, "state": "open", "file": "pn_capture_20261028_225318_200.txt"},
+    {"sequence": 10, "state": "short", "file": "pn_capture_20261028_225347_140.txt"},
+    {"sequence": 11, "state": "matched_reconnected", "file": "pn_capture_20261028_230032_323.txt"}
+  ],
+  "distance_fit_lengths_m": [1, 15],
+  "independent_distance_validation_lengths_m": [3, 5],
+  "note": "Adds user-confirmed physical labels; does not alter the frozen numeric reference or any original UART log"
+}

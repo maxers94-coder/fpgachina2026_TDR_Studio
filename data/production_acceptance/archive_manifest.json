@@ -1,0 +1,107 @@
+{
+  "schema": "TDR_COMPONENT_ARCHIVE_1",
+  "date": "2026-11-04",
+  "archive": "report_data.zip",
+  "top_directory": "TDR_生产验收_报告数据包_20261104",
+  "archive_bytes": 607322,
+  "archive_sha256": "84bbdde45781aa6fd54edf290f50e57f6514d4cf0e39a9e82972239210fde92a",
+  "file_count": 19,
+  "uncompressed_bytes": 801459,
+  "files": [
+    {
+      "path": "data/82组统计.csv",
+      "bytes": 8837,
+      "sha256": "74b8932c110fa04defc5c9dbb40fd1fd216bffc31b57a83f8ddbebb31e9fe9de"
+    },
+    {
+      "path": "data/candidates.csv",
+      "bytes": 12949,
+      "sha256": "d50c2f9cd084cbaf0e62fa7cdcd9eb4501b2de0c18e7106adffa8341da08b8fd"
+    },
+    {
+      "path": "data/expected_anomalies.csv",
+      "bytes": 12313,
+      "sha256": "3d977dc74bfece9e8c2009554532d51c2aad5167c4fa8108e2cc01c97c9f5a85"
+    },
+    {
+      "path": "data/statistics.csv",
+      "bytes": 37503,
+      "sha256": "45f26dd6f9532f5981d4747346394c9b9b1e2871feb61cb6a7aa5d91b8be12c1"
+    },
+    {
+      "path": "data/trials.csv",
+      "bytes": 116775,
+      "sha256": "78cedd98d3e17bb26ebc638a313ad465c6822cfed2bcd048d7d951c58d48a739"
+    },
+    {
+      "path": "data/多异常逐异常.csv",
+      "bytes": 1325,
+      "sha256": "20e7403c42e15f1babf3795449a10ee895ad94ff4d3e3497d5287caee718867e"
+    },
+    {
+      "path": "data/执行顺序.csv",
+      "bytes": 4295,
+      "sha256": "72afc9d69841603b3799b514fd2ad9efc829fcb6b90d1cfe33345424108a9a18"
+    },
+    {
+      "path": "data/测试板性能.csv",
+      "bytes": 979,
+      "sha256": "127583671686c8c850783bc5008395a41d328bd74c5241b10f5a165d2d3dd0a1"
+    },
+    {
+      "path": "data/距离分组.csv",
+      "bytes": 1030,
+      "sha256": "8c8ffb1eab725eafbf9888f74c5ce6a07e9e3fedf7b8272a6e729e7332b138ed"
+    },
+    {
+      "path": "figures/01_detection_rate_by_board.png",
+      "bytes": 37741,
+      "sha256": "07c4c2e1e9389cb3ba0a6d9a521b28c5322b7930045ad55b9d47167c60af45e8"
+    },
+    {
+      "path": "figures/02_error_distribution.png",
+      "bytes": 35733,
+      "sha256": "0400b414111bed565fae083b0cc04a10c86008faf3fc3c3a74ade60d0ebb92c9"
+    },
+    {
+      "path": "figures/03_error_by_distance.png",
+      "bytes": 69135,
+      "sha256": "dbc141b687b67bed6e00784a13bb38dc591691f5096d4e6ea6a0a00ed55ba616"
+    },
+    {
+      "path": "figures/04_detection_vs_gamma.png",
+      "bytes": 44248,
+      "sha256": "d813a17e0f895dbf9e8f06c96da09d632bddf4861d8648be4d7c0596a88df2da"
+    },
+    {
+      "path": "figures/05_multi_anomaly_mapping.png",
+      "bytes": 54829,
+      "sha256": "3bc0a9626dbe1333c5e33c38a49a51f5bf2172dabb4224d0f21c4fa5961b0cc8"
+    },
+    {
+      "path": "figures/06_repeat_distribution.png",
+      "bytes": 51767,
+      "sha256": "b100e2ecdcc8ecf13b4d70a54a98478a448e7996e302a54def5610fc84bd2898"
+    },
+    {
+      "path": "FW63_生产验收_数据分析报告_20261104.xlsx",
+      "bytes": 307645,
+      "sha256": "f80ae7ca15e4f5a0b1efeabff468ebc20cd08aa26324f499fdc6cf79ff98e249"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 683,
+      "sha256": "1504bc8e09cd4749e9e58ba5e22f4e41cc45184953619ea7239e0a79b547953a"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1470,
+      "sha256": "e242e488ccbbabbdab3de5a4f45a71b86097916d5d87df2e04dcb860de70ada2"
+    },
+    {
+      "path": "报告要点.md",
+      "bytes": 2202,
+      "sha256": "fb77c42e42fcae876597aadca731020aab29423deb634c569d519a544dd69419"
+    }
+  ]
+}

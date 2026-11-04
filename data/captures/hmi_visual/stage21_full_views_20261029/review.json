@@ -1,0 +1,28 @@
+{
+  "schema": "STAGE21_PHOTO_SCALE_FINDING_1",
+  "date": "2026-10-29",
+  "status": "ACTUAL_ZERO_SCALE_MISMATCH_CANDIDATE_PREPARED",
+  "source_files_sha256": {
+    "IMG_20261029_175743.jpg": "5cac43db2129f155c6d86e434a528912155e18dbc90b10a09ef61a31332a1b09",
+    "IMG_20261029_175751.jpg": "27ce48cf9bfd85a6c3abc24643c54ec964ed58dcb245263b4afa836196f722ff",
+    "IMG_20261029_175757.jpg": "d5894a50dc489d875ef39939667b09e2e60caec122c4c4029a6eff014081d37c",
+    "seq25_user_pasted.txt": "bc3bb4b8e0eae22962ee4f9882e67fb4213893cebe0eb42ec9e5929b46cb4f3b"
+  },
+  "full_view_photos": [
+    "AVG32",
+    "DIFF",
+    "CORR"
+  ],
+  "blue_baseline_near_bottom_observed": true,
+  "zero_center_label_matches_photo": false,
+  "zoom_visual_verified": false,
+  "seq25_full_raw_corr_available": false,
+  "firmware_or_PL_modified": false,
+  "original_HMI_modified": false,
+  "candidate_manifest": "screen_scale_fix_v6/manifest.json",
+  "candidate_manifest_sha256": "f10f64c3b3704b5d6a2c2081a439e659a6573b8fd1596940064849b06054d99e",
+  "vendor_compile_passed": false,
+  "screen_scale_fix_verified": false,
+  "finding": "Photos show vertical coordinate mismatch. dis=10 is the leading hypothesis; its runtime writability was not established.",
+  "report": "PN_STAGE21_SCREEN_SCALE_FINDING_20261029.md"
+}

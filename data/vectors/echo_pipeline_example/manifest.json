@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "model": "synthetic_echo_fixed_point_p1_p5",
+  "config": {
+    "sample_rate_hz": 200000000.0,
+    "propagation_speed_mps": 200000000.0,
+    "chip_rate_hz": 100000000.0,
+    "pn_order": 8,
+    "pn_seed": 255,
+    "samples_per_chip": 2,
+    "frame_length": 1024,
+    "frame_count": 32,
+    "template_length": 640,
+    "correlation_points": 256,
+    "lag_min": 0,
+    "lowpass_cutoff_hz": 70000000.0,
+    "lowpass_taps": 129,
+    "direct_amplitude": 1.0,
+    "signal_peak_codes": 6000.0,
+    "noise_sigma_codes": 20.0,
+    "baseline_drift_codes": 0.0,
+    "random_seed": 20261017,
+    "anomalies": [
+      {
+        "distance_m": 5.0,
+        "coefficient": 0.0196078431372549
+      },
+      {
+        "distance_m": 15.175,
+        "coefficient": 0.0196078431372549
+      },
+      {
+        "distance_m": 25.0,
+        "coefficient": -0.024390243902439025
+      }
+    ]
+  },
+  "formats": {
+    "raw_adc": {
+      "bits": 14,
+      "signed": false,
+      "coding": "offset_binary"
+    },
+    "accumulator": {
+      "bits": 22,
+      "signed": true,
+      "fractional_bits": 0
+    },
+    "average_and_baseline": {
+      "bits": 16,
+      "signed": true,
+      "fractional_bits": 2
+    },
+    "difference": {
+      "bits": 17,
+      "signed": true,
+      "fractional_bits": 2
+    },
+    "template": {
+      "bits": 16,
+      "signed": true,
+      "fractional_bits": 14
+    },
+    "correlation_accumulator": {
+      "bits": 48,
+      "signed": true,
+      "fractional_bits": 16
+    },
+    "correlation_export": {
+      "bits": 64,
+      "signed": true,
+      "fractional_bits": 16
+    }
+  },
+  "flags": {
+    "clip_flag": false,
+    "adc_quantizer_saturations": 0,
+    "accumulator_saturations": 0,
+    "average_saturations": 0,
+    "difference_saturations": 0,
+    "template_saturations": 0,
+    "correlation_saturations": 0
+  },
+  "detected_absolute_peak": {
+    "lag_integer": 50,
+    "distance_integer_grid_m": 25.0,
+    "value_int64": -2285767647,
+    "polarity": "negative"
+  },
+  "files": {
+    "raw_baseline_u14.mem": {
+      "sha256": "c2b76f8c5a6e0b385da001499e7044a5b3e523834e1502fadae068b02354010a",
+      "line_count": 32768
+    },
+    "raw_measurement_u14.mem": {
+      "sha256": "29569949ee59d54ab094790f10695487f24132de201292a839ded19f772fd0c0",
+      "line_count": 32768
+    },
+    "baseline_q2.txt": {
+      "sha256": "b8445c9e65dc59a887d0654cc6b2f36224daadeac9b4b38a1405c2927e6fab46",
+      "line_count": 1024
+    },
+    "average_q2.txt": {
+      "sha256": "06edfc6b32558a0d8e4f09e16745ec12050f4f9cc6ce297ec107c678c62c0071",
+      "line_count": 1024
+    },
+    "diff_q2.txt": {
+      "sha256": "b90163ba848859742756788747043ff3ab5f0e4af9890d76a50268484c83bc24",
+      "line_count": 1024
+    },
+    "template_q14.txt": {
+      "sha256": "064383628420ec5c5da2f269d384844faf96a07d33071cf3a047090b32df5bd2",
+      "line_count": 640
+    },
+    "corr_int64.txt": {
+      "sha256": "87fb94a3e655d4c588e5b6e9182b817226e3dfbcbe282c4455a4f82cd0a44c98",
+      "line_count": 256
+    },
+    "corr_int64.mem": {
+      "sha256": "8aca427bc7509c83099494e072987b8a782a4b398e1b552b20a2896e66bf4d17",
+      "line_count": 256
+    }
+  }
+}

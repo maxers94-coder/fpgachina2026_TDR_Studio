@@ -1,0 +1,55 @@
+{
+    "schema":  "PN_STAGE42_B_POSITION_PAIR_1",
+    "status":  "complete",
+    "firmware_stage":  41,
+    "fixture_id":  "B_series_4p7ohm",
+    "plan":  {
+                 "schema":  "PN_STAGE42_B_POSITION_PAIR_PLAN_1",
+                 "firmware_stage":  41,
+                 "fixture_id":  "B_series_4p7ohm",
+                 "phases":  [
+                                {
+                                    "label":  "position_5m",
+                                    "front_length_m":  5,
+                                    "back_length_m":  15
+                                },
+                                {
+                                    "label":  "position_15m",
+                                    "front_length_m":  15,
+                                    "back_length_m":  5
+                                }
+                            ],
+                 "same_cables_and_fixture_required":  true,
+                 "new_acquisitions":  24,
+                 "new_D_captures":  18,
+                 "fresh_reference_per_phase":  true,
+                 "previous_boot_reference_required":  false,
+                 "power_cycle_between_phases_allowed":  false,
+                 "positive_model_sha256":  "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+                 "model_retuned":  false,
+                 "firmware_changed":  false,
+                 "truth_sent_to_firmware":  false,
+                 "distance_valid":  false
+             },
+    "phases":  [
+                   {
+                       "label":  "position_5m",
+                       "front_length_m":  5,
+                       "back_length_m":  15,
+                       "zip":  "position_5m.zip",
+                       "sha256":  "12b9e0fe404d884e4cfb53fb362fa4b20598522720d8a7bb98ee787daac0cef3"
+                   },
+                   {
+                       "label":  "position_15m",
+                       "front_length_m":  15,
+                       "back_length_m":  5,
+                       "zip":  "position_15m.zip",
+                       "sha256":  "fa3d0bf02ea377b3f50b2ba4b39d19c9d29b033bd99de65ea1d0b82df3c1857e"
+                   }
+               ],
+    "operator_port":  "COM7",
+    "operator_declared_same_cables_fixture_and_load":  true,
+    "evidence_kind":  "operator_declared_live_board_capture",
+    "distance_valid":  false,
+    "model_retuned":  false
+}

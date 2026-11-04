@@ -1,0 +1,61 @@
+{
+  "schema": "STAGE21_SCREEN_SCALE_RESOLUTION_1",
+  "date": "2026-10-29",
+  "status": "DIS_PERCENT_CONFIRMED_CORR_ZOOM_VISUALLY_RECOVERED",
+  "official_editor_attribute_help": "Data scaling percent, minimum 10, maximum 1000",
+  "dis_native_percent": 100,
+  "dis1_proposal_withdrawn": true,
+  "user_saved_control_values": [
+    {
+      "page": 0,
+      "name": "s_raw",
+      "dis": 100
+    },
+    {
+      "page": 1,
+      "name": "s_wave",
+      "dis": 100
+    }
+  ],
+  "operator_saved_project": "screen_scale_fix_v6_dis100/operator_saved_dis100.HMI",
+  "operator_saved_project_sha256": "927cc4519f0e54d115c68c9795da6fe3d15d3c36a4f3dd9907eee2640b342a3b",
+  "generated_backup": "screen_scale_fix_v6_dis100/cable_tdr_800x480_EN_v6_dis100.HMI",
+  "generated_backup_sha256": "c4ad477e0792afbddef4a45f54def47c008efd1c8be94651988998e6d0da76e8",
+  "control_ids_geometry_text_events_and_dis_match": true,
+  "other_attribute_differences": [
+    {
+      "page": 0,
+      "object": "s_raw",
+      "attribute": "molloc_s",
+      "operator_value": 684,
+      "generated_value": 0
+    },
+    {
+      "page": 0,
+      "object": "s_raw",
+      "attribute": "molloc",
+      "operator_value": 684,
+      "generated_value": 0
+    }
+  ],
+  "operator_file_native_page_checksums_verified": true,
+  "scale_help_image_sha256": "c0abc81a721027373e85cd07f1c7ea4425dd51da0e7052e1c8e6dba8351e46d0",
+  "screen_photo": "IMG_20261029_184019.jpg",
+  "screen_photo_sha256": "47bdbae7adc915842ad5a74b8022d04cf96cbb2c4cca212bfcb0ff7699499d99",
+  "photo_observation": {
+    "view": "CORRELATION",
+    "window": "ZOOM",
+    "lag_first": 96,
+    "lag_last": 223,
+    "baseline_visually_centered": true,
+    "positive_peak_visible": true,
+    "all_six_view_combinations_verified": false,
+    "exact_photo_measurement_sequence_known": false
+  },
+  "prior_finding_receipt": "captures/hmi_visual/stage21_full_views_20261029/review.json",
+  "prior_finding_receipt_sha256": "070465bf7c739a596c7adeabc94d8d940370390a1d375c91ad9f82dac3810755",
+  "generated_backup_vendor_compile_performed_by_agent": false,
+  "agent_screen_download_performed": false,
+  "main_firmware_or_PL_modified": false,
+  "current_elf_sha256": "17baab9e4588b95fed7b265d354f0d52905415d2bd85151c27de3165d1136c21"
+}

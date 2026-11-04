@@ -1,0 +1,8 @@
+# Outputs of the new entry points; sealed evidence and original captures stay tracked.
+/build/_runs/
+/build/_restored/
+/build/_host_restored/
+/build/_verification/
+/board/captures/
+__pycache__/
+*.pyc

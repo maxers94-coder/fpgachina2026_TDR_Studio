@@ -1,0 +1,21 @@
+{
+  "schema": "LIVE_HEALTHY_TABLE_CHECK_1",
+  "status": "PASS",
+  "baseline_id": 6,
+  "crc32": "2A5917D1",
+  "first_sequence": 61,
+  "last_sequence": 63,
+  "source_raw_sequences": [
+    61,
+    62,
+    63
+  ],
+  "table_word_count": 1024,
+  "live_matches_reference_table": true,
+  "new_baseline_acquisitions": 0,
+  "qualification": "Fresh J equals the saved B/J table, ID, CRC and source metadata; no physical-health or distance qualification.",
+  "source_baseline_file": "baseline.txt",
+  "source_baseline_sha256": "02b62f2bae331360551ae5bc7481a454d8f8fba943bcc6ef185a4fd51d1805a3",
+  "live_table_file": "reference_after.baseline.txt",
+  "live_table_sha256": "7b5a8e1cc7fcfd9a28b373dbc3cd109a23762626e654b0556c0b1f0bd84115be"
+}

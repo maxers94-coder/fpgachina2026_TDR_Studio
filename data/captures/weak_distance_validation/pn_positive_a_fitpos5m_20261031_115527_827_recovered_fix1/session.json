@@ -1,0 +1,222 @@
+{
+  "schema": "PN_POSITIVE_A_FIT_SESSION_1",
+  "status": "complete",
+  "firmware_stage": 38,
+  "fixture_id": "A_series_27ohm",
+  "evidence_kind": "operator_declared_live_board_capture",
+  "plan": {
+    "schema": "PN_POSITIVE_A_FIT_PLAN_1",
+    "firmware_stage": 38,
+    "fixture_id": "A_series_27ohm",
+    "front_length_m": 5,
+    "back_length_m": 15,
+    "far_end": "same_verified_50ohm",
+    "sample_orientation": "J1_toward_near_end",
+    "waveform": "PN127",
+    "sample_rate_hz": 200000000,
+    "chip_hz": 50000000,
+    "average_frames": 32,
+    "states": [
+      "reference_before",
+      "sample_A27",
+      "reference_after"
+    ],
+    "technical_repeats_per_state": 3,
+    "baseline_sources": 3,
+    "new_acquisitions": 12,
+    "new_D_captures": 9,
+    "reference_type": "SMA_BARREL_PROVISIONAL",
+    "same_structure_normal_pcb": false,
+    "fresh_B_required": true,
+    "reference_replacement_during_loop_allowed": false,
+    "previous_runtime_watermark_required": false,
+    "model_sha256": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+    "existing_negative_model_unchanged": true,
+    "positive_distance_supported": false,
+    "profile2_distance_supported": false,
+    "positive_fit_performed": false,
+    "B47_reserved_for_validation": true,
+    "pc_command_allowlist": [
+      "V",
+      "B",
+      "J",
+      "D",
+      "R",
+      "C"
+    ],
+    "distance_valid": false,
+    "formal_accuracy_qualified": false,
+    "optical_observation_requested_before_each_state": true,
+    "optical_answers": [
+      "YES",
+      "NO",
+      "NOT_CHECKED"
+    ],
+    "available_field_is_optical_proof": false,
+    "screen_project_changed": false,
+    "agent_board_access_performed": false
+  },
+  "operator_port": "COM7",
+  "captures": [
+    {
+      "state": "reference_before",
+      "repeat": 1,
+      "file": "reference_before_r1.txt",
+      "sequence": 67,
+      "trigger": "PC_D",
+      "sha256": "279e5a6e1549a5c0b24cc50e0dcb4ec93fbc73e373b4594644009c04d8e246f6",
+      "checked_file": "reference_before_r1.checked.json"
+    },
+    {
+      "state": "reference_before",
+      "repeat": 2,
+      "file": "reference_before_r2.txt",
+      "sequence": 68,
+      "trigger": "PC_D",
+      "sha256": "2b5b53116074e5db0360d875910f1cb94728225b4a23ac0955ad91fc6ed85617",
+      "checked_file": "reference_before_r2.checked.json"
+    },
+    {
+      "state": "reference_before",
+      "repeat": 3,
+      "file": "reference_before_r3.txt",
+      "sequence": 69,
+      "trigger": "PC_D",
+      "sha256": "738eb461e70b61c5130b1095380cda73e31bcc9f88ac44e3809f8715731c1b12",
+      "checked_file": "reference_before_r3.checked.json"
+    },
+    {
+      "state": "sample_A27",
+      "repeat": 1,
+      "file": "sample_A27_r1.txt",
+      "sequence": 70,
+      "trigger": "PC_D",
+      "sha256": "dddb2177f14b6aac8b446165c6e7395ed170fe8ebd922686897854b381994e4b",
+      "checked_file": "sample_A27_r1.checked.json"
+    },
+    {
+      "state": "sample_A27",
+      "repeat": 2,
+      "file": "sample_A27_r2.txt",
+      "sequence": 71,
+      "trigger": "PC_D",
+      "sha256": "b443f932a5ae66d3800a9ea099edbd451236ea99c29138287e291cf9606fe260",
+      "checked_file": "sample_A27_r2.checked.json"
+    },
+    {
+      "state": "sample_A27",
+      "repeat": 3,
+      "file": "sample_A27_r3.txt",
+      "sequence": 72,
+      "trigger": "PC_D",
+      "sha256": "ff29508bb3611cbb1d1572a191840500c3e80f9cd28abff3cbf860aa8b179127",
+      "checked_file": "sample_A27_r3.checked.json"
+    },
+    {
+      "state": "reference_after",
+      "repeat": 1,
+      "file": "reference_after_r1.txt",
+      "sequence": 73,
+      "trigger": "PC_D",
+      "sha256": "438d13de73e58b50a7434cf13583aaf5f4ef35bc5621bd27f1f775a29a716838",
+      "checked_file": "reference_after_r1.checked.json"
+    },
+    {
+      "state": "reference_after",
+      "repeat": 2,
+      "file": "reference_after_r2.txt",
+      "sequence": 74,
+      "trigger": "PC_D",
+      "sha256": "5ea1522c8f55af5be08d2e41902a266fd229a408098867833862f4874d32df82",
+      "checked_file": "reference_after_r2.checked.json"
+    },
+    {
+      "state": "reference_after",
+      "repeat": 3,
+      "file": "reference_after_r3.txt",
+      "sequence": 75,
+      "trigger": "PC_D",
+      "sha256": "673c8517f0676e38bf327ec7f26656605220c04bf59e6ba4a35c0bc3c5b1071d",
+      "checked_file": "reference_after_r3.checked.json"
+    }
+  ],
+  "model_sha256": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+  "host_expected_elf_sha256": "033a932c025e83ad4d4d4a260b74231b229015c6319f4a4a1ce032a8e03f4c65",
+  "board_elf_hash_readback_performed": false,
+  "agent_board_access_performed": false,
+  "distance_valid": false,
+  "formal_accuracy_qualified": false,
+  "positive_fit_performed": false,
+  "physical_fixture_and_geometry_independently_verified": false,
+  "screen_observations": {
+    "reference_before": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    },
+    "sample_A27": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    },
+    "reference_after": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    }
+  },
+  "sample_screen_observation": "YES",
+  "baseline_id": 3,
+  "baseline_crc32": "0D53E9E1",
+  "reference_profile_id": 1,
+  "reference_profile_mask": 1,
+  "new_acquisitions": 12,
+  "metadata_recovery": {
+    "kind": "A_sample_screen_alias_bug_fix1",
+    "source_directory": "captures/weak_distance_validation/pn_positive_A_fitpos5m_20261031_115527_827",
+    "original_failure": "Independent validation failed: check_pn_positive_A_positions.py",
+    "original_source_file_sha256": {
+      "baseline.checked.json": "bf41cd11c18c1ed503f8c92b3aba2945043488fd06771fc68a48acbb9bd677b4",
+      "baseline.txt": "e89d3d5b6bc0c395a99a6fca5c099c992d8ac74cd2316f762c8d9899bcd4b7c1",
+      "baseline_after.checked.json": "4e7e20c43570e71b29539bc28783205f5882073457ab807b5892e0701e389bd8",
+      "baseline_after.txt": "56102eebfa4fd48fbece44c1e9abcde1abb33b14a51e720da31631f0dd39b740",
+      "hardware_after.txt": "d958fc911976dbafabe34edfdd14baf8139b0c1311c68827011531a58155aeda",
+      "hardware_before.txt": "ea91952421954ecb389b8e097ed841e9731427bf3cb0684412f84adfdd33a3b3",
+      "reference_after.baseline.checked.json": "374aa41e95092c5523961fb35ebd2254ae6c77214bc4f9895256309830895ac5",
+      "reference_after.baseline.txt": "56102eebfa4fd48fbece44c1e9abcde1abb33b14a51e720da31631f0dd39b740",
+      "reference_after.hardware.txt": "250a6dea99d945b0b4ccdfecd507c83337a0b8f84582b3612af47d3308cf220f",
+      "reference_after_r1.checked.json": "9994669eb86f77f1573e04eb45733336e972e24f2bff8177c0380973751e29a5",
+      "reference_after_r1.txt": "438d13de73e58b50a7434cf13583aaf5f4ef35bc5621bd27f1f775a29a716838",
+      "reference_after_r2.checked.json": "662628ca6e2450d07f8ea8235f5d4bcd196e9f9386b301ac81ac40cbbfc39ab9",
+      "reference_after_r2.txt": "5ea1522c8f55af5be08d2e41902a266fd229a408098867833862f4874d32df82",
+      "reference_after_r3.checked.json": "12262dfa8e73e5714d9afbd35ff29a1dc326e5bc95348aa35f44ece3a4052157",
+      "reference_after_r3.txt": "673c8517f0676e38bf327ec7f26656605220c04bf59e6ba4a35c0bc3c5b1071d",
+      "reference_before.baseline.checked.json": "8d8a12e1cd66d21a0ee274518d9637baa568fc00526f6f377dfbd6efa4ac20a8",
+      "reference_before.baseline.txt": "56102eebfa4fd48fbece44c1e9abcde1abb33b14a51e720da31631f0dd39b740",
+      "reference_before.hardware.txt": "2bb27b521a29e0aa4a69505ab3df62b689bb89571b8f0fa4d8180dff56d3fb86",
+      "reference_before_r1.checked.json": "08fb2949824054b3b1a76d00599acd5007797391062d4f3dd48fabea5416b71c",
+      "reference_before_r1.txt": "279e5a6e1549a5c0b24cc50e0dcb4ec93fbc73e373b4594644009c04d8e246f6",
+      "reference_before_r2.checked.json": "ea76b46f15a53bdc9292c8bb532d8f68d26a2f72b2bcc9c1c5bf860188ad36fc",
+      "reference_before_r2.txt": "2b5b53116074e5db0360d875910f1cb94728225b4a23ac0955ad91fc6ed85617",
+      "reference_before_r3.checked.json": "c11545808579d27567c1ac0c07b26fdb2eb211ea48bae362d54097536293cfe4",
+      "reference_before_r3.txt": "738eb461e70b61c5130b1095380cda73e31bcc9f88ac44e3809f8715731c1b12",
+      "sample_A27.baseline.checked.json": "320049b7710d3ea7bd3ffa0a236ba0771b23fa9c2c00aeaaf02947cddea6da16",
+      "sample_A27.baseline.txt": "56102eebfa4fd48fbece44c1e9abcde1abb33b14a51e720da31631f0dd39b740",
+      "sample_A27.hardware.txt": "5f7b9c8e2350be6d56b09c3aa3992786def7f2546738391d5b0df726835b58c1",
+      "sample_A27_r1.checked.json": "65be10e789bce61e7d0053a6499ba1602dbc2f501838e36a2332b20a4e393e26",
+      "sample_A27_r1.txt": "dddb2177f14b6aac8b446165c6e7395ed170fe8ebd922686897854b381994e4b",
+      "sample_A27_r2.checked.json": "aec1309951ea53c1f1316233bdc326dd4127746520961da9cf4f93898fbeac89",
+      "sample_A27_r2.txt": "b443f932a5ae66d3800a9ea099edbd451236ea99c29138287e291cf9606fe260",
+      "sample_A27_r3.checked.json": "011a6d8fdc6595f56f7106c0dbd961be539a76cfe0234be716df719370fa6959",
+      "sample_A27_r3.txt": "ff29508bb3611cbb1d1572a191840500c3e80f9cd28abff3cbf860aa8b179127",
+      "serial_transcript.txt": "2b4a932efffe718692338b85e481952c0f6bf6d0de6be5e6bcbd9064ee6b95d2",
+      "session.json": "0279fd835a51d4188ac329a71f7ff243751a9fd97eea59bfbe513bc69b4b9891"
+    },
+    "changed_fields": [
+      "status",
+      "sample_screen_observation",
+      "failure_reason"
+    ],
+    "operator_answer_source": "existing screen_observations.sample_A27.answer, not a new answer",
+    "raw_and_existing_checked_files_changed": false,
+    "new_acquisition_performed": false,
+    "selection_policy": "latest completed run for contiguous runtime handoff, not response amplitude; earlier attempt retained"
+  }
+}

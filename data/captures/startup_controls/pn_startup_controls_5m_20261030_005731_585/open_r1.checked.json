@@ -1,0 +1,15 @@
+{
+  "schema": "PN_STARTUP_NUMERICAL_CHECK_1",
+  "status": "PASS",
+  "file": "open_r1.txt",
+  "sha256": "be602fd4e77c40fe154ab1a70ac98cb270a15a7f4359117790210c50a97d3974",
+  "sequence": 14,
+  "raw_count": 1024,
+  "correlation_count": 256,
+  "pc_pl_arithmetic": "ALL_256_EXACT",
+  "peak_lag": 142,
+  "peak_q16": 4484464640,
+  "distance_status": "POSITIVE_RETURN",
+  "calibration_validated": false,
+  "weak_impedance_validated": false
+}

@@ -1,0 +1,79 @@
+{
+    "schema":  "PN_STAGE42_B_POSITION_SESSION_1",
+    "status":  "incomplete",
+    "firmware_stage":  41,
+    "fixture_id":  "B_series_4p7ohm",
+    "evidence_kind":  "operator_declared_live_board_capture",
+    "plan":  {
+                 "schema":  "PN_STAGE42_B_POSITION_PLAN_1",
+                 "firmware_stage":  41,
+                 "fixture_id":  "B_series_4p7ohm",
+                 "front_length_m":  5,
+                 "back_length_m":  15,
+                 "far_end":  "same_verified_50ohm",
+                 "sample_orientation":  "J1_toward_near_end",
+                 "waveform":  "PN127",
+                 "sample_rate_hz":  200000000,
+                 "chip_hz":  50000000,
+                 "average_frames":  32,
+                 "states":  [
+                                "reference_before",
+                                "sample_B47",
+                                "reference_after"
+                            ],
+                 "technical_repeats_per_state":  3,
+                 "baseline_sources":  3,
+                 "new_acquisitions":  12,
+                 "new_D_captures":  9,
+                 "reference_type":  "SMA_BARREL_PROVISIONAL",
+                 "same_structure_normal_pcb":  false,
+                 "fresh_B_required":  true,
+                 "reference_replacement_during_loop_allowed":  false,
+                 "previous_runtime_watermark_required":  false,
+                 "model_sha256":  "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+                 "existing_negative_model_unchanged":  true,
+                 "positive_distance_supported":  true,
+                 "profile2_distance_supported":  false,
+                 "positive_fit_performed":  false,
+                 "nominal_target_mm":  5000,
+                 "individual_nominal_tolerance_mm":  500,
+                 "fixed_model_position_validation":  true,
+                 "positive_model_sha256":  "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+                 "pc_command_allowlist":  [
+                                              "V",
+                                              "B",
+                                              "J",
+                                              "D",
+                                              "R",
+                                              "C"
+                                          ],
+                 "distance_valid":  false,
+                 "formal_accuracy_qualified":  false,
+                 "optical_observation_requested_before_each_state":  true,
+                 "optical_answers":  [
+                                         "YES",
+                                         "NO",
+                                         "NOT_CHECKED"
+                                     ],
+                 "available_field_is_optical_proof":  false,
+                 "screen_project_changed":  false,
+                 "agent_board_access_performed":  false
+             },
+    "operator_port":  "COM7",
+    "captures":  [
+
+                 ],
+    "model_sha256":  "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+    "positive_model_sha256":  "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+    "host_expected_elf_sha256":  "ab83b9dab9d469ee715c3528b531b6bbcee7ca73cba93d808bcd18f1f6d9f07f",
+    "board_elf_hash_readback_performed":  false,
+    "agent_board_access_performed":  false,
+    "distance_valid":  false,
+    "model_retuned":  false,
+    "formal_accuracy_qualified":  false,
+    "screen_observations":  {
+
+                            },
+    "sample_screen_observation":  "NOT_CHECKED",
+    "failure_reason":  "Fresh barrel reference was not confirmed"
+}

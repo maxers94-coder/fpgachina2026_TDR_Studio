@@ -1,0 +1,30 @@
+{
+  "schema": "HMI_WAVE_CAPTURE_CHECK_1",
+  "sequence": 9,
+  "file": "diff_after_switch.txt",
+  "sha256": "5a308c06adc54a197f81c2a3c55a63b2aa9ea5fa0d1775629c1ae75d6bd1cc9a",
+  "plots": [
+    {
+      "SEQ": "9",
+      "PAGE": "0",
+      "KIND": "CORR",
+      "N": "512",
+      "FIRST": "0",
+      "COUNT": "256",
+      "SCALE": "2147483648",
+      "ZERO": "112",
+      "READY": "1",
+      "DONE": "1",
+      "FNV1A": "25C705C5",
+      "BASE_ID": "1",
+      "BASE_CRC": "C262BB0D",
+      "pixels_recomputed": 512,
+      "pixel_checksum": "PASS",
+      "envelope": false
+    }
+  ],
+  "drawing_arithmetic": "ALL_PIXELS_EXACT",
+  "new_acquisition_for_view_change": false,
+  "lcd_visual_verified": false,
+  "qualification": "Coherent RAW/DCORR, PS pixel checksum and FE/FD completion; LCD visual check is separate."
+}

@@ -1,0 +1,263 @@
+{
+  "schema": "PN_POSITIVE_A_FIT_CHILD_ANALYSIS_1",
+  "status": "PASS",
+  "data_integrity_status": "PASS",
+  "evidence_kind": "operator_declared_live_board_capture",
+  "firmware_stage": 38,
+  "model_sha256": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+  "front_m": 15,
+  "back_m": 5,
+  "baseline_id": 4,
+  "baseline_crc32": "AA884C57",
+  "reference_profile_id": 1,
+  "reference_profile_mask": 1,
+  "transcript_TX_records": 38,
+  "transcript_RX_records": 19923,
+  "commands": {
+    "V": 5,
+    "B": 1,
+    "J": 5,
+    "D": 9,
+    "R": 9,
+    "C": 9
+  },
+  "new_acquisitions": 12,
+  "exact_correlation_points": 2304,
+  "exact_display_pixels": 4608,
+  "candidate_C_Python_exact_all_nine": true,
+  "outcome": {
+    "profile1_mask1": true,
+    "all_six_controls_LOW_RETURN": true,
+    "all_three_samples_positive_without_distance": true,
+    "development_expectation_pass": true
+  },
+  "candidate_rows": [
+    {
+      "state": "reference_before",
+      "sequence": 79,
+      "candidate": {
+        "SEQ": "79",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "249",
+        "SIGN": "-1",
+        "PEAK_NUM": "-539557888",
+        "DC_SUM_DELTA": "9",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "4",
+        "BASE_CRC": "AA884C57",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_before",
+      "sequence": 80,
+      "candidate": {
+        "SEQ": "80",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "76",
+        "SIGN": "1",
+        "PEAK_NUM": "485556224",
+        "DC_SUM_DELTA": "15",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "4",
+        "BASE_CRC": "AA884C57",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_before",
+      "sequence": 81,
+      "candidate": {
+        "SEQ": "81",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "48",
+        "SIGN": "1",
+        "PEAK_NUM": "597229568",
+        "DC_SUM_DELTA": "71",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "4",
+        "BASE_CRC": "AA884C57",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "sample_A27",
+      "sequence": 82,
+      "candidate": {
+        "SEQ": "82",
+        "MODEL": "1",
+        "STATUS": "POSITIVE_UNFITTED",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "173",
+        "SIGN": "1",
+        "PEAK_NUM": "51538034688",
+        "DC_SUM_DELTA": "15288",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "4",
+        "BASE_CRC": "AA884C57",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "sample_A27",
+      "sequence": 83,
+      "candidate": {
+        "SEQ": "83",
+        "MODEL": "1",
+        "STATUS": "POSITIVE_UNFITTED",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "173",
+        "SIGN": "1",
+        "PEAK_NUM": "51462078464",
+        "DC_SUM_DELTA": "15231",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "4",
+        "BASE_CRC": "AA884C57",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "sample_A27",
+      "sequence": 84,
+      "candidate": {
+        "SEQ": "84",
+        "MODEL": "1",
+        "STATUS": "POSITIVE_UNFITTED",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "173",
+        "SIGN": "1",
+        "PEAK_NUM": "51399688192",
+        "DC_SUM_DELTA": "15255",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "4",
+        "BASE_CRC": "AA884C57",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 85,
+      "candidate": {
+        "SEQ": "85",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "166",
+        "SIGN": "-1",
+        "PEAK_NUM": "-454950912",
+        "DC_SUM_DELTA": "94",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "4",
+        "BASE_CRC": "AA884C57",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 86,
+      "candidate": {
+        "SEQ": "86",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "148",
+        "SIGN": "-1",
+        "PEAK_NUM": "-518520832",
+        "DC_SUM_DELTA": "72",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "4",
+        "BASE_CRC": "AA884C57",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 87,
+      "candidate": {
+        "SEQ": "87",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "248",
+        "SIGN": "-1",
+        "PEAK_NUM": "-518324224",
+        "DC_SUM_DELTA": "5",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "4",
+        "BASE_CRC": "AA884C57",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    }
+  ],
+  "screen_observations": {
+    "reference_before": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    },
+    "sample_A27": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    },
+    "reference_after": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    }
+  },
+  "sample_screen_observation": "YES",
+  "screen_observation_is_operator_report": true,
+  "independent_optical_verification": false,
+  "candidate_available_is_optical_proof": false,
+  "live_board_data_checked": true,
+  "distance_valid": false,
+  "formal_accuracy_qualified": false,
+  "calibrated_Gamma": false,
+  "detector_statistics_validated": false,
+  "qualification": "A27 SERIES positive fit INPUT only; no positive fit or distance deployed. Three repeats per state. A valid dataset may have a false/unsupported development outcome. Candidate availability and plot completion do not establish physical screen appearance. LOW_RETURN is not health proof.",
+  "source_sha256": {
+    "session.json": "ce829946c40db91e899e7f2ba124defc26ca5123e700c0ff0f217832d57ac9c6",
+    "serial_transcript.txt": "e88dd90112edbdc85b11033efad55140adb7bc3a8282661bdb948934f08d5c2e",
+    "hardware_before.txt": "d958fc911976dbafabe34edfdd14baf8139b0c1311c68827011531a58155aeda",
+    "baseline.txt": "19eafbb00426a5c3a9859d56b37f40a72bc4a1fdf2e684d12b548b64ae6de0ca",
+    "reference_before.hardware.txt": "9e3482552b5efa5370d3e4252f1f5e84fa2c156cbc3c1149cb90d8729072effb",
+    "reference_before.baseline.txt": "fe1625d7637212af9b82932940637f01db929d8774567e54cba176b0b7d77831",
+    "reference_before_r1.txt": "c22caeddd8bc7dc327fa1e1c276f548b50b64d11dbf3d8b752eb8d3d0111845e",
+    "reference_before_r2.txt": "8774abaccd6dbb7dd13b9438835347a915662ef6098e7e19eefbf22ff2e142a3",
+    "reference_before_r3.txt": "aac6cfe782588785a0e8b2aa9547ebb46476908ef927d86771fbfde81c560064",
+    "sample_A27.hardware.txt": "5b7e365e5d3b364989896c8f7393613f49784fe7dd40e95654dada2d2d2453e2",
+    "sample_A27.baseline.txt": "fe1625d7637212af9b82932940637f01db929d8774567e54cba176b0b7d77831",
+    "sample_A27_r1.txt": "dbe0025d4abdd480c79459f71f4715d81c82cf7e48a436560d9fb1f1e6bd7682",
+    "sample_A27_r2.txt": "1e9016731882f9fb0fe7554c36db5e6e8cb1213f7287466b22f2ba8f6ae4ea0c",
+    "sample_A27_r3.txt": "39bc51741855fd806c97dc209d395f18182307e5e05ab75dd277ea10e2569653",
+    "reference_after.hardware.txt": "97905b8585105a6e6fca94fda6eccda576001085de6a3fb9c841a4134a72a750",
+    "reference_after.baseline.txt": "fe1625d7637212af9b82932940637f01db929d8774567e54cba176b0b7d77831",
+    "reference_after_r1.txt": "953ebe6a7724ebdd4a7f34d7d4a2e59ea9c4ef7f5ac0a077cf08f18f1c8aab64",
+    "reference_after_r2.txt": "2a7d723b3db79af2e145df023181bec316fdbc2f7804580628c057428929b850",
+    "reference_after_r3.txt": "a768874123d9f00350137c2df4191be9747fc9fe25171b69a4a57d6966bdf8a2",
+    "baseline_after.txt": "fe1625d7637212af9b82932940637f01db929d8774567e54cba176b0b7d77831",
+    "hardware_after.txt": "c77c7677eafe8862071b4775a2672de667863518844b38a56f76ad72847c2eb2"
+  }
+}

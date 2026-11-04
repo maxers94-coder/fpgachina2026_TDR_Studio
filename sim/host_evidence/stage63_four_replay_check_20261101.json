@@ -1,0 +1,39 @@
+{
+  "schema": "STAGE63_FOUR_REAL_REPLAY_CHECK_1",
+  "status": "FOUR_REAL_RETURNS_REPLAY_AND_NATIVE_LIST_WIDTHS_PASS",
+  "actual_correlation_points": 256,
+  "actual_plot_pixels": 512,
+  "rows": {
+    "t_frames": "4 POINTS; EDGE* 1",
+    "t_cal": "1:-14.945  2:-25.025",
+    "t_ref": "3:+30.083  4:+33.327*"
+  },
+  "native_font_row_dimensions": {
+    "t_frames": [
+      153,
+      18
+    ],
+    "t_cal": [
+      180,
+      18
+    ],
+    "t_ref": [
+      189,
+      18
+    ]
+  },
+  "BOOT_BIN_sha256": "1c8f01b0a4fbd2c8f1c90321c280b8243512dc7aea370b8ff105122a03278f6e",
+  "same_previously_sealed_FW63_BOOT": true,
+  "new_firmware_build_required": false,
+  "gate_and_model_unchanged": true,
+  "actual_FW63_four_board_test": false,
+  "optical_four_board_test": false,
+  "source_sha256": {
+    "pn_dev/work/stage63_four_host/stage63_actual_four_DRCV.txt": "98b7b71056b51feefc5657d01a3e4343de55478dd80524c237267057434a4d57",
+    "pn_dev/work/stage63_four_host/stage63_actual_four_screen_commands.bin": "96ac45b11de5153644bf42692ec49f2e242e4d59411c4388a6372ed9a688c929",
+    "pn_dev/check_stage63_four_exports.py": "a1a6acf5bb9328f47cabc4277a8c56985f492f84948e99ea9806688f411d38f7",
+    "screen_scale_fix_v6_dis100/operator_saved_dis100.HMI": "927cc4519f0e54d115c68c9795da6fe3d15d3c36a4f3dd9907eee2640b342a3b",
+    "pn_dev/work/stage61_actual_four_audit_20261101.json": "3e495832c4f733074ebd27a9cad9ab48adf7c1364afadcc22c73be70fb18b9c1",
+    "pn_dev/work/stage63_four_host/stage63_multi_main_host.log": "da0411d101c92165685c8b1c892ab7c321cd21bd6594b69716f7101c1fcfa21e"
+  }
+}

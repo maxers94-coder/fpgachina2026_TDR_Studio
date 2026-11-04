@@ -1,0 +1,35 @@
+# Source: user-pasted UART summaries on 2026-10-29; no RAW/CORR packets included.
+# Workflow: 5m cable; short, open, then 50-ohm termination.
+
+# CONDITION=short
+[PN] START: PN127 50Mchip/s 32 frames; diagnostic only
+LOCATE_TEST_BEGIN,COUNT=1,MODE=PN127,FRAMES=32,FIRST_TX_BEFORE=0
+TXTRACE,SEQ=1,ENTRY=0,AFTER_CLEAR=0,END=1,RC=0
+PN_RESULT,PEAK_LAG=143,SIGN=1,HI=00000001,LO=022CC000,CALIBRATED=0
+PN_DISTANCE,STATUS=NEGATIVE_RETURN,L_MM=5016,LAG_MILLI=152850,IN_SPAN=1,MODEL=1,DIAGNOSTIC=1
+MEASUREMENT,SEQ=1,RAW_AVAILABLE=1
+LOCATE_TEST_END,COUNT=1,LAST_TX=1
+[PN] PASS: acquisition/correlation executed; R=raw C=correlation
+[NOTE] PN distance uses frozen model1; low return gives no distance; weak-impedance detection not validated
+
+# CONDITION=open
+[PN] START: PN127 50Mchip/s 32 frames; diagnostic only
+LOCATE_TEST_BEGIN,COUNT=1,MODE=PN127,FRAMES=32,FIRST_TX_BEFORE=1
+TXTRACE,SEQ=1,ENTRY=1,AFTER_CLEAR=0,END=1,RC=0
+PN_RESULT,PEAK_LAG=143,SIGN=1,HI=00000001,LO=05738000,CALIBRATED=0
+PN_DISTANCE,STATUS=POSITIVE_RETURN,L_MM=5005,LAG_MILLI=152828,IN_SPAN=1,MODEL=1,DIAGNOSTIC=1
+MEASUREMENT,SEQ=2,RAW_AVAILABLE=1
+LOCATE_TEST_END,COUNT=1,LAST_TX=1
+[PN] PASS: acquisition/correlation executed; R=raw C=correlation
+[NOTE] PN distance uses frozen model1; low return gives no distance; weak-impedance detection not validated
+
+# CONDITION=matched
+[PN] START: PN127 50Mchip/s 32 frames; diagnostic only
+LOCATE_TEST_BEGIN,COUNT=1,MODE=PN127,FRAMES=32,FIRST_TX_BEFORE=1
+TXTRACE,SEQ=1,ENTRY=1,AFTER_CLEAR=0,END=1,RC=0
+PN_RESULT,PEAK_LAG=143,SIGN=1,HI=00000001,LO=04004000,CALIBRATED=0
+PN_DISTANCE,STATUS=LOW_RETURN,L_MM=-1,LAG_MILLI=-1,IN_SPAN=0,MODEL=1,DIAGNOSTIC=1
+MEASUREMENT,SEQ=3,RAW_AVAILABLE=1
+LOCATE_TEST_END,COUNT=1,LAST_TX=1
+[PN] PASS: acquisition/correlation executed; R=raw C=correlation
+[NOTE] PN distance uses frozen model1; low return gives no distance; weak-impedance detection not validated

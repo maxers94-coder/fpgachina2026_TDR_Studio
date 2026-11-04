@@ -1,0 +1,10 @@
+{
+  "schema": "PN_DISTANCE_FREEZE_1",
+  "model_sha256": "f9637d655b269d0c8875113f1604b7850675464fffc04e853587ec8ffbd40957",
+  "implementation_sha256": {
+    "pn_distance_calibration.py": "929d2036447912c16a64be555d7677c3a55275ec32abbf19218af9ba904430d4",
+    "compare_pn_states.py": "a18f59caae2055e709ef74441dd54fb4a67428f337fb2440218157b7ee90e5f9",
+    "check_pn_capture.py": "ede37f3f68fe62e9e3bac0e8f53fa36d1c60fb368b59c22e89698274fbcd1f37",
+    "check_raw_capture.py": "fbf5c493ef6a4f6bf4994d34ed23cc0b2a239b7b7e25bb7c5a11d353364b3bde"
+  }
+}

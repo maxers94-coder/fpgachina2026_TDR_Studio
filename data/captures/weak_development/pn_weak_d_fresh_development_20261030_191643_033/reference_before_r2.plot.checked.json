@@ -1,0 +1,30 @@
+{
+  "schema": "HMI_WAVE_CAPTURE_CHECK_1",
+  "sequence": 29,
+  "file": "reference_before_r2.txt",
+  "sha256": "67d76a9bd988bf2329c5c2dd2c4b0f9c0f330b92367b866bb525d02179ec1306",
+  "plots": [
+    {
+      "SEQ": "29",
+      "PAGE": "0",
+      "KIND": "CORR",
+      "N": "512",
+      "FIRST": "0",
+      "COUNT": "256",
+      "SCALE": "2147483648",
+      "ZERO": "112",
+      "READY": "1",
+      "DONE": "1",
+      "FNV1A": "25C705C5",
+      "BASE_ID": "3",
+      "BASE_CRC": "921B1353",
+      "pixels_recomputed": 512,
+      "pixel_checksum": "PASS",
+      "envelope": false
+    }
+  ],
+  "drawing_arithmetic": "ALL_PIXELS_EXACT",
+  "new_acquisition_for_view_change": false,
+  "lcd_visual_verified": false,
+  "qualification": "Coherent RAW/DCORR, PS pixel checksum and FE/FD completion; LCD visual check is separate."
+}

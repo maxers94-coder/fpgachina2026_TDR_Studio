@@ -1,0 +1,69 @@
+{
+  "schema": "PN_RETURN_CLASS_CANDIDATE_1",
+  "version": 1,
+  "date": "2026-10-31",
+  "status": "FROZEN_HOST_DEVELOPMENT_CANDIDATE_NOT_DEPLOYED",
+  "context": {
+    "firmware_input_stage": 44,
+    "FS_HZ": 200000000,
+    "PAIR_HZ": 100000000,
+    "CHIP_HZ": 50000000,
+    "PN_LENGTH": 127,
+    "SEED": 127,
+    "AMPLITUDE": 4096,
+    "FRAMES": 32,
+    "RAW_COUNT": 1024,
+    "CORR_COUNT": 256,
+    "required_reference_profile": 1,
+    "required_reference_mask": 1,
+    "reference_bank_crc32": "02FEEBDD"
+  },
+  "arithmetic": {
+    "denominator": 128,
+    "template_sum": 65536,
+    "global_absolute_peak": true,
+    "tie": "lowest_lag",
+    "corr_min": -140737488355328,
+    "corr_max": 140737488355327,
+    "dc_sum_abs_max": 8388480
+  },
+  "rules": {
+    "low_return_max_abs_num": 2147483648,
+    "generic_return_max_abs_num": 68719476736,
+    "open_short_like_min_abs_num": 137438953472,
+    "open_short_like_max_abs_num": 549755813888,
+    "excluded_near_peak_radius_lags": 4,
+    "strong_peak_over_other_min_ratio": 4,
+    "fit_lag_min": 153,
+    "fit_lag_max": 173,
+    "decision": "invalid -> unfitted reference -> low -> edge -> outside fit -> generic -> ambiguous gap -> strong quality -> open-like/short-like"
+  },
+  "development_summary": {
+    "endpoint_min_abs_num": 240688627712,
+    "endpoint_max_abs_num": 241312923648,
+    "matched_max_abs_num": 567738368,
+    "B_D_weak_max_abs_num": 12354256896,
+    "endpoint_captures": 6,
+    "matched_captures": 6,
+    "historical_B_D_sample_captures": 12
+  },
+  "label_meanings": {
+    "OPEN_LIKE": "isolated strong positive return, consistent with tested open end; not unique proof of an open circuit",
+    "SHORT_LIKE": "isolated strong negative return, consistent with tested short cap; not unique proof of a short circuit",
+    "POSITIVE_RETURN": "positive non-strong residual; not a calibrated impedance value",
+    "NEGATIVE_RETURN": "negative non-strong residual; not a calibrated impedance value",
+    "AMBIGUOUS_RETURN": "amplitude gap, excessive magnitude or nonisolated strong return; no terminal-fault label",
+    "LOW_RETURN": "insufficient residual; not certified healthy"
+  },
+  "future_holdout_used_to_fit": false,
+  "classifier_deployed": false,
+  "formal_fault_type_validated": false,
+  "calibrated_Gamma": false,
+  "calibrated_impedance": false,
+  "model_adaptive": false,
+  "development_sources": {
+    "pn_dev/work/stage45_endpoint_board_audit_20261031.json": "9c7363c41a8f47e890a978c9c05046fb17ebfe624d7349ec65c9398f97623795",
+    "pn_dev/work/stage45_historical_weak_controls.json": "b625a4b9ae735fa986cb0f4e3663e999e06bbf6f32f3559ddbefc8d9ca2700a7"
+  },
+  "limitations": "Single15m endpoint session and historical B/D controls selected this development rule. Amplitude windows/peak-isolation rules are engineering hypotheses, not calibrated Gamma or statistical guarantees. Prospective endpoints at5m and prospective weak controls must be evaluated without retuning this version. Same-PCB normal reference unavailable. A27/C470/E2K are not independent validation of this classifier."
+}

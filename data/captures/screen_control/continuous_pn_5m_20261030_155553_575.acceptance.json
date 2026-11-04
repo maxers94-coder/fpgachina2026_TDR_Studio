@@ -1,0 +1,95 @@
+{
+  "schema": "STAGE26_CONTINUOUS_BOARD_ACCEPTANCE_1",
+  "date": "2026-10-30",
+  "status": "SCREEN_CONTINUOUS_USER_AND_PAGE_STOP_BOARD_VERIFIED_PROFILE1",
+  "archive": "captures/screen_control/continuous_pn_5m_20261030_155553_575.zip",
+  "archive_sha256": "771eb85c59293170bd437501adc8858a144b5db3ce0e6ae8392387ffe309a9e1",
+  "firmware_stage": 26,
+  "hardware_version": "00030002",
+  "host_elf_sha256": "3ecc48760b6dfd883cd47de4f2a2ed29a71b9e45971885e76f1dde4b10040382",
+  "board_elf_hash_readback_performed": false,
+  "reference_profile_id": 1,
+  "profile2_live_board_path_verified": false,
+  "reference_bank_crc32": "02FEEBDD",
+  "baseline_id": 3,
+  "baseline_crc32": "45004C4D",
+  "reference_source_sequences": [
+    7,
+    8,
+    9
+  ],
+  "runs": [
+    {
+      "name": "user",
+      "reason": "USER",
+      "session": 1,
+      "completed_frames": 482,
+      "first_sequence": 10,
+      "last_sequence": 491,
+      "measurement_watermark": 491,
+      "stop_latency_ms": 26,
+      "stop_latency_scope": "firmware parsed request to safe stop",
+      "quiet_intervals_ms": [
+        1000,
+        1000
+      ],
+      "baseline_unchanged": true,
+      "full_last_snapshot_checked": true,
+      "frame_summaries_checked": true,
+      "all_frame_full_arrays_checked": false
+    },
+    {
+      "name": "page",
+      "reason": "PAGE",
+      "session": 2,
+      "completed_frames": 260,
+      "first_sequence": 492,
+      "last_sequence": 751,
+      "measurement_watermark": 752,
+      "stop_latency_ms": 0,
+      "stop_latency_scope": "firmware parsed request to safe stop",
+      "quiet_intervals_ms": [
+        1000,
+        1000
+      ],
+      "baseline_unchanged": true,
+      "full_last_snapshot_checked": false,
+      "frame_summaries_checked": true,
+      "all_frame_full_arrays_checked": false
+    }
+  ],
+  "confirmed_continuous_measurements": 742,
+  "PAGE_measured_but_cancelled_display_count": 1,
+  "new_acquisitions_in_recorded_batch": 746,
+  "pc_acquisition_commands_sent": 0,
+  "baseline_after_both_runs_unchanged": true,
+  "USER_last_complete_snapshot_sequence": 491,
+  "difference_correlations_exact": 256,
+  "drawing_pixels_exact": 512,
+  "every_frame_full_arrays_exported": false,
+  "operator_visual_confirmation": {
+    "schema": "STAGE26_CONTINUOUS_OPERATOR_CONFIRMATION_1",
+    "date": "2026-10-30",
+    "evidence_kind": "explicit_user_reply_after_this_capture",
+    "source_archive_sha256": "771eb85c59293170bd437501adc8858a144b5db3ce0e6ae8392387ffe309a9e1",
+    "question": "这轮屏幕是否能持续测量，按STOP后停止，切换页面后也停止，并且距离一直显示“-- m”？",
+    "answer": "是，都正常",
+    "continuous_operation_observed": true,
+    "STOP_observed": true,
+    "page_stop_observed": true,
+    "distance_display": "-- m",
+    "physical_touch_to_stop_or_optical_refresh_time_measured": false
+  },
+  "new_D_distance_valid": false,
+  "weak_impedance_validated": false,
+  "stage26_formal_refresh_rate_verified": false,
+  "two_hour_soak_verified": false,
+  "agent_board_access_performed": false,
+  "scope": "One operator-declared 5m/50ohm running session using Profile1. USER and PAGE stops, stable post-stop state, frame summaries and final USER arrays. Not fresh-boot/profile2/weak-fault/distance/optical-rate/long-run qualification.",
+  "evidence_sha256": {
+    "pn_dev/work/stage26_continuous_board_numeric_audit_20261030.json": "c728db9c5f5a61e494cb7ff5a625d04acaddcf717ae4fb4eaa3b365cf1c54ac5",
+    "pn_dev/work/stage26_continuous_board_protocol_audit_20261030.json": "9a00d054e1d41c3db86c77967a968ec4dfb3dc894174ec3d5b98f358ebc8eb3b",
+    "captures/screen_control/continuous_pn_5m_20261030_155553_575.hmi_confirmation.json": "6c6c9713c79f2db5411329208bc8c1a8efc08b0e90027127ce79321a74bfb54c",
+    "captures/screen_control/continuous_pn_5m_20261030_155553_575/session.json": "bd56ee7e47381ce2830a432b785f750b3b8d537819114eedacdb971ba5f7034a"
+  }
+}

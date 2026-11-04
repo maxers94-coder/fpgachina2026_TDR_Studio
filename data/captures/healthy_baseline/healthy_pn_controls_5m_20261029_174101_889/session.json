@@ -1,0 +1,150 @@
+{
+    "schema":  "HEALTHY_PN_CONTROLS_BATCH_1",
+    "session":  "healthy_pn_controls_5m_20261029_174101_889",
+    "plan":  {
+                 "schema":  "HEALTHY_PN_CONTROLS_PLAN_1",
+                 "firmware":  "Stage21",
+                 "length_m":  5,
+                 "baseline_sources":  0,
+                 "imported_baseline_source_frames":  3,
+                 "baseline_selection":  "latest_complete_HEALTHY_PN_BOARD_BATCH_1",
+                 "create_new_baseline":  false,
+                 "fixed_existing_reference":  true,
+                 "states":  [
+                                "open",
+                                "short",
+                                "matched"
+                            ],
+                 "repeats_per_state":  3,
+                 "order":  [
+                               "V",
+                               "J",
+                               "OPEN:D/R/Cx3",
+                               "SHORT:D/R/Cx3",
+                               "MATCHED:D/R/Cx3"
+                           ],
+                 "acquisition_count":  9,
+                 "distance_valid_for_D":  false,
+                 "weak_impedance_validated":  false
+             },
+    "status":  "complete",
+    "evidence_kind":  "operator_declared_live_capture",
+    "operator_port":  "COM7",
+    "captures":  [
+                     {
+                         "file":  "open_r1.txt",
+                         "kind":  "healthy_difference_control",
+                         "sequences":  [
+                                           10
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "9cd4d2bb5293ccd0d5768e7caf3ca1e015427f3dfac730afa9fdad87944e0c7e",
+                         "state":  "open",
+                         "repeat":  1
+                     },
+                     {
+                         "file":  "open_r2.txt",
+                         "kind":  "healthy_difference_control",
+                         "sequences":  [
+                                           11
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "4522121299176d4eafe075f9d2c29cc8603ed0d9e5caa912667cafa2ca184137",
+                         "state":  "open",
+                         "repeat":  2
+                     },
+                     {
+                         "file":  "open_r3.txt",
+                         "kind":  "healthy_difference_control",
+                         "sequences":  [
+                                           12
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "56f0cc679fbf8507dfe2806765cc734087d52376fe47af9cd09bf9a550349129",
+                         "state":  "open",
+                         "repeat":  3
+                     },
+                     {
+                         "file":  "short_r1.txt",
+                         "kind":  "healthy_difference_control",
+                         "sequences":  [
+                                           13
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "d3e72fc9919a01925c5d6d7b53b6b6fed4e72deec6f8380ab7f2fddd295cd560",
+                         "state":  "short",
+                         "repeat":  1
+                     },
+                     {
+                         "file":  "short_r2.txt",
+                         "kind":  "healthy_difference_control",
+                         "sequences":  [
+                                           14
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "7e8ed5bb75f221cefa9802ad1975797669d984b63c81058e71278eb83515b4a3",
+                         "state":  "short",
+                         "repeat":  2
+                     },
+                     {
+                         "file":  "short_r3.txt",
+                         "kind":  "healthy_difference_control",
+                         "sequences":  [
+                                           15
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "7082e83fdd217638d33957bad060f9bc79521fc38382d9c20018c2146e9ea0cf",
+                         "state":  "short",
+                         "repeat":  3
+                     },
+                     {
+                         "file":  "matched_r1.txt",
+                         "kind":  "healthy_difference_control",
+                         "sequences":  [
+                                           16
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "e14a15e8fc92f22a8e4f8167df3c8f8158563abf7d0d7f302b8c6671d162174e",
+                         "state":  "matched",
+                         "repeat":  1
+                     },
+                     {
+                         "file":  "matched_r2.txt",
+                         "kind":  "healthy_difference_control",
+                         "sequences":  [
+                                           17
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "f5a7c581228d523206848a79ebd969d5db90c5d7ad0d6769d12a771c179249f5",
+                         "state":  "matched",
+                         "repeat":  2
+                     },
+                     {
+                         "file":  "matched_r3.txt",
+                         "kind":  "healthy_difference_control",
+                         "sequences":  [
+                                           18
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "a11d83a23e0a1cfc8ddc163cfb2f56558be5e6bdf0f5fdd43012401ec1b7c636",
+                         "state":  "matched",
+                         "repeat":  3
+                     }
+                 ],
+    "host_expected_elf_sha256":  "17baab9e4588b95fed7b265d354f0d52905415d2bd85151c27de3165d1136c21",
+    "board_elf_hash_readback_performed":  false,
+    "baseline_source":  {
+                            "file":  "baseline.txt",
+                            "imported_from":  "D:\\vivado_project\\vitis_echo200_hmi_ws\\captures\\healthy_baseline\\healthy_pn_5m_20261029_172901_980\\baseline.txt",
+                            "sha256":  "c81068ab0945ee7df56b837b98ccb2ba5e726a86f2b088b80564e11aff210b6c",
+                            "new_acquisition":  false,
+                            "source_frame_count":  3,
+                            "baseline_id":  1,
+                            "crc32":  "D182FBF5"
+                        },
+    "live_baseline":  {
+                          "file":  "live_baseline.txt",
+                          "sha256":  "aa6e361d3cc7387b8f0f86b95f2fd809013ab8b4b5d0c7c2305a9c44902a6b86",
+                          "validation":  "FULL_TABLE_ID_CRC_SOURCE_SEQUENCES_EXACT"
+                      }
+}

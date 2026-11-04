@@ -1,0 +1,81 @@
+{
+  "schema": "PN_STARTUP_STAGE23_STAGE24_COMPARISON_1",
+  "date": "2026-10-30",
+  "status": "NUMERICAL_PASS_REFERENCE_MISMATCH_REPRODUCED_IN_BOTH_VERSIONS",
+  "captures": {
+    "23": {
+      "file": "captures/pn_capture_20261030_003519_318.txt",
+      "sha256": "9352f1715db4034062036387d0cb5793ed25758218790926a8cb5768d1a0351d",
+      "version_evidence": "explicit user confirmation of V FW_STAGE=23",
+      "FW_STAGE_embedded_in_this_PRC_file": false,
+      "sequence": 1,
+      "raw_count": 1024,
+      "all_256_corr_exact": true,
+      "total_peak_lag": 142,
+      "legacy_distance_status": "OUTSIDE_FIT_SPAN",
+      "legacy_difference_fractional_lag": 144.32534920998398,
+      "legacy_difference_sign": -1,
+      "legacy_difference_peak_q16": -397548373.3333333,
+      "legacy_gate_ratio": 1.902905760873117,
+      "raw_pre128_mean_q2": 561.6875,
+      "dc_removed_rms_vs_old_Stage23_table_q2": 55.732029777017864,
+      "exploratory_lanczos16_then_affine_best": {
+        "advance_samples": 0.25,
+        "gain": 0.999956859063654,
+        "offset_q2": 0.2744571319918805,
+        "residual_rms_q2": 3.63255655969871
+      },
+      "estimated_relative_advance_ns": 1.25,
+      "compensation_applied": false
+    },
+    "24": {
+      "file": "captures/pn_capture_20261030_001133_603.txt",
+      "sha256": "65b692cf35fedc942b9ded2dab16eca2fb4cbf21121910a21416b56df8c00e1a",
+      "version_evidence": "prior V logs in failed Stage24 screen batches; continuous SEQ4",
+      "FW_STAGE_embedded_in_this_PRC_file": false,
+      "sequence": 4,
+      "raw_count": 1024,
+      "all_256_corr_exact": true,
+      "total_peak_lag": 142,
+      "legacy_distance_status": "OUTSIDE_FIT_SPAN",
+      "legacy_difference_fractional_lag": 144.32399013540976,
+      "legacy_difference_sign": -1,
+      "legacy_difference_peak_q16": -399584085.3333333,
+      "legacy_gate_ratio": 1.9126499036042217,
+      "raw_pre128_mean_q2": 561.5,
+      "dc_removed_rms_vs_old_Stage23_table_q2": 55.67958034795709,
+      "exploratory_lanczos16_then_affine_best": {
+        "advance_samples": 0.25,
+        "gain": 0.9993419441350386,
+        "offset_q2": 0.5394312389719289,
+        "residual_rms_q2": 3.600882158269824
+      },
+      "estimated_relative_advance_ns": 1.25,
+      "compensation_applied": false
+    }
+  },
+  "cross_version_raw_pre128_dc_removed_rms_q2": 4.097594807094157,
+  "cross_version_affine_fit_indices32_991": {
+    "gain": 1.000566481158381,
+    "offset_q2": -0.23746874234234383,
+    "residual_rms_q2": 4.077283032117426
+  },
+  "acquisition_and_baseline_functions_identical": {
+    "capture_one_auto_locate": true,
+    "capture_healthy_baseline": true
+  },
+  "all_helper_sources_identical_to_Stage23": true,
+  "board_elf_hash_readback_performed": false,
+  "interpretation": "Same mismatch occurs after the operator-confirmed Stage23 Run. Current Stage23/24 waveforms are near one another; both differ from the older successful reference. Screen-control changes alone are not a sufficient explanation. The concrete frontend/clock/startup cause remains unresolved.",
+  "exploratory_fit_qualification": "Post-hoc delay fitting explains waveforms only. It is not a clock measurement or a validated correction, and was not applied to firmware or original data.",
+  "next_step": "Keep current Stage23 boot; collect matched/open/short/restored-matched P/R/C controls, with V embedded, to develop and test safe reference admission without hiding real echoes.",
+  "firmware_or_model_or_threshold_changed": false,
+  "source_sha256": {
+    "captures/healthy_baseline/healthy_pn_5m_20261029_231202_735/baseline.txt": "e8f67dea828db17b13ec9c6c244f7cc39fd84da8f2f4531c103825431e3b038f",
+    "captures/calibration/pn_distance_candidate_v1_1m_15m_20261028.json": "f9637d655b269d0c8875113f1604b7850675464fffc04e853587ec8ffbd40957",
+    "captures/pn_matched_reference_seq6_7_8.json": "9bcbec3dfc56bd9f6bf663d0380523314ee284a5fc89cbfe94ab95b93636a20d",
+    "echo200_ps_integration/export_pn_stage23/source/main.c": "f0c8685acc9c90f2c2935c14c1c85dbcf0b1fd48950add691e42edcee70bfcee",
+    "echo200_hmi_auto_distance_app/src/main.c": "ee5f0a963f53bee9eda0d3800c9a30b07169863ff3a365a3acdf54f4fbf8c32c",
+    "pn_dev/analyze_pn_startup_comparison.py": "f9545f0a5745969143b576ac7a6fdf4e03aba638badcd561451ddbebdf7cf873"
+  }
+}

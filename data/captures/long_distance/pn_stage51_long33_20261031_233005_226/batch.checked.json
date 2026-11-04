@@ -1,0 +1,466 @@
+{
+  "schema": "STAGE51_LONG33_BATCH_CHECK_1",
+  "status": "ALL_DATA_INTEGRITY_PASS_LONG_DISTANCE_ANALYSIS_PENDING",
+  "actual_board_acquisitions_operator_driven": true,
+  "nominal_total_length_m": 33,
+  "intermediate_nominal_positions_m": [
+    15,
+    25,
+    30
+  ],
+  "short_cap_extra_adapter_count": 1,
+  "short_only_adapter_changes_endpoint_reference_plane": true,
+  "new_reference_sources": 3,
+  "checked_D_captures": 8,
+  "checked_raw_words": 11264,
+  "checked_correlations": 2048,
+  "checked_logical_pixels": 4096,
+  "FW50_distance_span_unchanged": true,
+  "long_distance_model_fitted": false,
+  "no_expected_length_or_polarity_used_to_select_peak": true,
+  "states": {
+    "matched_before": {
+      "repeats": 1,
+      "global_lags": [
+        194
+      ],
+      "signs": [
+        -1
+      ],
+      "median_global_lag": 194
+    },
+    "far_open": {
+      "repeats": 3,
+      "global_lags": [
+        210,
+        210,
+        210
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "median_global_lag": 210
+    },
+    "far_short": {
+      "repeats": 3,
+      "global_lags": [
+        210,
+        210,
+        210
+      ],
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "median_global_lag": 210
+    },
+    "matched_restored": {
+      "repeats": 1,
+      "global_lags": [
+        8
+      ],
+      "signs": [
+        -1
+      ],
+      "median_global_lag": 8
+    }
+  },
+  "captures": [
+    {
+      "schema": "STAGE51_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "matched_before",
+      "sequence": 88,
+      "capture_sha256": "60f1f46e545fb1c8b20df3d180be5730f231ca0d7d211e5767c5b96e15dc8baa",
+      "baseline_sha256": "6f9821d8b204d826b9879fce721562c5056b80c240a3ea38e2295e3058ecda74",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 194,
+      "global_peak_sign": -1,
+      "global_peak_numerator": -654376960,
+      "separated_peaks": [
+        {
+          "lag": 194,
+          "sign": -1,
+          "numerator": -654376960
+        },
+        {
+          "lag": 96,
+          "sign": -1,
+          "numerator": -587268096
+        },
+        {
+          "lag": 34,
+          "sign": 1,
+          "numerator": 438239232
+        },
+        {
+          "lag": 138,
+          "sign": -1,
+          "numerator": -423690240
+        },
+        {
+          "lag": 78,
+          "sign": 1,
+          "numerator": 408879104
+        },
+        {
+          "lag": 232,
+          "sign": -1,
+          "numerator": -404815872
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 25500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true
+    },
+    {
+      "schema": "STAGE51_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_open",
+      "sequence": 89,
+      "capture_sha256": "df035cf1c0b8fa7829b9985e8be502f2655f9aecf19dd7adbcb953b2e3a445a4",
+      "baseline_sha256": "6f9821d8b204d826b9879fce721562c5056b80c240a3ea38e2295e3058ecda74",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 210,
+      "global_peak_sign": 1,
+      "global_peak_numerator": 193115521024,
+      "separated_peaks": [
+        {
+          "lag": 210,
+          "sign": 1,
+          "numerator": 193115521024
+        },
+        {
+          "lag": 215,
+          "sign": 1,
+          "numerator": 28208070656
+        },
+        {
+          "lag": 62,
+          "sign": -1,
+          "numerator": -21217607680
+        },
+        {
+          "lag": 134,
+          "sign": -1,
+          "numerator": -16138305536
+        },
+        {
+          "lag": 50,
+          "sign": -1,
+          "numerator": -14775156736
+        },
+        {
+          "lag": 150,
+          "sign": -1,
+          "numerator": -13646888960
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 33500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true
+    },
+    {
+      "schema": "STAGE51_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_open",
+      "sequence": 90,
+      "capture_sha256": "ec2c8bc05cf1d9545257ba4ee09a5d60e35c3a1e60bb74c6f6dd1f4b068c5807",
+      "baseline_sha256": "6f9821d8b204d826b9879fce721562c5056b80c240a3ea38e2295e3058ecda74",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 210,
+      "global_peak_sign": 1,
+      "global_peak_numerator": 193162969088,
+      "separated_peaks": [
+        {
+          "lag": 210,
+          "sign": 1,
+          "numerator": 193162969088
+        },
+        {
+          "lag": 215,
+          "sign": 1,
+          "numerator": 28123398144
+        },
+        {
+          "lag": 62,
+          "sign": -1,
+          "numerator": -21379874816
+        },
+        {
+          "lag": 134,
+          "sign": -1,
+          "numerator": -16193617920
+        },
+        {
+          "lag": 50,
+          "sign": -1,
+          "numerator": -14754971648
+        },
+        {
+          "lag": 150,
+          "sign": -1,
+          "numerator": -13771407360
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 33500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true
+    },
+    {
+      "schema": "STAGE51_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_open",
+      "sequence": 91,
+      "capture_sha256": "73cf61021bba5f3276f6d8f069847b1b3f586753135e8332336ca5c5239be0c0",
+      "baseline_sha256": "6f9821d8b204d826b9879fce721562c5056b80c240a3ea38e2295e3058ecda74",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 210,
+      "global_peak_sign": 1,
+      "global_peak_numerator": 193000177664,
+      "separated_peaks": [
+        {
+          "lag": 210,
+          "sign": 1,
+          "numerator": 193000177664
+        },
+        {
+          "lag": 215,
+          "sign": 1,
+          "numerator": 28283568128
+        },
+        {
+          "lag": 62,
+          "sign": -1,
+          "numerator": -21026766848
+        },
+        {
+          "lag": 134,
+          "sign": -1,
+          "numerator": -16159277056
+        },
+        {
+          "lag": 50,
+          "sign": -1,
+          "numerator": -14680784896
+        },
+        {
+          "lag": 150,
+          "sign": -1,
+          "numerator": -13667860480
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 33500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true
+    },
+    {
+      "schema": "STAGE51_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_short",
+      "sequence": 92,
+      "capture_sha256": "331110833dd32fd36bfe9338abf9bf0e77376d46e48290d10449510e182133ad",
+      "baseline_sha256": "6f9821d8b204d826b9879fce721562c5056b80c240a3ea38e2295e3058ecda74",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 210,
+      "global_peak_sign": -1,
+      "global_peak_numerator": -193630765056,
+      "separated_peaks": [
+        {
+          "lag": 210,
+          "sign": -1,
+          "numerator": -193630765056
+        },
+        {
+          "lag": 215,
+          "sign": -1,
+          "numerator": -25558712320
+        },
+        {
+          "lag": 62,
+          "sign": 1,
+          "numerator": 19412615168
+        },
+        {
+          "lag": 134,
+          "sign": 1,
+          "numerator": 16745037824
+        },
+        {
+          "lag": 50,
+          "sign": 1,
+          "numerator": 13660127232
+        },
+        {
+          "lag": 150,
+          "sign": 1,
+          "numerator": 12252938240
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 33500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true
+    },
+    {
+      "schema": "STAGE51_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_short",
+      "sequence": 93,
+      "capture_sha256": "0d8f284c2cf59c19cff3fbd2a89d4e6d9260743db240ef61238540e7c006c092",
+      "baseline_sha256": "6f9821d8b204d826b9879fce721562c5056b80c240a3ea38e2295e3058ecda74",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 210,
+      "global_peak_sign": -1,
+      "global_peak_numerator": -193643085824,
+      "separated_peaks": [
+        {
+          "lag": 210,
+          "sign": -1,
+          "numerator": -193643085824
+        },
+        {
+          "lag": 215,
+          "sign": -1,
+          "numerator": -25594101760
+        },
+        {
+          "lag": 62,
+          "sign": 1,
+          "numerator": 19597426688
+        },
+        {
+          "lag": 134,
+          "sign": 1,
+          "numerator": 16732717056
+        },
+        {
+          "lag": 50,
+          "sign": 1,
+          "numerator": 13880590336
+        },
+        {
+          "lag": 150,
+          "sign": 1,
+          "numerator": 12133662720
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 33500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true
+    },
+    {
+      "schema": "STAGE51_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_short",
+      "sequence": 94,
+      "capture_sha256": "61a1711e8735b762a69ac02738673fca088bc23a86316ed83eb7f1f67a201464",
+      "baseline_sha256": "6f9821d8b204d826b9879fce721562c5056b80c240a3ea38e2295e3058ecda74",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 210,
+      "global_peak_sign": -1,
+      "global_peak_numerator": -193355907072,
+      "separated_peaks": [
+        {
+          "lag": 210,
+          "sign": -1,
+          "numerator": -193355907072
+        },
+        {
+          "lag": 215,
+          "sign": -1,
+          "numerator": -25789267968
+        },
+        {
+          "lag": 62,
+          "sign": 1,
+          "numerator": 19586809856
+        },
+        {
+          "lag": 134,
+          "sign": 1,
+          "numerator": 16644505600
+        },
+        {
+          "lag": 50,
+          "sign": 1,
+          "numerator": 13593149440
+        },
+        {
+          "lag": 150,
+          "sign": 1,
+          "numerator": 12238389248
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 33500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true
+    },
+    {
+      "schema": "STAGE51_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "matched_restored",
+      "sequence": 95,
+      "capture_sha256": "d813dd6114677e2ad88152c2493934359382004af5237ba16bbc1ed3bc107f9d",
+      "baseline_sha256": "6f9821d8b204d826b9879fce721562c5056b80c240a3ea38e2295e3058ecda74",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 8,
+      "global_peak_sign": -1,
+      "global_peak_numerator": -450887680,
+      "separated_peaks": [
+        {
+          "lag": 8,
+          "sign": -1,
+          "numerator": -450887680
+        },
+        {
+          "lag": 104,
+          "sign": -1,
+          "numerator": -434110464
+        },
+        {
+          "lag": 162,
+          "sign": 1,
+          "numerator": 417333248
+        },
+        {
+          "lag": 22,
+          "sign": 1,
+          "numerator": 411041792
+        },
+        {
+          "lag": 98,
+          "sign": -1,
+          "numerator": -371195904
+        },
+        {
+          "lag": 37,
+          "sign": 1,
+          "numerator": 369098752
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": -67500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true
+    }
+  ],
+  "qualification": "Data completeness/arithmetic only; adapter echoes and endpoint interpretation require analysis. Old nominal coordinates are extrapolations, not validated measurements."
+}

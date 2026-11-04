@@ -1,0 +1,13 @@
+{
+  "schema": "STAGE21_VIEW_COMBINATIONS_OPERATOR_CONFIRMATION_1",
+  "date": "2026-10-29",
+  "source": "direct_user_reply_in_current_chat",
+  "requested_check": "AVG32 and DIFFERENCE FULL/ZOOM, matched D returns to the centerline; CORR/ZOOM photo already reviewed",
+  "operator_statement": "ok了，进行下一步",
+  "operator_functional_confirmation_received": true,
+  "all_six_view_combinations_operator_confirmed": true,
+  "scale_percent": 100,
+  "qualification": "Operator functional confirmation plus prior CORR/ZOOM photo; no timing or weak-reflection claim.",
+  "refresh_rate_verified": false,
+  "two_hour_soak_verified": false
+}

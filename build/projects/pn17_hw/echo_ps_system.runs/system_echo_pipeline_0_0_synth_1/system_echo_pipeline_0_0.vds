@@ -1,0 +1,496 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 17-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Oct 28 18:53:20 2026
+# Process ID         : 17276
+# Current directory  : D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1
+# Command line       : vivado.exe -log system_echo_pipeline_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_echo_pipeline_0_0.tcl
+# Log file           : D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1/system_echo_pipeline_0_0.vds
+# Journal file       : D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1\vivado.jou
+# Running On         : LAPTOP-MUM2STS9
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i7-14700HX
+# CPU Frequency      : 2304 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 16873 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 34053 MB
+# Available Virtual  : 11730 MB
+#-----------------------------------------------------------
+source system_echo_pipeline_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 609.438 ; gain = 267.832
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/2026.1/Vivado/data/ip'.
+Command: synth_design -top system_echo_pipeline_0_0 -part xc7z020clg484-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8188
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1446.164 ; gain = 577.344
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system_echo_pipeline_0_0' [d:/vivado_project/pn17_hw/echo_ps_system.gen/sources_1/bd/system/ip/system_echo_pipeline_0_0/synth/system_echo_pipeline_0_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'echo_pipeline_axi_control_phase2' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/echo_pipeline_axi_control_phase2.sv:6]
+	Parameter N bound to: 1024 - type: integer 
+	Parameter M bound to: 32 - type: integer 
+	Parameter L bound to: 640 - type: integer 
+	Parameter K bound to: 256 - type: integer 
+	Parameter LAG_MIN bound to: 0 - type: integer 
+	Parameter SAMPLE_RATE_HZ bound to: 200000000 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter N_ADDR_W bound to: 10 - type: integer 
+	Parameter L_ADDR_W bound to: 10 - type: integer 
+	Parameter K_ADDR_W bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'pulse_pair_echo_pipeline' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/pulse_pair_echo_pipeline.sv:6]
+	Parameter N bound to: 1024 - type: integer 
+	Parameter M bound to: 32 - type: integer 
+	Parameter L bound to: 640 - type: integer 
+	Parameter K bound to: 256 - type: integer 
+	Parameter LAG_MIN bound to: 0 - type: integer 
+	Parameter N_ADDR_W bound to: 10 - type: integer 
+	Parameter L_ADDR_W bound to: 10 - type: integer 
+	Parameter K_ADDR_W bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'cdc_pulse_toggle' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/cdc_pulse_toggle.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_pulse_toggle' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/cdc_pulse_toggle.sv:6]
+INFO: [Synth 8-6157] synthesizing module 'frame_average_pair_bram' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/frame_average_pair_bram.sv:6]
+	Parameter PAIRS bound to: 512 - type: integer 
+	Parameter M bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'frame_average_bram' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/frame_average_bram.sv:7]
+	Parameter N bound to: 512 - type: integer 
+	Parameter M bound to: 32 - type: integer 
+	Parameter ADDR_W bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'accum_tdp_bram' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/accum_tdp_bram.sv:6]
+	Parameter DEPTH bound to: 512 - type: integer 
+	Parameter ADDR_W bound to: 9 - type: integer 
+	Parameter WIDTH bound to: 22 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'accum_tdp_bram' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/accum_tdp_bram.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'frame_average_bram' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/frame_average_bram.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'frame_average_pair_bram' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/frame_average_pair_bram.sv:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/pulse_pair_echo_pipeline.sv:111]
+INFO: [Synth 8-6157] synthesizing module 'ila_echo_200' [D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1/.Xil/Vivado-17276-LAPTOP-MUM2STS9/realtime/ila_echo_200_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_echo_200' (0#1) [D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1/.Xil/Vivado-17276-LAPTOP-MUM2STS9/realtime/ila_echo_200_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'avg_frame_pair_dc_bram' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/avg_frame_pair_dc_bram.sv:5]
+	Parameter PAIRS bound to: 512 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'avg_frame_dc_bram' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/avg_frame_dc_bram.sv:5]
+	Parameter DEPTH bound to: 512 - type: integer 
+	Parameter ADDR_W bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'avg_frame_dc_bram' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/avg_frame_dc_bram.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'avg_frame_pair_dc_bram' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/avg_frame_pair_dc_bram.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'processing_chain' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/processing_chain.sv:7]
+	Parameter N bound to: 1024 - type: integer 
+	Parameter L bound to: 640 - type: integer 
+	Parameter K bound to: 256 - type: integer 
+	Parameter LAG_MIN bound to: 0 - type: integer 
+	Parameter N_ADDR_W bound to: 10 - type: integer 
+	Parameter L_ADDR_W bound to: 10 - type: integer 
+	Parameter K_ADDR_W bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'coeff_shadow_bank' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/coeff_shadow_bank.sv:6]
+	Parameter DEPTH bound to: 1024 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter ADDR_W bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'coeff_shadow_bank' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/coeff_shadow_bank.sv:6]
+INFO: [Synth 8-6157] synthesizing module 'coeff_shadow_bank__parameterized0' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/coeff_shadow_bank.sv:6]
+	Parameter DEPTH bound to: 640 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter ADDR_W bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'coeff_shadow_bank__parameterized0' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/coeff_shadow_bank.sv:6]
+INFO: [Synth 8-6157] synthesizing module 'baseline_sub' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/baseline_sub.sv:3]
+	Parameter N bound to: 1024 - type: integer 
+	Parameter ADDR_W bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'baseline_sub' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/baseline_sub.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'corr_mac' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/corr_mac.sv:3]
+	Parameter N bound to: 1024 - type: integer 
+	Parameter L bound to: 640 - type: integer 
+	Parameter K bound to: 256 - type: integer 
+	Parameter LAG_MIN bound to: 0 - type: integer 
+	Parameter N_ADDR_W bound to: 10 - type: integer 
+	Parameter L_ADDR_W bound to: 10 - type: integer 
+	Parameter K_ADDR_W bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'corr_mac' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/corr_mac.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'result_bram' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/result_bram.sv:5]
+	Parameter DEPTH bound to: 256 - type: integer 
+	Parameter ADDR_W bound to: 8 - type: integer 
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'result_bram' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/result_bram.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'processing_chain' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/processing/processing_chain.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'pulse_pair_echo_pipeline' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/pulse_pair_echo_pipeline.sv:6]
+INFO: [Synth 8-6157] synthesizing module 'echo_pipeline_axi_bridge_phase2' [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/echo_pipeline_axi_bridge_phase2.sv:6]
+	Parameter N bound to: 1024 - type: integer 
+	Parameter M bound to: 32 - type: integer 
+	Parameter L bound to: 640 - type: integer 
+	Parameter K bound to: 256 - type: integer 
+	Parameter SAMPLE_RATE_HZ bound to: 200000000 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter N_ADDR_W bound to: 10 - type: integer 
+	Parameter L_ADDR_W bound to: 10 - type: integer 
+	Parameter K_ADDR_W bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'echo_pipeline_axi_bridge_phase2' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/echo_pipeline_axi_bridge_phase2.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'echo_pipeline_axi_control_phase2' (0#1) [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/echo_pipeline_axi_control_phase2.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_echo_pipeline_0_0' (0#1) [d:/vivado_project/pn17_hw/echo_ps_system.gen/sources_1/bd/system/ip/system_echo_pipeline_0_0/synth/system_echo_pipeline_0_0.sv:53]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'pipeline_i'. This will prevent further optimization [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/echo_pipeline_axi_control_phase2.sv:121]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'debug_i'. This will prevent further optimization [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/pulse_pair_echo_pipeline.sv:111]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'average_i'. This will prevent further optimization [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/pulse_pair_echo_pipeline.sv:92]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'average_store_i'. This will prevent further optimization [D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/rtl/integration/pulse_pair_echo_pipeline.sv:121]
+INFO: [Synth 8-7129] Port frame_meta[12] in module frame_average_pair_bram is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1602.449 ; gain = 733.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1602.449 ; gain = 733.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1602.449 ; gain = 733.629
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1602.449 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/vivado_project/pn17_hw/echo_ps_system.gen/sources_1/ip/ila_echo_200/ila_echo_200/ila_echo_200_in_context.xdc] for cell 'inst/pipeline_i/debug_i'
+Finished Parsing XDC File [d:/vivado_project/pn17_hw/echo_ps_system.gen/sources_1/ip/ila_echo_200/ila_echo_200/ila_echo_200_in_context.xdc] for cell 'inst/pipeline_i/debug_i'
+Parsing XDC File [d:/vivado_project/pn17_hw/echo_ps_system.gen/sources_1/bd/system/ip/system_echo_pipeline_0_0/system_echo_pipeline_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/vivado_project/pn17_hw/echo_ps_system.gen/sources_1/bd/system/ip/system_echo_pipeline_0_0/system_echo_pipeline_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1643.254 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1647.188 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1647.188 ; gain = 778.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1647.188 ; gain = 778.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1647.188 ; gain = 778.367
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'processing_chain'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BASE_READ |                              110 |                              001
+            S_BASE_DRAIN |                              101 |                              010
+         S_TEMPLATE_READ |                              100 |                              011
+        S_TEMPLATE_DRAIN |                              011 |                              100
+            S_CORR_START |                              010 |                              101
+              S_CORR_RUN |                              001 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'processing_chain'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1647.188 ; gain = 778.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   49 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 3     
+	   2 Input   23 Bit       Adders := 2     
+	   3 Input   17 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 3     
+	   2 Input   11 Bit       Adders := 2     
+	   2 Input   10 Bit       Adders := 6     
+	   2 Input    9 Bit       Adders := 4     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 3     
++---XORs : 
+	   2 Input     32 Bit         XORs := 37    
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               64 Bit    Registers := 2     
+	               48 Bit    Registers := 2     
+	               32 Bit    Registers := 12    
+	               23 Bit    Registers := 2     
+	               22 Bit    Registers := 8     
+	               17 Bit    Registers := 2     
+	               16 Bit    Registers := 13    
+	               14 Bit    Registers := 4     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 14    
+	                9 Bit    Registers := 16    
+	                8 Bit    Registers := 5     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 10    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 101   
++---RAMs : 
+	              17K Bit	(1024 X 17 bit)          RAMs := 1     
+	              16K Bit	(1024 X 16 bit)          RAMs := 2     
+	              16K Bit	(256 X 64 bit)          RAMs := 1     
+	              11K Bit	(512 X 22 bit)          RAMs := 2     
+	              10K Bit	(640 X 16 bit)          RAMs := 3     
+	               8K Bit	(512 X 16 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   48 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 66    
+	  13 Input   32 Bit        Muxes := 1     
+	   2 Input   22 Bit        Muxes := 6     
+	   2 Input   16 Bit        Muxes := 3     
+	   2 Input   11 Bit        Muxes := 2     
+	   7 Input   10 Bit        Muxes := 2     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 3     
+	   7 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 11    
+	   2 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 6     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 9     
+	   3 Input    2 Bit        Muxes := 6     
+	   2 Input    1 Bit        Muxes := 182   
+	   7 Input    1 Bit        Muxes := 5     
+	   4 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP processing_i/corr_mac_i/product_reg_reg, operation Mode is: (A*B)'.
+DSP Report: register processing_i/corr_mac_i/product_reg_reg is absorbed into DSP processing_i/corr_mac_i/product_reg_reg.
+DSP Report: operator processing_i/corr_mac_i/product is absorbed into DSP processing_i/corr_mac_i/product_reg_reg.
+INFO: [Synth 8-7129] Port frame_meta[12] in module frame_average_pair_bram is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 2104.367 ; gain = 1235.547
+---------------------------------------------------------------------------------
+ Sort Area is  processing_i/corr_mac_i/product_reg_reg_0 : 0 0 : 2067 2067 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++--------------------------------+--------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                     | RTL Object                                 | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------------+--------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst/pipeline_i/average_i       | rise_average_i/accum_ram/mem_reg           | 512 x 22(READ_FIRST)   | W |   | 512 x 22(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i/average_i       | fall_average_i/accum_ram/mem_reg           | 512 x 22(READ_FIRST)   | W |   | 512 x 22(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i/average_store_i | rise_ram_i/mem_reg                         | 512 x 16(NO_CHANGE)    | W |   | 512 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i/average_store_i | fall_ram_i/mem_reg                         | 512 x 16(NO_CHANGE)    | W |   | 512 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/baseline_bank/bank_0_reg      | 1 K x 16(READ_FIRST)   | W |   | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/baseline_bank/bank_1_reg      | 1 K x 16(READ_FIRST)   | W |   | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/template_bank/bank_0_reg      | 640 x 16(READ_FIRST)   | W |   | 640 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/template_bank/bank_1_reg      | 640 x 16(READ_FIRST)   | W |   | 640 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/corr_mac_i/difference_mem_reg | 1 K x 17(READ_FIRST)   | W |   | 1 K x 17(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/corr_mac_i/template_mem_reg   | 640 x 16(READ_FIRST)   | W |   | 640 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/result_store/mem_reg          | 256 x 64(READ_FIRST)   | W |   | 256 x 64(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
++--------------------------------+--------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|corr_mac    | (A*B)'      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 1    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2104.367 ; gain = 1235.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2104.367 ; gain = 1235.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++--------------------------------+--------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                     | RTL Object                                 | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------------+--------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst/pipeline_i/average_i       | rise_average_i/accum_ram/mem_reg           | 512 x 22(READ_FIRST)   | W |   | 512 x 22(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i/average_i       | fall_average_i/accum_ram/mem_reg           | 512 x 22(READ_FIRST)   | W |   | 512 x 22(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i/average_store_i | rise_ram_i/mem_reg                         | 512 x 16(NO_CHANGE)    | W |   | 512 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i/average_store_i | fall_ram_i/mem_reg                         | 512 x 16(NO_CHANGE)    | W |   | 512 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/baseline_bank/bank_0_reg      | 1 K x 16(READ_FIRST)   | W |   | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/baseline_bank/bank_1_reg      | 1 K x 16(READ_FIRST)   | W |   | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/template_bank/bank_0_reg      | 640 x 16(READ_FIRST)   | W |   | 640 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/template_bank/bank_1_reg      | 640 x 16(READ_FIRST)   | W |   | 640 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/corr_mac_i/difference_mem_reg | 1 K x 17(READ_FIRST)   | W |   | 1 K x 17(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/corr_mac_i/template_mem_reg   | 640 x 16(READ_FIRST)   | W |   | 640 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|inst/pipeline_i                 | processing_i/result_store/mem_reg          | 256 x 64(READ_FIRST)   | W |   | 256 x 64(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
++--------------------------------+--------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/pipeline_i/average_store_i/rise_ram_i/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/pipeline_i/average_store_i/fall_ram_i/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/pipeline_i/processing_i/baseline_bank/bank_0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/pipeline_i/processing_i/baseline_bank/bank_1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/pipeline_i/processing_i/template_bank/bank_0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/pipeline_i/processing_i/template_bank/bank_1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/pipeline_i/processing_i/corr_mac_i/difference_mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/pipeline_i/processing_i/corr_mac_i/template_mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/pipeline_i/processing_i/result_store/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2104.367 ; gain = 1235.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2164.207 ; gain = 1295.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2164.207 ; gain = 1295.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2164.207 ; gain = 1295.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2164.207 ; gain = 1295.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2166.215 ; gain = 1297.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2166.215 ; gain = 1297.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|corr_mac    | (A*B)'      | 30     | 18     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ila_echo_200  |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |ila_echo |     1|
+|2     |CARRY4   |   104|
+|3     |DSP48E1  |     1|
+|4     |LUT1     |    24|
+|5     |LUT2     |   232|
+|6     |LUT3     |   305|
+|7     |LUT4     |   164|
+|8     |LUT5     |   182|
+|9     |LUT6     |   524|
+|10    |MUXF7    |    22|
+|11    |RAMB18E1 |    10|
+|14    |RAMB36E1 |     1|
+|15    |FDRE     |  1350|
+|16    |FDSE     |    67|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2166.215 ; gain = 1297.395
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:39 . Memory (MB): peak = 2166.215 ; gain = 1252.656
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2166.215 ; gain = 1297.395
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2175.355 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 138 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2181.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 84ce0d68
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+70 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 2181.348 ; gain = 1528.969
+INFO: [Coretcl 2-1174] Renamed 21 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2181.348 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1/system_echo_pipeline_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file system_echo_pipeline_0_0_utilization_synth.rpt -pb system_echo_pipeline_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 28 18:54:19 2026...

@@ -1,0 +1,113 @@
+{
+  "schema": "STAGE60_NEAR_ENDPOINT_DATA_CHECK_1",
+  "status": "DATA_INTEGRITY_PASS_DEVELOPMENT_INTERPRETATION_PENDING",
+  "declared_positions_m": [
+    0,
+    1
+  ],
+  "firmware_stage": 56,
+  "reference_crc32": "EDDA4AF2",
+  "captures": [
+    {
+      "state": "matched_before",
+      "repeat": 1,
+      "sequence": 106,
+      "global_lag": 20,
+      "peak_num": 700514304
+    },
+    {
+      "state": "endpoint_open1",
+      "repeat": 1,
+      "sequence": 107,
+      "global_lag": 145,
+      "peak_num": 284859105280
+    },
+    {
+      "state": "endpoint_open1",
+      "repeat": 2,
+      "sequence": 108,
+      "global_lag": 145,
+      "peak_num": 284935520256
+    },
+    {
+      "state": "endpoint_open1",
+      "repeat": 3,
+      "sequence": 109,
+      "global_lag": 145,
+      "peak_num": 284935061504
+    },
+    {
+      "state": "endpoint_short1",
+      "repeat": 1,
+      "sequence": 110,
+      "global_lag": 145,
+      "peak_num": -281580470272
+    },
+    {
+      "state": "endpoint_short1",
+      "repeat": 2,
+      "sequence": 111,
+      "global_lag": 145,
+      "peak_num": -281519783936
+    },
+    {
+      "state": "endpoint_short1",
+      "repeat": 3,
+      "sequence": 112,
+      "global_lag": 145,
+      "peak_num": -281374621696
+    },
+    {
+      "state": "endpoint_open0",
+      "repeat": 1,
+      "sequence": 113,
+      "global_lag": 143,
+      "peak_num": 284190375936
+    },
+    {
+      "state": "endpoint_open0",
+      "repeat": 2,
+      "sequence": 114,
+      "global_lag": 143,
+      "peak_num": 283668119552
+    },
+    {
+      "state": "endpoint_open0",
+      "repeat": 3,
+      "sequence": 115,
+      "global_lag": 143,
+      "peak_num": 284020506624
+    },
+    {
+      "state": "endpoint_short0",
+      "repeat": 1,
+      "sequence": 116,
+      "global_lag": 143,
+      "peak_num": -284992667648
+    },
+    {
+      "state": "endpoint_short0",
+      "repeat": 2,
+      "sequence": 117,
+      "global_lag": 143,
+      "peak_num": -285024911360
+    },
+    {
+      "state": "endpoint_short0",
+      "repeat": 3,
+      "sequence": 118,
+      "global_lag": 143,
+      "peak_num": -284739895296
+    },
+    {
+      "state": "matched_restored",
+      "repeat": 1,
+      "sequence": 119,
+      "global_lag": 58,
+      "peak_num": -506658816
+    }
+  ],
+  "exact_correlation_points": 3584,
+  "physical_setup_independently_verified": false,
+  "distance_or_weak_detection_qualified": false
+}

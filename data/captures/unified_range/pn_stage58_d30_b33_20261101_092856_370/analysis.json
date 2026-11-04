@@ -1,0 +1,92 @@
+{
+  "schema": "STAGE58_DUAL_DATA_CHECK_1",
+  "status": "DATA_INTEGRITY_PASS_DEVELOPMENT_INTERPRETATION_PENDING",
+  "declared_positions_m": [
+    30,
+    33
+  ],
+  "firmware_stage": 56,
+  "reference_crc32": "DE6A1FFA",
+  "captures": [
+    {
+      "state": "matched_before",
+      "repeat": 1,
+      "sequence": 50,
+      "global_lag": 221,
+      "peak_num": -593362944
+    },
+    {
+      "state": "sample_D30_only",
+      "repeat": 1,
+      "sequence": 51,
+      "global_lag": 204,
+      "peak_num": -4727701504
+    },
+    {
+      "state": "sample_D30_only",
+      "repeat": 2,
+      "sequence": 52,
+      "global_lag": 204,
+      "peak_num": -4726980608
+    },
+    {
+      "state": "sample_D30_only",
+      "repeat": 3,
+      "sequence": 53,
+      "global_lag": 204,
+      "peak_num": -4700110848
+    },
+    {
+      "state": "sample_B33_only",
+      "repeat": 1,
+      "sequence": 54,
+      "global_lag": 210,
+      "peak_num": 8369930240
+    },
+    {
+      "state": "sample_B33_only",
+      "repeat": 2,
+      "sequence": 55,
+      "global_lag": 210,
+      "peak_num": 8646098944
+    },
+    {
+      "state": "sample_B33_only",
+      "repeat": 3,
+      "sequence": 56,
+      "global_lag": 210,
+      "peak_num": 8396341248
+    },
+    {
+      "state": "sample_D30_B33",
+      "repeat": 1,
+      "sequence": 57,
+      "global_lag": 210,
+      "peak_num": 7503151104
+    },
+    {
+      "state": "sample_D30_B33",
+      "repeat": 2,
+      "sequence": 58,
+      "global_lag": 210,
+      "peak_num": 7068975104
+    },
+    {
+      "state": "sample_D30_B33",
+      "repeat": 3,
+      "sequence": 59,
+      "global_lag": 210,
+      "peak_num": 7648116736
+    },
+    {
+      "state": "matched_restored",
+      "repeat": 1,
+      "sequence": 60,
+      "global_lag": 113,
+      "peak_num": 594870272
+    }
+  ],
+  "exact_correlation_points": 2816,
+  "physical_setup_independently_verified": false,
+  "distance_or_weak_detection_qualified": false
+}

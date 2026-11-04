@@ -1,0 +1,13 @@
+{
+  "schema": "STAGE25_SCREEN_OPERATOR_CONFIRMATION_1",
+  "date": "2026-10-30",
+  "evidence_kind": "explicit_user_message_after_this_capture",
+  "question": "这轮屏幕是否显示：开路向上峰、短路向下峰、接回50Ω后回到中线附近，而且四次距离都为“-- m”？",
+  "answer": "是，都符合",
+  "open_positive": true,
+  "short_negative": true,
+  "restored_matched_near_center": true,
+  "all_four_distance_display": "-- m",
+  "optical_refresh_timing_measured": false,
+  "source_archive_sha256": "73f7b254ab77772b8ebf16b97cc769e7a3f3632a232bc85c86f49ac4d11e8e03"
+}

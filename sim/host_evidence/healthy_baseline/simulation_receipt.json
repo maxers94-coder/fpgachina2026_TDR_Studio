@@ -1,0 +1,21 @@
+{
+    "schema":  "HEALTHY_BASELINE_SIMULATION_RECEIPT_1",
+    "status":  "PASS",
+    "real_averaged_capture_count":  51,
+    "synthetic_boundary_case_count":  2,
+    "differences_checked":  54272,
+    "correlations_checked":  13568,
+    "bram_readbacks_checked":  13568,
+    "live_board_test":  false,
+    "adc_frame_reconstruction":  false,
+    "source_sha256":  {
+                          "echo200_ps_integration/rtl/processing/coeff_shadow_bank.sv":  "bd600efc6cd9aad06ecb8ceca77d0c27bde04604fa34d582956bf8f33563621f",
+                          "echo200_ps_integration/rtl/processing/baseline_sub.sv":  "7fb6ad71ec549a5c70e074a2915354b24857867dc4874acb46f6636003182433",
+                          "echo200_ps_integration/rtl/processing/corr_mac.sv":  "b04b04a970e880048ee75904cba8c8e81e4f65321fe549b8248c7a89eb2d9b64",
+                          "echo200_ps_integration/rtl/processing/result_bram.sv":  "37a27fe4200ab761999e654ef5c05fdad895b47804ed26b1f1795dd72552c9af",
+                          "echo200_ps_integration/rtl/processing/processing_chain.sv":  "8af943ce114012c6f96e5dc99e54d7b47ee1984b7358d638bcaee5a2b9babb4f",
+                          "echo200_ps_integration/sim/tb_healthy_baseline_replay.sv":  "b1835106c31a08dc7415fed43abd63903e5112eafebad77f2a83b292ba68de96"
+                      },
+    "vector_manifest_sha256":  "0f444084f9eb1661a75a3e4d1e3ee18202831741d943aa4ae2d81f6380a826ca",
+    "log_sha256":  "0cdc475871fccb129499df453248e9468ccef835d8e279b178d5fd8cd488d84d"
+}

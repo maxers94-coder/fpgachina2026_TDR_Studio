@@ -1,0 +1,14 @@
+# Evidence source: user-pasted UART log and user confirmation in this chat.
+# Recorded on 2026-10-29. This is not a direct serial-port capture or screenshot.
+# Context: requested MEASURE-page PN checks for matched/open/short, then SINGLE regression.
+# User reply follows verbatim:
+[HMI] SINGLE -> live Mode5 locator
+[LOCATE] START: Mode5 32 frames 1024 Q2; fixed 15m matched reference
+LOCATE_TEST_BEGIN,COUNT=1,MODE=5,FRAMES=32,FIRST_TX_BEFORE=1
+TXTRACE,SEQ=1,ENTRY=1,AFTER_CLEAR=0,END=1,RC=0
+LOCATE_RESULT,STATUS=NO_ECHO,L_MM=-1,DELAY_MILLI=29874,ECHO_Q2_X10=-57,R2_MILLI=158,DC_Q2_X10=5664
+MEASUREMENT,SEQ=7,RAW_AVAILABLE=1
+LOCATE_TEST_END,COUNT=1,LAST_TX=1
+[LOCATE] PASS: single Mode5 transaction and auto-distance algorithm executed
+[NOTE] Three-state diagnostic locator; fixed 15m reference; nominal calibration; not certified
+其他一致

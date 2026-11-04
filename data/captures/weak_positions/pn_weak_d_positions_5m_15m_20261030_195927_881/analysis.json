@@ -1,0 +1,502 @@
+{
+  "schema": "PN_WEAK_D_POSITION_PAIR_ANALYSIS_1",
+  "status": "PASS",
+  "scope": "data integrity and descriptive peak displacement only",
+  "evidence_kind": "operator_declared_live_development_capture",
+  "firmware_stage": 26,
+  "phases": [
+    {
+      "archive_sha256": "2420cc928733e3fefadd5f175977f1f1e082187f0f19dc32d53a29b756b2b24d",
+      "evidence_kind": "operator_declared_live_development_capture",
+      "front_length_m": 5,
+      "back_length_m": 15,
+      "baseline_id": 5,
+      "baseline_crc32": "C919FB03",
+      "source_raw_sequences": [
+        49,
+        50,
+        51
+      ],
+      "groups": {
+        "reference_before": {
+          "technical_repeats": 3,
+          "independent_trials": 1,
+          "sequences": [
+            52,
+            53,
+            54
+          ],
+          "mean_raw_rms_q2": 3.57993328651701,
+          "peak_lags": [
+            141,
+            150,
+            107
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "max_abs_peak_q16": 4112896.0,
+          "mean_correlation_peak_lag": 151,
+          "mean_correlation_peak_q16": 2541738.6666666665,
+          "mean_correlation_denominator": 384
+        },
+        "sample_D1K": {
+          "technical_repeats": 3,
+          "independent_trials": 1,
+          "sequences": [
+            55,
+            56,
+            57
+          ],
+          "mean_raw_rms_q2": 5.778396312221908,
+          "peak_lags": [
+            153,
+            153,
+            153
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "max_abs_peak_q16": 51740672.0,
+          "mean_correlation_peak_lag": 153,
+          "mean_correlation_peak_q16": -50919082.666666664,
+          "mean_correlation_denominator": 384
+        },
+        "reference_after": {
+          "technical_repeats": 3,
+          "independent_trials": 1,
+          "sequences": [
+            58,
+            59,
+            60
+          ],
+          "mean_raw_rms_q2": 3.595976157409629,
+          "peak_lags": [
+            103,
+            132,
+            66
+          ],
+          "signs": [
+            1,
+            -1,
+            1
+          ],
+          "max_abs_peak_q16": 5065216.0,
+          "mean_correlation_peak_lag": 103,
+          "mean_correlation_peak_q16": 3398656.0,
+          "mean_correlation_denominator": 384
+        }
+      },
+      "before_hardware": {
+        "HW_INFO": {
+          "IP_ID": "4543484F",
+          "VERSION": "00030002",
+          "FS_HZ": "200000000",
+          "PAIR_HZ": "100000000",
+          "CAPS": "15"
+        },
+        "HW_STATUS": {
+          "STATUS": "00840047",
+          "ERROR": "00000000",
+          "FRAME": "32",
+          "RESULT": "256",
+          "PULSE_CFG": "00000405",
+          "AVG_VALID": "00000003"
+        },
+        "PN_INFO": {
+          "CONFIG": "0",
+          "INFO": "007F0207",
+          "SEED": "127",
+          "AMPLITUDE": "4096",
+          "CHIP_HZ": "50000000"
+        },
+        "HMI_INFO": {
+          "PAGE": "0",
+          "VALID": "1",
+          "LOCKED": "0",
+          "VIEW": "0",
+          "ZOOM": "0",
+          "WAVE_VERSION": "1"
+        },
+        "REF_GUARD_INFO": {
+          "VERSION": "1",
+          "PROFILES": "2",
+          "BANK_CRC32": "02FEEBDD",
+          "ACTIVE_PROFILE": "1",
+          "ACTIVE_MASK": "1",
+          "GATE_Q16": "208916480",
+          "ADAPTIVE": "0"
+        },
+        "CONT_INFO": {
+          "STATE": "IDLE",
+          "SESSION": "0",
+          "FRAMES": "0",
+          "BASE_ID": "0",
+          "BASE_CRC": "00000000",
+          "LAST_SEQ": "0",
+          "MEAS_SEQ": "48",
+          "IN_FLIGHT": "0"
+        },
+        "HEALTHY_INFO": {
+          "VALID": "1",
+          "BASE_ID": "4",
+          "CRC32": "A4E5AA50",
+          "REF_N": "3",
+          "VOLATILE": "1",
+          "DISTANCE_VALID": "0",
+          "FW_STAGE": "26"
+        }
+      },
+      "after_hardware": {
+        "HW_INFO": {
+          "IP_ID": "4543484F",
+          "VERSION": "00030002",
+          "FS_HZ": "200000000",
+          "PAIR_HZ": "100000000",
+          "CAPS": "15"
+        },
+        "HW_STATUS": {
+          "STATUS": "00840347",
+          "ERROR": "00000000",
+          "FRAME": "32",
+          "RESULT": "256",
+          "PULSE_CFG": "00000405",
+          "AVG_VALID": "00000003"
+        },
+        "PN_INFO": {
+          "CONFIG": "0",
+          "INFO": "007F0207",
+          "SEED": "127",
+          "AMPLITUDE": "4096",
+          "CHIP_HZ": "50000000"
+        },
+        "HMI_INFO": {
+          "PAGE": "0",
+          "VALID": "1",
+          "LOCKED": "0",
+          "VIEW": "0",
+          "ZOOM": "0",
+          "WAVE_VERSION": "1"
+        },
+        "REF_GUARD_INFO": {
+          "VERSION": "1",
+          "PROFILES": "2",
+          "BANK_CRC32": "02FEEBDD",
+          "ACTIVE_PROFILE": "1",
+          "ACTIVE_MASK": "1",
+          "GATE_Q16": "208916480",
+          "ADAPTIVE": "0"
+        },
+        "CONT_INFO": {
+          "STATE": "IDLE",
+          "SESSION": "0",
+          "FRAMES": "0",
+          "BASE_ID": "0",
+          "BASE_CRC": "00000000",
+          "LAST_SEQ": "0",
+          "MEAS_SEQ": "60",
+          "IN_FLIGHT": "0"
+        },
+        "HEALTHY_INFO": {
+          "VALID": "1",
+          "BASE_ID": "5",
+          "CRC32": "C919FB03",
+          "REF_N": "3",
+          "VOLATILE": "1",
+          "DISTANCE_VALID": "0",
+          "FW_STAGE": "26"
+        }
+      },
+      "transcript": {
+        "TX_count": 38,
+        "RX_count": 19909,
+        "V_header_retries": 0,
+        "commands": {
+          "V": 5,
+          "B": 1,
+          "J": 5,
+          "D": 9,
+          "R": 9,
+          "C": 9
+        },
+        "RX_files_exact": true
+      },
+      "checked_JSON_exact": 23,
+      "exact_correlation_points": 2304,
+      "exact_display_pixels": 4608
+    },
+    {
+      "archive_sha256": "bd2fe8b3f27c58175895b8a49df9d54180964909dc73b0cdcb66d07abcb4ea85",
+      "evidence_kind": "operator_declared_live_development_capture",
+      "front_length_m": 15,
+      "back_length_m": 5,
+      "baseline_id": 6,
+      "baseline_crc32": "2A5917D1",
+      "source_raw_sequences": [
+        61,
+        62,
+        63
+      ],
+      "groups": {
+        "reference_before": {
+          "technical_repeats": 3,
+          "independent_trials": 1,
+          "sequences": [
+            64,
+            65,
+            66
+          ],
+          "mean_raw_rms_q2": 3.741456220997429,
+          "peak_lags": [
+            115,
+            6,
+            115
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "max_abs_peak_q16": 4977664.0,
+          "mean_correlation_peak_lag": 115,
+          "mean_correlation_peak_q16": 3636394.6666666665,
+          "mean_correlation_denominator": 384
+        },
+        "sample_D1K": {
+          "technical_repeats": 3,
+          "independent_trials": 1,
+          "sequences": [
+            67,
+            68,
+            69
+          ],
+          "mean_raw_rms_q2": 5.465270711132124,
+          "peak_lags": [
+            173,
+            173,
+            173
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "max_abs_peak_q16": 47473152.0,
+          "mean_correlation_peak_lag": 173,
+          "mean_correlation_peak_q16": -46590122.666666664,
+          "mean_correlation_denominator": 384
+        },
+        "reference_after": {
+          "technical_repeats": 3,
+          "independent_trials": 1,
+          "sequences": [
+            70,
+            71,
+            72
+          ],
+          "mean_raw_rms_q2": 3.63385997414548,
+          "peak_lags": [
+            116,
+            7,
+            96
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "max_abs_peak_q16": 4696064.0,
+          "mean_correlation_peak_lag": 96,
+          "mean_correlation_peak_q16": 2459306.6666666665,
+          "mean_correlation_denominator": 384
+        }
+      },
+      "before_hardware": {
+        "HW_INFO": {
+          "IP_ID": "4543484F",
+          "VERSION": "00030002",
+          "FS_HZ": "200000000",
+          "PAIR_HZ": "100000000",
+          "CAPS": "15"
+        },
+        "HW_STATUS": {
+          "STATUS": "00840347",
+          "ERROR": "00000000",
+          "FRAME": "32",
+          "RESULT": "256",
+          "PULSE_CFG": "00000405",
+          "AVG_VALID": "00000003"
+        },
+        "PN_INFO": {
+          "CONFIG": "0",
+          "INFO": "007F0207",
+          "SEED": "127",
+          "AMPLITUDE": "4096",
+          "CHIP_HZ": "50000000"
+        },
+        "HMI_INFO": {
+          "PAGE": "0",
+          "VALID": "1",
+          "LOCKED": "0",
+          "VIEW": "0",
+          "ZOOM": "0",
+          "WAVE_VERSION": "1"
+        },
+        "REF_GUARD_INFO": {
+          "VERSION": "1",
+          "PROFILES": "2",
+          "BANK_CRC32": "02FEEBDD",
+          "ACTIVE_PROFILE": "1",
+          "ACTIVE_MASK": "1",
+          "GATE_Q16": "208916480",
+          "ADAPTIVE": "0"
+        },
+        "CONT_INFO": {
+          "STATE": "IDLE",
+          "SESSION": "0",
+          "FRAMES": "0",
+          "BASE_ID": "0",
+          "BASE_CRC": "00000000",
+          "LAST_SEQ": "0",
+          "MEAS_SEQ": "60",
+          "IN_FLIGHT": "0"
+        },
+        "HEALTHY_INFO": {
+          "VALID": "1",
+          "BASE_ID": "5",
+          "CRC32": "C919FB03",
+          "REF_N": "3",
+          "VOLATILE": "1",
+          "DISTANCE_VALID": "0",
+          "FW_STAGE": "26"
+        }
+      },
+      "after_hardware": {
+        "HW_INFO": {
+          "IP_ID": "4543484F",
+          "VERSION": "00030002",
+          "FS_HZ": "200000000",
+          "PAIR_HZ": "100000000",
+          "CAPS": "15"
+        },
+        "HW_STATUS": {
+          "STATUS": "00840047",
+          "ERROR": "00000000",
+          "FRAME": "32",
+          "RESULT": "256",
+          "PULSE_CFG": "00000405",
+          "AVG_VALID": "00000003"
+        },
+        "PN_INFO": {
+          "CONFIG": "0",
+          "INFO": "007F0207",
+          "SEED": "127",
+          "AMPLITUDE": "4096",
+          "CHIP_HZ": "50000000"
+        },
+        "HMI_INFO": {
+          "PAGE": "0",
+          "VALID": "1",
+          "LOCKED": "0",
+          "VIEW": "0",
+          "ZOOM": "0",
+          "WAVE_VERSION": "1"
+        },
+        "REF_GUARD_INFO": {
+          "VERSION": "1",
+          "PROFILES": "2",
+          "BANK_CRC32": "02FEEBDD",
+          "ACTIVE_PROFILE": "1",
+          "ACTIVE_MASK": "1",
+          "GATE_Q16": "208916480",
+          "ADAPTIVE": "0"
+        },
+        "CONT_INFO": {
+          "STATE": "IDLE",
+          "SESSION": "0",
+          "FRAMES": "0",
+          "BASE_ID": "0",
+          "BASE_CRC": "00000000",
+          "LAST_SEQ": "0",
+          "MEAS_SEQ": "72",
+          "IN_FLIGHT": "0"
+        },
+        "HEALTHY_INFO": {
+          "VALID": "1",
+          "BASE_ID": "6",
+          "CRC32": "2A5917D1",
+          "REF_N": "3",
+          "VOLATILE": "1",
+          "DISTANCE_VALID": "0",
+          "FW_STAGE": "26"
+        }
+      },
+      "transcript": {
+        "TX_count": 38,
+        "RX_count": 19909,
+        "V_header_retries": 0,
+        "commands": {
+          "V": 5,
+          "B": 1,
+          "J": 5,
+          "D": 9,
+          "R": 9,
+          "C": 9
+        },
+        "RX_files_exact": true
+      },
+      "checked_JSON_exact": 23,
+      "exact_correlation_points": 2304,
+      "exact_display_pixels": 4608
+    }
+  ],
+  "new_acquisitions": 24,
+  "D_measurements": 18,
+  "exact_correlation_points": 4608,
+  "exact_display_pixels": 9216,
+  "nominal_position_change_m": 10,
+  "nominal_total_cable_m_each_phase": 20,
+  "sample_peak_lags": [
+    [
+      153,
+      153,
+      153
+    ],
+    [
+      173,
+      173,
+      173
+    ]
+  ],
+  "sample_signs": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1
+    ]
+  ],
+  "mean_curve_peak_lag_change_samples": 20,
+  "position_truth_used_for_peak_selection": false,
+  "movement_qualified": false,
+  "distance_model_deployed": false,
+  "classification_performed": false,
+  "detected": null,
+  "distance_valid": false,
+  "weak_impedance_validated": false,
+  "optical_screen_verified": false,
+  "qualification": "Two operator-declared cable arrangements of the same D1k fixture and 5m/15m cables. Each has its own explicitly acquired barrel reference. Peaks are selected over all 256 lags. No fitted distance, calibrated Gamma, detection probability or independent blind-trial qualification.",
+  "source_sha256": {
+    "session.json": "263bf1cfe01aef7512ff63236fa7bdb76002ead41abd80ddac94a8d33330ca34",
+    "position_5m.zip": "2420cc928733e3fefadd5f175977f1f1e082187f0f19dc32d53a29b756b2b24d",
+    "position_15m.zip": "bd2fe8b3f27c58175895b8a49df9d54180964909dc73b0cdcb66d07abcb4ea85"
+  }
+}

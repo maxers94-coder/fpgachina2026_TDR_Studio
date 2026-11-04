@@ -1,0 +1,18 @@
+{
+  "schema": "NEGATIVE_DISTANCE_EXTENSION_1",
+  "model": 4,
+  "date": "2026-11-01",
+  "original_negative_model_sha256": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+  "L_mm": "500*(lag-143)",
+  "lag_min": 174,
+  "lag_max": 193,
+  "profile": 1,
+  "mask": 1,
+  "sign": -1,
+  "abs_num_min_exclusive": 2147483648,
+  "abs_num_max_inclusive": 68719476736,
+  "scope": "Diagnostic negative ordinary returns15.5-25m; original5-15m kernels unchanged",
+  "development_data": "D25 sequence174 and restored175 were seen before this extension; not blind validation",
+  "precision_distance_valid": false,
+  "positive_extended": false
+}

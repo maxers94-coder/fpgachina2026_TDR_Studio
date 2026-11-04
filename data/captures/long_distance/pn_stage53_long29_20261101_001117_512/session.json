@@ -1,0 +1,140 @@
+{
+    "schema":  "STAGE53_LONG29_CAPTURE_SESSION_1",
+    "status":  "data_integrity_pass_long_distance_analysis_pending",
+    "firmware_stage":  50,
+    "plan":  {
+                 "schema":  "STAGE53_LONG29_PLAN_1",
+                 "tools_stage":  53,
+                 "firmware_stage":  50,
+                 "firmware_changed":  false,
+                 "cable_segments_near_to_far_m":  [
+                                                      15,
+                                                      10,
+                                                      3,
+                                                      1
+                                                  ],
+                 "total_nominal_m":  29,
+                 "barrel_count":  3,
+                 "short_cap_extra_adapter_count":  1,
+                 "available_barrels":  4,
+                 "intermediate_positions_m":  [
+                                                  15,
+                                                  25,
+                                                  28
+                                              ],
+                 "baseline_sources":  3,
+                 "states":  [
+                                "matched_before",
+                                "far_open",
+                                "far_short",
+                                "matched_restored"
+                            ],
+                 "repeats":  [
+                                 1,
+                                 3,
+                                 3,
+                                 1
+                             ],
+                 "D_captures":  8,
+                 "new_acquisitions":  11,
+                 "commands":  [
+                                  "V",
+                                  "B",
+                                  "J",
+                                  "D",
+                                  "R",
+                                  "C"
+                              ],
+                 "automatic_retry":  false,
+                 "reference_gate_changed":  false,
+                 "FW50_fit_span_m":  [
+                                         5,
+                                         15
+                                     ],
+                 "screen_FULL_span_m":  [
+                                            0,
+                                            25
+                                        ],
+                 "truth_metadata_sent_to_firmware":  false,
+                 "long_distance_model_fitted":  false,
+                 "host_long_endpoint_model_frozen":  true,
+                 "firmware_long_model_deployed":  false,
+                 "prospective_validation":  true,
+                 "distance_valid":  false
+             },
+    "cable_segments_near_to_far_m":  [
+                                         15,
+                                         10,
+                                         3,
+                                         1
+                                     ],
+    "barrel_count":  3,
+    "short_cap_extra_adapter_count":  1,
+    "available_barrels":  4,
+    "total_nominal_m":  29,
+    "operator_port":  "COM7",
+    "topology_confirmation":  "MATCHED",
+    "initial_sequence":  106,
+    "captures":  [
+                     {
+                         "state":  "matched_before",
+                         "repeat":  1,
+                         "file":  "matched_before_r1.txt",
+                         "sequence":  110,
+                         "sha256":  "b1d4d44dc078509f18057fe02dbcfdc53e9597f949dfecb794f791c3e709481f"
+                     },
+                     {
+                         "state":  "far_open",
+                         "repeat":  1,
+                         "file":  "far_open_r1.txt",
+                         "sequence":  111,
+                         "sha256":  "6384298e4416ec79833a9042139e3e7c86d876e7db478c60621cff33f6123592"
+                     },
+                     {
+                         "state":  "far_open",
+                         "repeat":  2,
+                         "file":  "far_open_r2.txt",
+                         "sequence":  112,
+                         "sha256":  "aa1ee2f98c4feb259d1db6efd57304389e46d5cf0ddd6940aa08105a25b160a5"
+                     },
+                     {
+                         "state":  "far_open",
+                         "repeat":  3,
+                         "file":  "far_open_r3.txt",
+                         "sequence":  113,
+                         "sha256":  "f6839ea7ec4a5adf4eb65676a00d4128f2e56f2ce84aead1d720852d59941c27"
+                     },
+                     {
+                         "state":  "far_short",
+                         "repeat":  1,
+                         "file":  "far_short_r1.txt",
+                         "sequence":  114,
+                         "sha256":  "756bac59dc568a49f121372a54b9007cf2a34a7418de3a5f13f2e02b3e56d1fa"
+                     },
+                     {
+                         "state":  "far_short",
+                         "repeat":  2,
+                         "file":  "far_short_r2.txt",
+                         "sequence":  115,
+                         "sha256":  "1cf44323932a5afe0250abeec1bc76ad96404d82273e641053f22d387d692f64"
+                     },
+                     {
+                         "state":  "far_short",
+                         "repeat":  3,
+                         "file":  "far_short_r3.txt",
+                         "sequence":  116,
+                         "sha256":  "420babd4efc5faf35b1363920971e1b7a651549d42a965c2553b3a475480d675"
+                     },
+                     {
+                         "state":  "matched_restored",
+                         "repeat":  1,
+                         "file":  "matched_restored_r1.txt",
+                         "sequence":  117,
+                         "sha256":  "15ae4d5de0f9e981210286a81f087ba838568fd7496d6cbe51cbe388de797d03"
+                     }
+                 ],
+    "screen_observation":  "YES",
+    "truth_sent_to_firmware":  false,
+    "long_distance_model_fitted":  false,
+    "distance_valid":  false
+}

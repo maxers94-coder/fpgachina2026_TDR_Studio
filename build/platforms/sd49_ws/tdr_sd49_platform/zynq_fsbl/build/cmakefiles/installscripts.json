@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/vivado_project/sd49_ws/tdr_sd49_platform/zynq_fsbl/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

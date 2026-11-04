@@ -1,0 +1,35 @@
+{
+    "schema":  "HEALTHY_PN_BOARD_BATCH_1",
+    "session":  "healthy_pn_5m_20261029_171417_752",
+    "plan":  {
+                 "schema":  "HEALTHY_PN_BOARD_PLAN_1",
+                 "firmware":  "Stage21",
+                 "length_m":  5,
+                 "far_end":  "verified_50ohm",
+                 "baseline_sources":  3,
+                 "initial_diff_repeats":  3,
+                 "order":  [
+                               "V",
+                               "B",
+                               "J",
+                               "D/R/C",
+                               "D/R/C",
+                               "D/R/C",
+                               "P/R/C",
+                               "L/R",
+                               "D/R/C"
+                           ],
+                 "acquisition_count":  9,
+                 "distance_valid_for_D":  false,
+                 "weak_impedance_validated":  false
+             },
+    "status":  "incomplete",
+    "evidence_kind":  "operator_declared_live_capture",
+    "operator_port":  "COM7",
+    "captures":  [
+
+                 ],
+    "host_expected_elf_sha256":  "17baab9e4588b95fed7b265d354f0d52905415d2bd85151c27de3165d1136c21",
+    "board_elf_hash_readback_performed":  false,
+    "failure_reason":  "Response ended without its expected header."
+}

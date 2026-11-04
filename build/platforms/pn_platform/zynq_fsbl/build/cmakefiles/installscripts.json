@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_platform/zynq_fsbl/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,399 @@
+{
+  "schema": "PN_POSITIVE_B_VALIDATION_ANALYSIS_1",
+  "status": "PASS",
+  "data_integrity_status": "PASS",
+  "evidence_kind": "operator_declared_live_board_capture",
+  "firmware_stage": 38,
+  "model_sha256": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+  "front_m": 10,
+  "back_m": 3,
+  "baseline_id": 5,
+  "baseline_crc32": "B5B5FD93",
+  "reference_profile_id": 1,
+  "reference_profile_mask": 1,
+  "transcript_TX_records": 38,
+  "transcript_RX_records": 19923,
+  "commands": {
+    "V": 5,
+    "B": 1,
+    "J": 5,
+    "D": 9,
+    "R": 9,
+    "C": 9
+  },
+  "new_acquisitions": 12,
+  "exact_correlation_points": 2304,
+  "exact_display_pixels": 4608,
+  "candidate_C_Python_exact_all_nine": true,
+  "outcome": {
+    "profile1_mask1": true,
+    "all_six_controls_LOW_RETURN": true,
+    "all_three_samples_positive_without_distance": true,
+    "development_expectation_pass": true
+  },
+  "candidate_rows": [
+    {
+      "state": "reference_before",
+      "sequence": 91,
+      "candidate": {
+        "SEQ": "91",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "38",
+        "SIGN": "-1",
+        "PEAK_NUM": "-514916352",
+        "DC_SUM_DELTA": "-15",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "5",
+        "BASE_CRC": "B5B5FD93",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_before",
+      "sequence": 92,
+      "candidate": {
+        "SEQ": "92",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "240",
+        "SIGN": "-1",
+        "PEAK_NUM": "-456589312",
+        "DC_SUM_DELTA": "-41",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "5",
+        "BASE_CRC": "B5B5FD93",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_before",
+      "sequence": 93,
+      "candidate": {
+        "SEQ": "93",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "100",
+        "SIGN": "-1",
+        "PEAK_NUM": "-507641856",
+        "DC_SUM_DELTA": "-62",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "5",
+        "BASE_CRC": "B5B5FD93",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "sample_B47",
+      "sequence": 94,
+      "candidate": {
+        "SEQ": "94",
+        "MODEL": "1",
+        "STATUS": "POSITIVE_UNFITTED",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "163",
+        "SIGN": "1",
+        "PEAK_NUM": "11485904896",
+        "DC_SUM_DELTA": "3203",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "5",
+        "BASE_CRC": "B5B5FD93",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "sample_B47",
+      "sequence": 95,
+      "candidate": {
+        "SEQ": "95",
+        "MODEL": "1",
+        "STATUS": "POSITIVE_UNFITTED",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "163",
+        "SIGN": "1",
+        "PEAK_NUM": "11656626176",
+        "DC_SUM_DELTA": "3190",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "5",
+        "BASE_CRC": "B5B5FD93",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "sample_B47",
+      "sequence": 96,
+      "candidate": {
+        "SEQ": "96",
+        "MODEL": "1",
+        "STATUS": "POSITIVE_UNFITTED",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "163",
+        "SIGN": "1",
+        "PEAK_NUM": "11764367360",
+        "DC_SUM_DELTA": "3178",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "5",
+        "BASE_CRC": "B5B5FD93",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 97,
+      "candidate": {
+        "SEQ": "97",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "89",
+        "SIGN": "-1",
+        "PEAK_NUM": "-511311872",
+        "DC_SUM_DELTA": "-38",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "5",
+        "BASE_CRC": "B5B5FD93",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 98,
+      "candidate": {
+        "SEQ": "98",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "166",
+        "SIGN": "-1",
+        "PEAK_NUM": "-432275456",
+        "DC_SUM_DELTA": "4",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "5",
+        "BASE_CRC": "B5B5FD93",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 99,
+      "candidate": {
+        "SEQ": "99",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "181",
+        "SIGN": "1",
+        "PEAK_NUM": "596967424",
+        "DC_SUM_DELTA": "-53",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "5",
+        "BASE_CRC": "B5B5FD93",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    }
+  ],
+  "screen_observations": {
+    "reference_before": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    },
+    "sample_B47": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    },
+    "reference_after": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    }
+  },
+  "sample_screen_observation": "YES",
+  "screen_observation_is_operator_report": true,
+  "independent_optical_verification": false,
+  "candidate_available_is_optical_proof": false,
+  "live_board_data_checked": true,
+  "distance_valid": false,
+  "formal_accuracy_qualified": false,
+  "calibrated_Gamma": false,
+  "detector_statistics_validated": false,
+  "qualification": "New B4.7 SERIES weak-positive interpolation/transfer10m+3m; no retuning; provisional candidate only. Not blind trials, calibrated Gamma, accuracy or detector rates.",
+  "source_sha256": {
+    "session.json": "09f7b08c060a4fe06823752535cb057836b7afebee61480fef05d829fbe68569",
+    "serial_transcript.txt": "0f904758bd9a2bc1b695080e9fe339f2c8e5f22488589671b33787fb9ad29c77",
+    "hardware_before.txt": "c77c7677eafe8862071b4775a2672de667863518844b38a56f76ad72847c2eb2",
+    "baseline.txt": "ccddacd6c0018d61d7dc3a37a92c3521e88da7615c2ddd8f3fa21b0ce3f77fd4",
+    "reference_before.hardware.txt": "13a58fda8f08c54e1c1d16337aad14acf7ada6729f958cbdd89d89a9e485fe1a",
+    "reference_before.baseline.txt": "a753f55edaa1c954f0f1db8f573c99b99187156790fc432feaab6fc88313180d",
+    "reference_before_r1.txt": "31c73e953b2df24c8d090a0c4bf503b60ee601b810c6f00ce3ba7585daa9752f",
+    "reference_before_r2.txt": "a1018d3600fa1b0ba7bcad58883d3e191eb8e762b969960118d7986d2859ef3c",
+    "reference_before_r3.txt": "bef785b32ab784c0f5d806e98931d02c0e7e49c2ea65cd14270061d7ffc8a1a0",
+    "sample_B47.hardware.txt": "6923349633d0a103046e9dc9bae5bacd83b1d51266b5f795f2379a6af9ed8f5b",
+    "sample_B47.baseline.txt": "a753f55edaa1c954f0f1db8f573c99b99187156790fc432feaab6fc88313180d",
+    "sample_B47_r1.txt": "878c5ef0c4c3640f5ee758f31724427aa1bffe322cf5995a2b4ffb21db1a259f",
+    "sample_B47_r2.txt": "1e1811278961a2f89a738e39f6a91186f0bac35275f8b7c7c934a04363173c6c",
+    "sample_B47_r3.txt": "ceedc6c900fc1f7cc540d57771f3042c79ad88c0bd65fa12996a9efaca94c577",
+    "reference_after.hardware.txt": "5ca2645bd2792043a0f31b3d63b5cf5ff773d4661945e8bf0b25e6d24a7015dc",
+    "reference_after.baseline.txt": "a753f55edaa1c954f0f1db8f573c99b99187156790fc432feaab6fc88313180d",
+    "reference_after_r1.txt": "a89dbf3b0facb818294e1857c06e079384e108486d37f2932b409c1c730de889",
+    "reference_after_r2.txt": "759ccb2d8759859f57d541d06b0dd7cc19ae65ee7bf0f9474605e9361c75c650",
+    "reference_after_r3.txt": "c3c971c69ff15fd896fb21c3fa0f3285e9bb0f35f7e8e76768726932db094a5c",
+    "baseline_after.txt": "a753f55edaa1c954f0f1db8f573c99b99187156790fc432feaab6fc88313180d",
+    "hardware_after.txt": "1677ead7411c30afeba6730384e10b664b82ea7625b44c3aa9712799034a8e0a"
+  },
+  "frozen_positive_model_sha256": "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+  "host_positive_candidates": [
+    {
+      "state": "reference_before",
+      "sequence": 91,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "lag": 38,
+        "sign": -1,
+        "peak_num": -514916352,
+        "abs_peak_num": 514916352,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      }
+    },
+    {
+      "state": "reference_before",
+      "sequence": 92,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "lag": 240,
+        "sign": -1,
+        "peak_num": -456589312,
+        "abs_peak_num": 456589312,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      }
+    },
+    {
+      "state": "reference_before",
+      "sequence": 93,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "lag": 100,
+        "sign": -1,
+        "peak_num": -507641856,
+        "abs_peak_num": 507641856,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      }
+    },
+    {
+      "state": "sample_B47",
+      "sequence": 94,
+      "candidate": {
+        "status": "POSITIVE_DISTANCE_CANDIDATE",
+        "lag": 163,
+        "sign": 1,
+        "peak_num": 11485904896,
+        "abs_peak_num": 11485904896,
+        "L_mm": 10000,
+        "available": true,
+        "distance_valid": false
+      }
+    },
+    {
+      "state": "sample_B47",
+      "sequence": 95,
+      "candidate": {
+        "status": "POSITIVE_DISTANCE_CANDIDATE",
+        "lag": 163,
+        "sign": 1,
+        "peak_num": 11656626176,
+        "abs_peak_num": 11656626176,
+        "L_mm": 10000,
+        "available": true,
+        "distance_valid": false
+      }
+    },
+    {
+      "state": "sample_B47",
+      "sequence": 96,
+      "candidate": {
+        "status": "POSITIVE_DISTANCE_CANDIDATE",
+        "lag": 163,
+        "sign": 1,
+        "peak_num": 11764367360,
+        "abs_peak_num": 11764367360,
+        "L_mm": 10000,
+        "available": true,
+        "distance_valid": false
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 97,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "lag": 89,
+        "sign": -1,
+        "peak_num": -511311872,
+        "abs_peak_num": 511311872,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 98,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "lag": 166,
+        "sign": -1,
+        "peak_num": -432275456,
+        "abs_peak_num": 432275456,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 99,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "lag": 181,
+        "sign": 1,
+        "peak_num": 596967424,
+        "abs_peak_num": 596967424,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      }
+    }
+  ],
+  "positive_model_deployed": false,
+  "model_retuned": false,
+  "prospective_outcome": {
+    "all6_controls_LOW_RETURN": true,
+    "all3_B_positive_nominal10000_plusminus500mm": true,
+    "predeclared_development_check_pass": true
+  }
+}

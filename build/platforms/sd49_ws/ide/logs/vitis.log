@@ -1,0 +1,7 @@
+21:06:11 INFO  : updated workspace path: D:\vivado_project\sd49_ws
+21:06:11 INFO  : Marking the target connection as default Local
+21:06:11 INFO  : Marking the target connection as default Linux Agent
+21:06:11 INFO  : Marking the target connection as default XRTServer
+21:06:11 INFO  : Marking the target connection as default LinuxEmulation
+21:06:11 INFO  : Marking the target connection as default QEMU
+21:06:11 INFO  : created .gitignore file for the project D:\vivado_project\sd49_ws

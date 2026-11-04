@@ -1,0 +1,4 @@
+D:/vivado_project/sd49_ws/tdr_sd49_platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+D:/vivado_project/sd49_ws/tdr_sd49_platform/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+D:/vivado_project/sd49_ws/tdr_sd49_platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+D:/vivado_project/sd49_ws/tdr_sd49_platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

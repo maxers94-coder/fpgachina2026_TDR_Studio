@@ -1,0 +1,38 @@
+{
+  "schema": "UNIFIED_RETURN_HOST_MODEL2_1",
+  "model_id": 5,
+  "date": "2026-11-01",
+  "production_deployed": false,
+  "calibration_data_seen_before_development": true,
+  "distance_valid": false,
+  "weak0_measured": false,
+  "full0_33_qualified": false,
+  "ordinary_positive": {
+    "mm_per_lag": 489.78975938225983,
+    "lag_zero": 142.66753989539802,
+    "mean1m_fractional_lag": 144.70923223551807,
+    "mean33m_fractional_lag": 210.04338711935952
+  },
+  "ordinary_negative": {
+    "mm_per_lag": 489.4564941009835,
+    "lag_zero": 142.43849733323006,
+    "mean1m_fractional_lag": 144.48157983811492,
+    "mean33m_fractional_lag": 209.8602199944305
+  },
+  "source_sha256": {
+    "captures/unified_range/pn_stage60_endpoints0m1m_20261101_100010_818.zip": "d03ae8830e04ca132f0567e82eba54cbe7759ddf8bfb78415dae67423d9c9172",
+    "captures/calibration/pn_unified_return_host_candidate1_20261101.json": "4d7b879f7d04860fb7d3ac48815c35d5934b24c0b61639cf09b44b883ccf58ef"
+  },
+  "strong_positive": {
+    "mm_per_lag": 489.1924759634485,
+    "lag_zero": 142.5769050598448,
+    "mean0m_lag": 142.5769050598448,
+    "mean33m_lag": 210.03501535683492
+  },
+  "strong_negative": {
+    "mm_per_lag": 489.58556211750175,
+    "lag_zero": 142.61167229930865,
+    "mean0m_lag": 142.61167229930865,
+    "mean33m_lag": 210.01562076803395
+  }
+}

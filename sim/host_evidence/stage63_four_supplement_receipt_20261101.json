@@ -1,0 +1,32 @@
+{
+  "schema": "FW63_FOUR_REPLAY_SUPPLEMENT_1",
+  "status": "HOST_REPLAY_PASS_NEW_FW63_BOARD_PENDING",
+  "date": "2026-11-01",
+  "original_FW63_release": "releases/stage63_three_row_candidates_sd_host_checked_20261101.zip",
+  "original_release_sha256": "cf6dee80cd303ebae36cbe1a6dfdd7633ea4ecc70609a351c529dcf67faaed18",
+  "BOOT_BIN_sha256": "1c8f01b0a4fbd2c8f1c90321c280b8243512dc7aea370b8ff105122a03278f6e",
+  "firmware_modified": false,
+  "actual_FW63_four_board_test": false,
+  "source_sha256": {
+    "pn_dev/audit_stage61_actual_four.py": "0c5f933f1b3629c98a1c87ee4325eb275cba0cfcfbabc8a3b83a02df4cfcff17",
+    "pn_dev/prepare_stage63_four_replay.py": "9f5d1aeaed35e89e3c9d6f4f2b28b6cc1ca4eac344b311fe15c4f23d4c1b2211",
+    "pn_dev/check_stage63_four_exports.py": "a1a6acf5bb9328f47cabc4277a8c56985f492f84948e99ea9806688f411d38f7",
+    "pn_dev/test_stage63_four_main.c": "c274d63199205545dca4a71ad7c5443f50ed3c76f0f819f22980996e9c319d8c",
+    "pn_dev/test_stage63_four_extra.h": "08281589a57489e1eddbcd23f19f630de5e6bc19c33dd5837811ddbf24e44b79",
+    "pn_dev/run_stage63_four_host.ps1": "4509bf668608f5ef9a09da269d02423a2603a097d2950b677771c0ad9344d331",
+    "pn_dev/record_stage63_four_check.py": "d99a6eb27ded6a10ea05226704998b6fbc2db3240e70c52a72344c34cb445f22",
+    "pn_dev/work/stage63_actual_four_fixture.txt": "8b714858486910c7ab7587d2998f040243c2204cbdf9577643e3b4371d1f3dc5",
+    "pn_dev/work/stage61_actual_four_audit_20261101.json": "3e495832c4f733074ebd27a9cad9ab48adf7c1364afadcc22c73be70fb18b9c1",
+    "pn_dev/work/stage63_four_replay_check_20261101.json": "cd8e9e332020e624fa2cd1fb1313491526cdcf89134b39ee681d0e453995b0dd",
+    "pn_dev/work/stage63_boot_release_receipt_20261101.json": "e7ea6b6c5990e87aa05aa2dbc25521a97c1a6056fe9121d96931e55353501b90",
+    "PN_四板33m边界修复与操作_20261101.md": "3a5678f5e29b011c68e7d7919f2106f15736985d533340206f178365f1520add",
+    "captures/continuous_distance/serial_text_20261101_121655_924/received.txt": "1893df91b38ec0709b7d4197d92b424be46a4901a9293fb79049a8f1d83bdddf",
+    "captures/continuous_distance/serial_text_20261101_121655_924/sent.tsv": "b6b646a57e0c04ca0d6d28db2db3a3a54c3c605158ec16ebc4578f72d50d1611",
+    "captures/continuous_distance/serial_text_20261101_121655_924/session.json": "a5facd19cf2fd900d2d36d8da1bac7795a4763054ea819a84c3d6e93ed2ac2c7",
+    "pn_dev/work/stage63_four_host/stage63_actual_four_DRCV.txt": "98b7b71056b51feefc5657d01a3e4343de55478dd80524c237267057434a4d57",
+    "pn_dev/work/stage63_four_host/stage63_actual_four_screen_commands.bin": "96ac45b11de5153644bf42692ec49f2e242e4d59411c4388a6372ed9a688c929",
+    "pn_dev/work/stage63_four_host/stage63_multi_main_host.log": "da0411d101c92165685c8b1c892ab7c321cd21bd6594b69716f7101c1fcfa21e"
+  },
+  "archive": "releases/stage63_four_board_replay_supplement_20261101.zip",
+  "archive_sha256": "13e68c9dab7fdc3459e4c3e8273a66df287cba0e98173157cfac424c0d07c0c9"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "FW63_DACB_ACTUAL_METADATA_AND_SCREEN_1",
+  "date": "2026-11-01",
+  "status": "FOUR_ITEMS_REPORTED_AND_OPERATOR_VISIBLE_RAW_CORR_EXPORTS_INCOMPLETE",
+  "firmware_stage": 63,
+  "boards_at_m": {
+    "D": 15,
+    "A": 25,
+    "C": 30,
+    "B": 33
+  },
+  "baseline_source_RAW_integrity_verified": true,
+  "source_average_crc32": "1746CEE1",
+  "active_J_table_export_received": false,
+  "fault_RAW_SEQ5_received": false,
+  "fault_DCORR_SEQ5_received": false,
+  "fault_correlation_independently_recomputed": false,
+  "fault_plot_pixels_independently_verified": false,
+  "baseline_capture_recorded": true,
+  "control_SEQ4_low_return_reported": true,
+  "fault_sequence": 5,
+  "selected_positions": [
+    {
+      "lag": 173,
+      "sign": -1,
+      "nominal_mm": 14909
+    },
+    {
+      "lag": 194,
+      "sign": 1,
+      "nominal_mm": 25019
+    },
+    {
+      "lag": 204,
+      "sign": -1,
+      "nominal_mm": 30145
+    },
+    {
+      "lag": 210,
+      "sign": 1,
+      "nominal_mm": 33140
+    }
+  ],
+  "local_candidates": 8,
+  "overflow": true,
+  "PN_companion_count": 4,
+  "all_candidate_peaks_retained_claim": false,
+  "operator_confirmed_all_four_positions_visible": true,
+  "final_LIST_ACK_query_received": false,
+  "continuous_four_board_stability_verified": false,
+  "source_sha256": {
+    "captures/continuous_distance/serial_text_20261101_122529_319/received.txt": "cbb9cd4690a2b53908ccbe5bc00f55582bd2ae086c5c9049a729d5c7582d08e2",
+    "captures/continuous_distance/serial_text_20261101_122529_319/sent.tsv": "9fd181fa059e24a39730aa16839fe56bb16d7145c2b851d85d3ceeaaa826c1a6",
+    "captures/continuous_distance/serial_text_20261101_122529_319/session.json": "a5facd19cf2fd900d2d36d8da1bac7795a4763054ea819a84c3d6e93ed2ac2c7",
+    "pn_dev/record_stage63_DACB_board.py": "6b5cf289c06d766cdf57b9554a2761845745231ec372c5c54dfb0082fadb55ec"
+  }
+}

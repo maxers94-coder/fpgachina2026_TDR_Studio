@@ -1,0 +1,185 @@
+{
+  "schema": "LONG_ENDPOINT_CANDIDATE1_FROZEN_1",
+  "model_id": 3,
+  "date": "2026-10-31",
+  "deployment": "HOST_ONLY_NOT_IN_FW50",
+  "purpose": "Strong endpoint-return nominal distance candidate only; no long-range weak-impedance claim",
+  "context": {
+    "firmware_data_stage": 50,
+    "FS_HZ": 200000000,
+    "PAIR_HZ": 100000000,
+    "PN_SEED": 127,
+    "PN_AMPLITUDE": 4096,
+    "CHIP_HZ": 50000000,
+    "AVG_FRAMES": 32,
+    "REF_BANK_CRC32": "02FEEBDD",
+    "REF_PROFILE_ID": 1,
+    "REF_PROFILE_MASK": 1
+  },
+  "metric": {
+    "formula": "N[k]=128*corr[k]-dc_sum_first128*65536",
+    "global_lags": [
+      0,
+      255
+    ],
+    "tie": "lowest_lag",
+    "low_gate_num": 2147483648,
+    "strong_gate_min_num": 137438953472,
+    "strong_gate_max_num": 549755813888,
+    "isolation_exclusion_radius": 4,
+    "isolation_ratio_min": 4,
+    "thresholds_inherited_from_frozen_return_candidate1": true
+  },
+  "mapping": {
+    "fit_lag_min": 194,
+    "fit_lag_max": 210,
+    "nominal_fit_mm": [
+      25000,
+      33000
+    ],
+    "mm_per_lag": 500,
+    "lag_zero": 144,
+    "extrapolation": false
+  },
+  "fitting": {
+    "nominal_lengths_m": [
+      25,
+      33
+    ],
+    "open_technical_repeats_per_length": 3,
+    "short_technical_repeats_per_length": 3,
+    "independent_blind_trials": 0,
+    "source_batches": [
+      {
+        "folder": "captures/long_distance/pn_stage52_long25_20261031_234843_326",
+        "zip_sha256": "8c49a1b537a151abb143a796870d6a25adb9d262c67bad166fefefc5bd654a9a",
+        "states": {
+          "matched_before": {
+            "repeats": 1,
+            "global_lags": [
+              150
+            ],
+            "signs": [
+              -1
+            ],
+            "median_global_lag": 150
+          },
+          "far_open": {
+            "repeats": 3,
+            "global_lags": [
+              194,
+              194,
+              194
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "median_global_lag": 194
+          },
+          "far_short": {
+            "repeats": 3,
+            "global_lags": [
+              194,
+              194,
+              194
+            ],
+            "signs": [
+              -1,
+              -1,
+              -1
+            ],
+            "median_global_lag": 194
+          },
+          "matched_restored": {
+            "repeats": 1,
+            "global_lags": [
+              219
+            ],
+            "signs": [
+              1
+            ],
+            "median_global_lag": 219
+          }
+        }
+      },
+      {
+        "folder": "captures/long_distance/pn_stage51_long33_20261031_233005_226",
+        "zip_sha256": "5c79e52e69c9e530d3876270b4e01a647312ecf7b4c3511a56e136c6a3a4873a",
+        "states": {
+          "matched_before": {
+            "repeats": 1,
+            "global_lags": [
+              194
+            ],
+            "signs": [
+              -1
+            ],
+            "median_global_lag": 194
+          },
+          "far_open": {
+            "repeats": 3,
+            "global_lags": [
+              210,
+              210,
+              210
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "median_global_lag": 210
+          },
+          "far_short": {
+            "repeats": 3,
+            "global_lags": [
+              210,
+              210,
+              210
+            ],
+            "signs": [
+              -1,
+              -1,
+              -1
+            ],
+            "median_global_lag": 210
+          },
+          "matched_restored": {
+            "repeats": 1,
+            "global_lags": [
+              8
+            ],
+            "signs": [
+              -1
+            ],
+            "median_global_lag": 8
+          }
+        }
+      }
+    ],
+    "short_extra_adapter_count": 1,
+    "endpoint_reference_planes_not_identical": true
+  },
+  "prospective_validation": {
+    "nominal_length_m": 29,
+    "near_to_far_m": [
+      15,
+      10,
+      3,
+      1
+    ],
+    "intermediate_barrels": 3,
+    "short_extra_adapter_count": 1,
+    "used_in_fit": false,
+    "required_before_live_deployment": true,
+    "global_peak_selection_does_not_accept_expected_lag": true
+  },
+  "qualification": {
+    "distance_valid": false,
+    "fault_type_valid": false,
+    "weak_impedance_validated": false,
+    "calibrated_Gamma": false
+  }
+}

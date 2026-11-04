@@ -1,0 +1,42 @@
+{
+    "schema":  "STAGE36_FW35_POSITION_PAIR_1",
+    "status":  "incomplete",
+    "firmware_stage":  35,
+    "fixture_id":  "D_shunt_1kohm",
+    "plan":  {
+                 "schema":  "PN_WEAK_D_POSITION_PAIR_PLAN_1",
+                 "firmware_stage":  35,
+                 "fixture_id":  "D_shunt_1kohm",
+                 "phases":  [
+                                {
+                                    "label":  "position_5m",
+                                    "front_length_m":  5,
+                                    "back_length_m":  15
+                                },
+                                {
+                                    "label":  "position_15m",
+                                    "front_length_m":  15,
+                                    "back_length_m":  5
+                                }
+                            ],
+                 "same_cables_and_fixture_required":  true,
+                 "far_end":  "same_verified_50ohm",
+                 "new_acquisitions":  24,
+                 "new_D_captures":  18,
+                 "reference_type":  "SMA_BARREL_PROVISIONAL",
+                 "same_structure_normal_pcb":  false,
+                 "classification_performed":  false,
+                 "distance_valid":  false,
+                 "truth_used_for_peak_selection":  false
+             },
+    "operator_port":  "COM7",
+    "phases":  [
+
+               ],
+    "classification_performed":  false,
+    "distance_valid":  false,
+    "operator_declared_same_cables_fixture_and_load":  true,
+    "agent_board_access_performed":  false,
+    "optical_screen_confirmation_requested":  true,
+    "failure_reason":  "D acquisition failed in position_5m"
+}

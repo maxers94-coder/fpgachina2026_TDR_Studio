@@ -1,0 +1,817 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage48_FROZEN_RETURN_CLASS_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage48\\echo_pn_stage48.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage44_WAVEFORM_DIRECTION_FIX_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage44\\echo_pn_stage44.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage43_SCREEN_STATUS_DISTANCE_AXIS_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage43\\echo_pn_stage43.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage41_POSITIVE_NEGATIVE_NOMINAL_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage41\\echo_pn_stage41.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage38_CONTINUOUS_DISTANCE_DISPLAY_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage38\\echo_pn_stage38.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage35_WEAK_NEGATIVE_NOMINAL_DISTANCE_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage35\\echo_pn_stage35.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage26_SCREEN_CONTINUOUS_PN_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage26\\echo_pn_stage26.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage25_SCREEN_HEALTHY_PN_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage25\\echo_pn_stage25.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage24_SCREEN_HEALTHY_PN_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage24\\echo_pn_stage24.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage23_FAST_REFRESH_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage23\\echo_pn_stage23.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage21_HMI_WAVEFORM_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage21\\echo_pn_stage21.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage20_HEALTHY_BASELINE_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage20\\echo_pn_stage20.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage18_PN_DISTANCE_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage18\\echo_pn_stage18.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "Stage17_PN127_UART0_UART1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\bitstream\\echo_pn_stage17.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}\\echo200_hmi_platform\\export\\echo200_hmi_platform\\sw\\boot\\fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": true,
+            "runPs7PostInit": true,
+            "ps7InitTclFile": "${workspaceFolder}\\echo200_hmi_auto_distance_app\\_ide\\psinit\\ps7_init.tcl"
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "ps7_cortexa9_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\echo200_ps_integration\\export_pn_stage17\\echo_pn_stage17.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}

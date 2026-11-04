@@ -1,0 +1,149 @@
+{
+  "schema": "PN_WEAK_DISTANCE_CANDIDATE1_FROZEN_1",
+  "model_id": "WEAK_CANDIDATE1",
+  "frozen_utc": "2026-10-30T12:20:33.260499+00:00",
+  "deployment": "HOST_ONLY_DEVELOPMENT",
+  "production_firmware_stage": 26,
+  "context": {
+    "FS_HZ": 200000000,
+    "PAIR_HZ": 100000000,
+    "CHIP_HZ": 50000000,
+    "PN_SEED": 127,
+    "PN_AMPLITUDE": 4096,
+    "AVG_FRAMES": 32,
+    "REF_BANK_CRC32": "02FEEBDD",
+    "REF_PROFILE_ID": 1,
+    "template_length": 640,
+    "template_sum": 65536,
+    "template_s16le_sha256": "9274a8b23d55d1c418ea14ffd6ff1dccc9d07b8e3d6b8a80807a4cf7cc6871e5",
+    "pretrigger_samples": 128,
+    "lag_count": 256
+  },
+  "metric": {
+    "formula": "N[k]=128*corr[k]-dc_sum_delta_first128*65536",
+    "denominator": 128,
+    "global_lags": [
+      0,
+      255
+    ],
+    "tie": "lowest_lag",
+    "gate_q16": 16777216,
+    "gate_numerator": 2147483648,
+    "comparison": "strict_greater"
+  },
+  "mapping": {
+    "nominal_mm_per_lag": 500,
+    "fitted_lag_zero": 143,
+    "fit_lag_span": [
+      153,
+      173
+    ],
+    "nominal_fit_distance_mm": [
+      5000,
+      15000
+    ],
+    "negative_polarity_only": true,
+    "edge_lags_rejected": [
+      0,
+      255
+    ],
+    "positive_return_distance_supported": false,
+    "extrapolation": false
+  },
+  "training": {
+    "fixture": "same operator-declared D1k shunt PCB",
+    "nominal_total_cable_m": 20,
+    "technical_repeats_at_each_position": 3,
+    "independent_blind_trials": 0,
+    "earlier_barrel_control_technical_frames": 42,
+    "max_observed_control_peak_q16": 5420032.0,
+    "gate_selection": "post-hoc development constant2^24, frozen before prospective data; not a qualified detector",
+    "same_structure_normal_pcb": false
+  },
+  "prospective_plan": {
+    "front_length_m": 10,
+    "back_length_m": 3,
+    "nominal_total_m": 13,
+    "kind": "new-data interpolation/transfer check; total differs from20m fit",
+    "nominal_target_mm": 10000,
+    "individual_nominal_tolerance_mm": 500,
+    "barrel_controls_expected": "all six LOW_RETURN; not a physical health assertion",
+    "sample_expected": "all three NEGATIVE_DISTANCE_CANDIDATE within10000+/-500mm",
+    "same_running_context_required": true,
+    "initial_hardware_snapshot": {
+      "HW_INFO": {
+        "IP_ID": "4543484F",
+        "VERSION": "00030002",
+        "FS_HZ": "200000000",
+        "PAIR_HZ": "100000000",
+        "CAPS": "15"
+      },
+      "HW_STATUS": {
+        "STATUS": "00840047",
+        "ERROR": "00000000",
+        "FRAME": "32",
+        "RESULT": "256",
+        "PULSE_CFG": "00000405",
+        "AVG_VALID": "00000003"
+      },
+      "PN_INFO": {
+        "CONFIG": "0",
+        "INFO": "007F0207",
+        "SEED": "127",
+        "AMPLITUDE": "4096",
+        "CHIP_HZ": "50000000"
+      },
+      "HMI_INFO": {
+        "PAGE": "0",
+        "VALID": "1",
+        "LOCKED": "0",
+        "VIEW": "0",
+        "ZOOM": "0",
+        "WAVE_VERSION": "1"
+      },
+      "REF_GUARD_INFO": {
+        "VERSION": "1",
+        "PROFILES": "2",
+        "BANK_CRC32": "02FEEBDD",
+        "ACTIVE_PROFILE": "1",
+        "ACTIVE_MASK": "1",
+        "GATE_Q16": "208916480",
+        "ADAPTIVE": "0"
+      },
+      "CONT_INFO": {
+        "STATE": "IDLE",
+        "SESSION": "0",
+        "FRAMES": "0",
+        "BASE_ID": "0",
+        "BASE_CRC": "00000000",
+        "LAST_SEQ": "0",
+        "MEAS_SEQ": "72",
+        "IN_FLIGHT": "0"
+      },
+      "HEALTHY_INFO": {
+        "VALID": "1",
+        "BASE_ID": "6",
+        "CRC32": "2A5917D1",
+        "REF_N": "3",
+        "VOLATILE": "1",
+        "DISTANCE_VALID": "0",
+        "FW_STAGE": "26"
+      }
+    },
+    "retune_after_receipt_allowed": false
+  },
+  "formal_distance_validated": false,
+  "weak_impedance_validated": false,
+  "calibrated_Gamma": false,
+  "detector_statistics_validated": false,
+  "qualification": "Nominal operator lengths and a barrel-for-PCB substitution. Output step500mm is not accuracy or resolution; fitted143 is not a measured physical zero. Negative D residual fit only; no resistance-only attribution or fault-type classification.",
+  "source_sha256": {
+    "captures/weak_positions/pn_weak_D_positions_5m_15m_20261030_195927_881.zip": "6a80b6e9427caf67360d803148c553777cb2d425852d2ce17272c80c00f40d20",
+    "captures/weak_positions/pn_weak_D_positions_5m_15m_20261030_195927_881/session.json": "263bf1cfe01aef7512ff63236fa7bdb76002ead41abd80ddac94a8d33330ca34",
+    "captures/weak_positions/pn_weak_D_positions_5m_15m_20261030_195927_881/analysis.json": "a1d2b7b5d44d9f67ad61e18a1c5c7bed6a040b9dc72437b3453d86ad0bd3536d",
+    "pn_dev/work/first_weak_fixture_summary_receipt_20261030.json": "3ccefe7676722f9d9266de1da1ceae9aaa6b3fdd13657044a7c2985a39f66b5c",
+    "pn_dev/work/stage33_position_pair_board_numeric_audit_20261030.json": "194d119c8334aa107cdfaa81125498bc6c231b7aee740a1377ff31e3fb14c1bf",
+    "pn_dev/work/stage33_position_pair_board_protocol_audit_20261030.json": "683006b848393c499053c7620e4956dbfc07cad4377a5b5f0d526bf0c55f5997",
+    "pn_dev/freeze_weak_distance_candidate1.py": "86432816397d6bc7970b064a7a0b203a893b2c4688a61fb73cba9b84ea2ba975"
+  }
+}

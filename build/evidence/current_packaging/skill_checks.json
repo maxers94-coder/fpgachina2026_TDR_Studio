@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "unit_cases": 11,
+  "cli_cases": 3,
+  "results": [
+    {
+      "name": "fixed_point_units",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "name": "display_units",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "name": "fixed_point_example",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "name": "display_reversed_example",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "name": "display_wrong_direction_rejected",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "pass": true
+    }
+  ]
+}

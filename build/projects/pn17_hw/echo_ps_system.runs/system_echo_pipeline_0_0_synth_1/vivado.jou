@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Oct 28 18:53:20 2026
+# Process ID         : 17276
+# Current directory  : D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1
+# Command line       : vivado.exe -log system_echo_pipeline_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_echo_pipeline_0_0.tcl
+# Log file           : D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1/system_echo_pipeline_0_0.vds
+# Journal file       : D:/vivado_project/pn17_hw/echo_ps_system.runs/system_echo_pipeline_0_0_synth_1\vivado.jou
+# Running On         : LAPTOP-MUM2STS9
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i7-14700HX
+# CPU Frequency      : 2304 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 16873 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 34053 MB
+# Available Virtual  : 11730 MB
+#-----------------------------------------------------------
+source system_echo_pipeline_0_0.tcl -notrace

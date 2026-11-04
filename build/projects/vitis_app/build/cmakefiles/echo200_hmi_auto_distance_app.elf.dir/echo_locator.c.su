@@ -1,0 +1,3 @@
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_locator.c:15:14:kernel	32	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_locator.c:27:14:score	40	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_locator.c:44:5:echo_locator_run	464	static

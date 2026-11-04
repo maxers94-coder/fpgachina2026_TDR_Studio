@@ -1,0 +1,39 @@
+/ {
+	amba_pl: amba_pl {
+		ranges;
+		compatible = "simple-bus";
+		#address-cells = <1>;
+		#size-cells = <1>;
+		firmware-name = ".bin";
+		clocking0: clocking0 {
+			compatible = "xlnx,fclk";
+			assigned-clocks = <&clkc 15>;
+			assigned-clock-rates = <100000000>;
+			#clock-cells = <0>;
+			clock-output-names = "fabric_clk";
+			clocks = <&clkc 15>;
+		};
+		echo_pipeline_0: echo_pipeline_axi_control_phase2@43c00000 {
+			interrupts = < 0 29 4 >;
+			xlnx,n-addr-w = <10>;
+			compatible = "xlnx,echo-pipeline-axi-control-phase2-1.0";
+			xlnx,k = <256>;
+			xlnx,l = <640>;
+			xlnx,lag-min = <0>;
+			xlnx,m = <32>;
+			interrupt-parent = <&intc>;
+			xlnx,n = <1024>;
+			xlnx,ip-name = "echo_pipeline_axi_control_phase2";
+			xlnx,k-addr-w = <8>;
+			reg = <0x43c00000 0x10000>;
+			clocks = <&clkc 15>;
+			xlnx,sample-rate-hz = <200000000>;
+			xlnx,edk-iptype = "PERIPHERAL";
+			status = "okay";
+			clock-names = "s_axi_aclk";
+			interrupt-names = "irq_f2p";
+			xlnx,l-addr-w = <10>;
+			xlnx,name = "echo_pipeline_0";
+		};
+	};
+};

@@ -1,0 +1,42 @@
+{
+  "source_session": "captures\\normal_reconnect\\pn_normal_5m_20261029_103203_996\\session.json",
+  "source_session_sha256": "44dcb0414a4a08a08d618ecd24b0147dbc5364bcee0bbcb014b4901915866ef3",
+  "sources": [
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_baseline_0_r1_20261029_103204_161.txt",
+      "group_kind": "baseline",
+      "operation": 0,
+      "repeat": 1,
+      "sequence": 1,
+      "validation": "RAW_CORR_ALL_256_EXACT",
+      "captured_utc": "2026-10-29T02:32:06.2736615Z",
+      "sha256": "ae56046d2a85eed0968023e89e60113e021086c400986d70830d7c7759d49a19"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_baseline_0_r2_20261029_103206_296.txt",
+      "group_kind": "baseline",
+      "operation": 0,
+      "repeat": 2,
+      "sequence": 2,
+      "validation": "RAW_CORR_ALL_256_EXACT",
+      "captured_utc": "2026-10-29T02:32:08.3720731Z",
+      "sha256": "12a48d6c02e4c280a18b01108a36a970b049d716babfa44233f59e265538aae3"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_baseline_0_r3_20261029_103208_402.txt",
+      "group_kind": "baseline",
+      "operation": 0,
+      "repeat": 3,
+      "sequence": 3,
+      "validation": "RAW_CORR_ALL_256_EXACT",
+      "captured_utc": "2026-10-29T02:32:10.4916279Z",
+      "sha256": "9ce99db02b5780abfb75fa27e507dd0312000840e94fefc40c7f6aac33a86b55"
+    }
+  ],
+  "rounding": "nearest integer, symmetric negative; independent divmod reference",
+  "words": 1024,
+  "baseline_crc32": "77009717",
+  "fixture_sha256": "4bd20f0eb4540bdc65be8d119f9528aee84133251aee6256aacef34115f11450",
+  "independent_sv_vector_matches": true,
+  "independent_sv_vector_sha256": "52e1a30da99d12a38a15378c667afa17133c7a2e8fba80de0611b2a92f8d71af"
+}

@@ -1,0 +1,4 @@
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_platform/export/echo200_hmi_platform/sw/standalone_ps7_cortexa9_0/include/xil_io.h:139:19:Xil_In32	16	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_platform/export/echo200_hmi_platform/sw/standalone_ps7_cortexa9_0/include/xil_io.h:213:20:Xil_Out32	24	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_mmio_zynq.c:15:10:mmio_read32	16	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_mmio_zynq.c:20:6:mmio_write32	24	static

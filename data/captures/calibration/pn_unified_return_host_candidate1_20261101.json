@@ -1,0 +1,29 @@
+{
+  "schema": "UNIFIED_RETURN_HOST_TIMING_CANDIDATE1_1",
+  "production_deployed": false,
+  "distance_valid": false,
+  "anchor_positions_m": [
+    1,
+    33
+  ],
+  "all0_33m_qualified": false,
+  "near0_measured": false,
+  "development_data_seen": true,
+  "fit_sources": {
+    "near_zip_sha256": "85386b2d3b92e1c329708e8320407513108587fdad50749cff66dc29af136889",
+    "far_zip_sha256": "c2b80f62ee18e5539ea48e74dc29b3b362360e6e72f73cbf82df575d4963204d"
+  },
+  "note": "A positive/D negative endpoint training; B transfer and D30/pair replay are development checks, not blind validation",
+  "positive": {
+    "mm_per_lag": 489.78975938225983,
+    "lag_zero": 142.66753989539802,
+    "mean1m_fractional_lag": 144.70923223551807,
+    "mean33m_fractional_lag": 210.04338711935952
+  },
+  "negative": {
+    "mm_per_lag": 489.4564941009835,
+    "lag_zero": 142.43849733323006,
+    "mean1m_fractional_lag": 144.48157983811492,
+    "mean33m_fractional_lag": 209.8602199944305
+  }
+}

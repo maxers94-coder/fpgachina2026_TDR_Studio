@@ -1,0 +1,93 @@
+{
+  "condition": "matched_50ohm_fixed_connection_per_operator_workflow",
+  "runs": [
+    {
+      "file": "pn_capture_20261028_222847_474.txt",
+      "sha256": "1a1c9083a31bc7b78fd36f204e290a8ee50c349ddbf6128925a774daab2dc6a4",
+      "sequence": 6,
+      "mode": "PN127",
+      "raw_integrity": "PASS",
+      "correlation_integrity": "PASS",
+      "pc_pl_arithmetic": "PASS_ALL_256_EXACT",
+      "raw_points": 1024,
+      "correlation_points": 256,
+      "raw_fnv1a": "697DF93D",
+      "peak_lag": 143,
+      "peak_q16": 4373430272,
+      "raw_min": -267,
+      "raw_max": 1429
+    },
+    {
+      "file": "pn_capture_20261028_223223_139.txt",
+      "sha256": "fd2957c08ca241cb08b67978f4f3ef80ed4d39fb4ec511c36afc8b9f1052e884",
+      "sequence": 7,
+      "mode": "PN127",
+      "raw_integrity": "PASS",
+      "correlation_integrity": "PASS",
+      "pc_pl_arithmetic": "PASS_ALL_256_EXACT",
+      "raw_points": 1024,
+      "correlation_points": 256,
+      "raw_fnv1a": "60670B20",
+      "peak_lag": 143,
+      "peak_q16": 4375052288,
+      "raw_min": -264,
+      "raw_max": 1427
+    },
+    {
+      "file": "pn_capture_20261028_223255_179.txt",
+      "sha256": "050f018a6c73ba2489d19863f1cf244ab772ae193c614e4d9e17cc843126a7f2",
+      "sequence": 8,
+      "mode": "PN127",
+      "raw_integrity": "PASS",
+      "correlation_integrity": "PASS",
+      "pc_pl_arithmetic": "PASS_ALL_256_EXACT",
+      "raw_points": 1024,
+      "correlation_points": 256,
+      "raw_fnv1a": "DF89CCD4",
+      "peak_lag": 143,
+      "peak_q16": 4373807104,
+      "raw_min": -274,
+      "raw_max": 1432
+    }
+  ],
+  "pairwise": [
+    {
+      "sequences": [
+        6,
+        7
+      ],
+      "raw_difference_rms_q2": 4.392153870824655,
+      "max_raw_absolute_difference_q2": 19,
+      "raw_pearson": 0.99993922491954
+    },
+    {
+      "sequences": [
+        6,
+        8
+      ],
+      "raw_difference_rms_q2": 4.309215234529368,
+      "max_raw_absolute_difference_q2": 15,
+      "raw_pearson": 0.9999414369437392
+    },
+    {
+      "sequences": [
+        7,
+        8
+      ],
+      "raw_difference_rms_q2": 4.332494409979082,
+      "max_raw_absolute_difference_q2": 17,
+      "raw_pearson": 0.9999407797082019
+    }
+  ],
+  "peak_lag_span_samples": 0,
+  "peak_mean_q16": 4374096554.666667,
+  "peak_peak_to_peak_percent_of_mean": 0.03708230899177322,
+  "peak_sample_standard_deviation_percent_of_mean": 0.01940661526008028,
+  "conclusion": "All 3 numeric captures pass; short-term fixed-connection repeatability observed",
+  "limitations": [
+    "Only 3 captures",
+    "No reconnection variability characterized",
+    "No distance calibration",
+    "No weak-impedance sensitivity or false-alarm validation"
+  ]
+}

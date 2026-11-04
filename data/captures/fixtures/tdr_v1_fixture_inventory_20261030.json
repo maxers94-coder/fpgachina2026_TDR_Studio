@@ -1,0 +1,106 @@
+{
+  "schema": "TDR_V1_FIXTURE_HANDOFF_INVENTORY_1",
+  "received_date": "2026-10-30",
+  "reported_test_date": "2026-10-29",
+  "source": "user pasted teammate handoff; not independently measured by agent",
+  "structure": "J1 center -> series R1 -> node -> J2 center; node -> shunt R2 -> GND",
+  "footprint": "0603 pads, some 0805 hand-adapted",
+  "same_structure_Normal_PCB_available": false,
+  "SMA_barrel_reference_available": true,
+  "reported_same_type_cable_lengths_m": [
+    1,
+    3,
+    5,
+    10,
+    15
+  ],
+  "nominal_total_m": 34,
+  "full_34m_connector_count_and_measured_lengths_confirmed": false,
+  "first_development_front_m": 10,
+  "first_development_back_m": 3,
+  "far_end": "previously_verified_50ohm",
+  "fixtures": [
+    {
+      "id": "A",
+      "topology": "series",
+      "nominal_resistance_ohm": 27,
+      "reported_uncorrected_DMM_ohm": 28.8,
+      "reported_apparent_S11_dB_at_255MHz": -17.85,
+      "ideal_matched_50ohm_lumped_model_gamma": 0.2125984251968504,
+      "ideal_S11_dB": -13.44879913593939,
+      "ideal_model_is_not_measured_truth": true,
+      "role": "moderate_reflection_functional_control",
+      "RF_calibration_valid": false
+    },
+    {
+      "id": "B",
+      "topology": "series",
+      "nominal_resistance_ohm": 4.7,
+      "reported_uncorrected_DMM_ohm": 7.2,
+      "reported_apparent_S11_dB_at_255MHz": -26.36,
+      "ideal_matched_50ohm_lumped_model_gamma": 0.044890162368672396,
+      "ideal_S11_dB": -26.9569764748625,
+      "ideal_model_is_not_measured_truth": true,
+      "role": "weaker_positive_development",
+      "RF_calibration_valid": false
+    },
+    {
+      "id": "C",
+      "topology": "shunt",
+      "nominal_resistance_ohm": 470,
+      "reported_uncorrected_DMM_ohm": 540,
+      "reported_apparent_S11_dB_at_255MHz": -27.38,
+      "ideal_matched_50ohm_lumped_model_gamma": -0.050505050505050504,
+      "ideal_S11_dB": -25.933303805230622,
+      "ideal_model_is_not_measured_truth": true,
+      "role": "negative_development",
+      "RF_calibration_valid": false
+    },
+    {
+      "id": "D",
+      "topology": "shunt",
+      "nominal_resistance_ohm": 1000,
+      "reported_uncorrected_DMM_ohm": null,
+      "reported_apparent_S11_dB_at_255MHz": -29.37,
+      "ideal_matched_50ohm_lumped_model_gamma": -0.024390243902439025,
+      "ideal_S11_dB": -32.25567713439471,
+      "ideal_model_is_not_measured_truth": true,
+      "role": "nominal_core_negative_development",
+      "RF_calibration_valid": false
+    },
+    {
+      "id": "E",
+      "topology": "shunt",
+      "nominal_resistance_ohm": 2000,
+      "reported_uncorrected_DMM_ohm": 1990,
+      "reported_apparent_S11_dB_at_255MHz": -27.44,
+      "ideal_matched_50ohm_lumped_model_gamma": -0.012345679012345678,
+      "ideal_S11_dB": -38.169700377572994,
+      "ideal_model_is_not_measured_truth": true,
+      "role": "exploratory_uncalibrated",
+      "RF_calibration_valid": false
+    }
+  ],
+  "reported_VNA": {
+    "instrument": "RIGOL RSA5065N",
+    "span_Hz": [
+      10000000,
+      500000000
+    ],
+    "marker_Hz": 255000000,
+    "TG_dBm": -10,
+    "IF_bandwidth_Hz": 1000,
+    "averages": 100,
+    "full_OSL_calibration": false,
+    "reported_C_warning": true,
+    "values_are_apparent_only": true
+  },
+  "reported_legacy_pipeline": {
+    "ADC_rate_Hz": 100000000,
+    "pair_averaged_effective_rate_Hz": 50000000,
+    "applies_to_current_Stage26": false
+  },
+  "current_Stage26_grid_Hz": 200000000,
+  "fixture_only_causal_attribution_valid": false,
+  "weak_detection_or_distance_validated": false
+}

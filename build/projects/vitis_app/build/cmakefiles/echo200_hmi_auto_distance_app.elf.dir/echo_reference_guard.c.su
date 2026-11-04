@@ -1,0 +1,4 @@
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_reference_guard.c:6:17:crc_byte	24	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_reference_guard.c:14:17:crc_u32_le	24	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_reference_guard.c:21:10:echo_reference_guard_data_crc32	40	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_reference_guard.c:36:5:echo_reference_guard_evaluate	208	static

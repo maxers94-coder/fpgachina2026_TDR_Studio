@@ -1,0 +1,98 @@
+{
+    "schema":  "HEALTHY_PN_BOARD_BATCH_1",
+    "session":  "healthy_pn_5m_20261029_172901_980",
+    "plan":  {
+                 "schema":  "HEALTHY_PN_BOARD_PLAN_1",
+                 "firmware":  "Stage21",
+                 "length_m":  5,
+                 "far_end":  "verified_50ohm",
+                 "baseline_sources":  3,
+                 "initial_diff_repeats":  3,
+                 "order":  [
+                               "V",
+                               "B",
+                               "J",
+                               "D/R/C",
+                               "D/R/C",
+                               "D/R/C",
+                               "P/R/C",
+                               "L/R",
+                               "D/R/C"
+                           ],
+                 "acquisition_count":  9,
+                 "distance_valid_for_D":  false,
+                 "weak_impedance_validated":  false
+             },
+    "status":  "complete",
+    "evidence_kind":  "operator_declared_live_capture",
+    "operator_port":  "COM7",
+    "captures":  [
+                     {
+                         "file":  "baseline.txt",
+                         "kind":  "baseline_sources_and_table",
+                         "sequences":  [
+                                           1,
+                                           2,
+                                           3
+                                       ],
+                         "validation":  "RAW3_QUANTIZED_1024_CRC32",
+                         "sha256":  "c81068ab0945ee7df56b837b98ccb2ba5e726a86f2b088b80564e11aff210b6c"
+                     },
+                     {
+                         "file":  "diff_r1.txt",
+                         "kind":  "diff_r1",
+                         "sequences":  [
+                                           4
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "3d5561eb49bd24b622958f7f612e8d69dee79d2e50d7a29378195c2f4806074e"
+                     },
+                     {
+                         "file":  "diff_r2.txt",
+                         "kind":  "diff_r2",
+                         "sequences":  [
+                                           5
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "b2663e2cdc302559af5b2502159152089b6396d76db3fd9424d22bfc5d0a7902"
+                     },
+                     {
+                         "file":  "diff_r3.txt",
+                         "kind":  "diff_r3",
+                         "sequences":  [
+                                           6
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "cd4109da091bfb1763299c9122233f85429c4a66f6f616c4b5b03a959521384d"
+                     },
+                     {
+                         "file":  "legacy_p.txt",
+                         "kind":  "legacy_p",
+                         "sequences":  [
+                                           7
+                                       ],
+                         "validation":  "RAW_CORR_256_EXACT_AND_LOW_RETURN",
+                         "sha256":  "9e7b0f3c79a2eadb2ea505a1ff97cf54e5e01035eb765f143a6aeeeb3910c777"
+                     },
+                     {
+                         "file":  "legacy_l.txt",
+                         "kind":  "legacy_l",
+                         "sequences":  [
+                                           8
+                                       ],
+                         "validation":  "RAW_INTEGRITY_AND_MODE5_NO_ECHO",
+                         "sha256":  "d581ea5b6a41e2e337a2f9618f7e947b2cbc58b7023975f2290cd65c558906c4"
+                     },
+                     {
+                         "file":  "diff_after_switch.txt",
+                         "kind":  "diff_after_switch",
+                         "sequences":  [
+                                           9
+                                       ],
+                         "validation":  "RAW_DCORR_256_EXACT",
+                         "sha256":  "6db2447523b558b3d71899b0578a9916d0f128ef92e7766787f6a9ed6358cb14"
+                     }
+                 ],
+    "host_expected_elf_sha256":  "17baab9e4588b95fed7b265d354f0d52905415d2bd85151c27de3165d1136c21",
+    "board_elf_hash_readback_performed":  false
+}

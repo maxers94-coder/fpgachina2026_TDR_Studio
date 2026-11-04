@@ -1,0 +1,23 @@
+{
+  "source": "pn_capture_20261028_222847_474.txt",
+  "sha256": "1a1c9083a31bc7b78fd36f204e290a8ee50c349ddbf6128925a774daab2dc6a4",
+  "raw_integrity": "PASS",
+  "correlation_integrity": "PASS",
+  "pc_pl_arithmetic": "PASS_ALL_256_EXACT",
+  "mode": "PN127",
+  "sequence": 6,
+  "raw_points": 1024,
+  "correlation_points": 256,
+  "raw_sum": 586894,
+  "raw_min": -267,
+  "raw_max": 1429,
+  "raw_fnv1a": "697DF93D",
+  "peak_lag": 143,
+  "peak_q16": 4373430272,
+  "peak_hi": "00000001",
+  "peak_lo": "04AD4000",
+  "hmi_errors_in_this_file": 0,
+  "termination_label": "matched_50ohm_per_requested_workflow_not_independently_verified",
+  "distance_calibrated": false,
+  "weak_impedance_validated": false
+}

@@ -1,0 +1,25 @@
+[1/3] ==========Application Build Information ==========
+
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/vivado_proje
+ct/vitis_echo200_hmi_ws/echo200_hmi_platform/export/echo200_hmi_platform/sw/standalone_ps7_cortexa9_
+0/Xilinx.spec -ID:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_platform/export/echo200_hmi_platf
+orm/sw/standalone_ps7_cortexa9_0/include -fstack-usage  
+
+Linker Flags:  -Wl,-T -Wl,"D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/
+
+lscript.ld" -L"D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/" -L"D:/viva
+
+do_project/vitis_echo200_hmi_ws/echo200_hmi_platform/export/echo200_hmi_platform/sw/standalone_ps7_c
+
+ortexa9_0/lib/" -L"/" -Wl,--start-group,-lxilstandalone,-lxiltimer,-lxil,-lgcc,-lc,-lm -Wl,--end-gro
+
+up
+
+
+===========================================
+[2/3] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/main.c.obj
+[3/3] Linking C executable echo200_hmi_auto_distance_app.elf
+   text	   data	    bss	    dec	    hex	filename
+
+ 176207	   1904	  48032	 226143	  3735f	echo200_hmi_auto_distance_app.elf
+

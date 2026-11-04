@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "application_rebuild_matches_supplied_elf": true,
+  "application_sha256": "21cc9ebc4d6bcd2b80799144db2276ea71f32fc83e5380d8bb2b68bda17c4a04",
+  "host_groups": 157,
+  "host_checks": 215476,
+  "actual_raw_replays": 71,
+  "rtl_real_cases": 51,
+  "rtl_synthetic_cases": 2,
+  "rtl_difference_values_checked": 54272,
+  "rtl_correlations_checked": 13568,
+  "rtl_bram_readbacks_checked": 13568,
+  "golden_vectors_regenerated_identically": true,
+  "capture_files_retained": 2000,
+  "measurement_source_code_changed": false,
+  "deployed_boot_image_changed": false,
+  "current_screen_project_changed": false,
+  "word_report_changed": false,
+  "board_or_sd_accessed": false,
+  "new_full_pl_implementation_executed": false
+}

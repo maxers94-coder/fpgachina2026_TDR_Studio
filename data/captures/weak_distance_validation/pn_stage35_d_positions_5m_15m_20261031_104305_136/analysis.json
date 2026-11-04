@@ -1,0 +1,545 @@
+{
+  "schema": "STAGE36_FW35_POSITION_PAIR_ANALYSIS_1",
+  "status": "PASS",
+  "firmware_stage": 35,
+  "model_sha256": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+  "new_acquisitions": 24,
+  "RX_records": 39846,
+  "TX_records": 76,
+  "exact_correlation_points": 4608,
+  "exact_display_pixels": 9216,
+  "runtime_boundary_exact": true,
+  "phases": [
+    {
+      "schema": "STAGE36_POSITION_CHILD_ANALYSIS_1",
+      "status": "PASS",
+      "data_integrity_status": "PASS",
+      "evidence_kind": "operator_declared_live_board_capture",
+      "firmware_stage": 35,
+      "model_sha256": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+      "front_m": 5,
+      "back_m": 15,
+      "baseline_id": 2,
+      "baseline_crc32": "5ED66245",
+      "reference_profile_id": 1,
+      "reference_profile_mask": 1,
+      "transcript_TX_records": 38,
+      "transcript_RX_records": 19923,
+      "commands": {
+        "V": 5,
+        "B": 1,
+        "J": 5,
+        "D": 9,
+        "R": 9,
+        "C": 9
+      },
+      "new_acquisitions": 12,
+      "exact_correlation_points": 2304,
+      "exact_display_pixels": 4608,
+      "candidate_C_Python_exact_all_nine": true,
+      "outcome": {
+        "profile1_mask1": true,
+        "all_six_controls_LOW_RETURN": true,
+        "all_three_samples_negative_candidate_target_plusminus500mm": true,
+        "development_expectation_pass": true
+      },
+      "candidate_rows": [
+        {
+          "state": "reference_before",
+          "sequence": 16,
+          "candidate": {
+            "SEQ": "16",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "17",
+            "SIGN": "-1",
+            "PEAK_NUM": "-595197952",
+            "DC_SUM_DELTA": "-6",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "2",
+            "BASE_CRC": "5ED66245",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "reference_before",
+          "sequence": 17,
+          "candidate": {
+            "SEQ": "17",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "211",
+            "SIGN": "-1",
+            "PEAK_NUM": "-471793664",
+            "DC_SUM_DELTA": "-1",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "2",
+            "BASE_CRC": "5ED66245",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "reference_before",
+          "sequence": 18,
+          "candidate": {
+            "SEQ": "18",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "224",
+            "SIGN": "1",
+            "PEAK_NUM": "515047424",
+            "DC_SUM_DELTA": "-19",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "2",
+            "BASE_CRC": "5ED66245",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "sample_D1K",
+          "sequence": 19,
+          "candidate": {
+            "SEQ": "19",
+            "MODEL": "1",
+            "STATUS": "NEGATIVE_DISTANCE_CANDIDATE",
+            "L_MM": "5000",
+            "AVAILABLE": "1",
+            "PEAK_LAG": "153",
+            "SIGN": "-1",
+            "PEAK_NUM": "-6701645824",
+            "DC_SUM_DELTA": "-1741",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "2",
+            "BASE_CRC": "5ED66245",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "sample_D1K",
+          "sequence": 20,
+          "candidate": {
+            "SEQ": "20",
+            "MODEL": "1",
+            "STATUS": "NEGATIVE_DISTANCE_CANDIDATE",
+            "L_MM": "5000",
+            "AVAILABLE": "1",
+            "PEAK_LAG": "153",
+            "SIGN": "-1",
+            "PEAK_NUM": "-6396444672",
+            "DC_SUM_DELTA": "-1726",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "2",
+            "BASE_CRC": "5ED66245",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "sample_D1K",
+          "sequence": 21,
+          "candidate": {
+            "SEQ": "21",
+            "MODEL": "1",
+            "STATUS": "NEGATIVE_DISTANCE_CANDIDATE",
+            "L_MM": "5000",
+            "AVAILABLE": "1",
+            "PEAK_LAG": "153",
+            "SIGN": "-1",
+            "PEAK_NUM": "-6381174784",
+            "DC_SUM_DELTA": "-1735",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "2",
+            "BASE_CRC": "5ED66245",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "reference_after",
+          "sequence": 22,
+          "candidate": {
+            "SEQ": "22",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "132",
+            "SIGN": "-1",
+            "PEAK_NUM": "-793706496",
+            "DC_SUM_DELTA": "-49",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "2",
+            "BASE_CRC": "5ED66245",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "reference_after",
+          "sequence": 23,
+          "candidate": {
+            "SEQ": "23",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "220",
+            "SIGN": "-1",
+            "PEAK_NUM": "-613220352",
+            "DC_SUM_DELTA": "-19",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "2",
+            "BASE_CRC": "5ED66245",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "reference_after",
+          "sequence": 24,
+          "candidate": {
+            "SEQ": "24",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "234",
+            "SIGN": "1",
+            "PEAK_NUM": "424017920",
+            "DC_SUM_DELTA": "26",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "2",
+            "BASE_CRC": "5ED66245",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        }
+      ],
+      "screen_observations": {
+        "reference_before": {
+          "requested_before_measurements": true,
+          "answer": "YES"
+        },
+        "sample_D1K": {
+          "requested_before_measurements": true,
+          "answer": "YES"
+        },
+        "reference_after": {
+          "requested_before_measurements": true,
+          "answer": "YES"
+        }
+      },
+      "sample_screen_observation": "YES",
+      "screen_observation_is_operator_report": true,
+      "independent_optical_verification": false,
+      "candidate_available_is_optical_proof": false,
+      "live_board_data_checked": true,
+      "distance_valid": false,
+      "formal_accuracy_qualified": false,
+      "calibrated_Gamma": false,
+      "detector_statistics_validated": false,
+      "qualification": "Fresh-barrel/D1k/restored-barrel Stage35 position display loop; three PC_D technical repeats each. A valid dataset may have a false/unsupported development outcome. Candidate availability and plot completion do not establish physical screen appearance. LOW_RETURN is not health proof.",
+      "source_sha256": {
+        "session.json": "21229e567358e32c4a3708cc163f27b8b402fa26199c596e26e272b4c9c9239d",
+        "serial_transcript.txt": "e2673c7b648b323cce08190b5254982e20eaa1bd3d534062e80574da7f14f971",
+        "hardware_before.txt": "cc7dbe0a9f28413cd9c6c2777acf9cbbff7c41f8b84712f4bbe1c01ffd4f195a",
+        "baseline.txt": "300a77731bd7a5365a5149d40ecfa35931e39c2f3a08cfe2b15d94f2a04823ac",
+        "reference_before.hardware.txt": "e7037bd4dde269f0c12e6e8ecd8e469f0018c51763d4cbff8f8a3fa4acdaf071",
+        "reference_before.baseline.txt": "30741999862d9ae753754724b3a529d621b82d66ec14beea1fb02fb9cdeaebe4",
+        "reference_before_r1.txt": "b2b225043580fce5bda5eafbf385e3695a85c0757972657d5866cf78c505a00b",
+        "reference_before_r2.txt": "53185367dc5edc119ae6f5b46c22940a19056134b25acfbca1c6331d924f2c93",
+        "reference_before_r3.txt": "cc6ea45c82f51a5fc1adf0059c3180bcb823db5a0e4f4aa10f5e395e9c6615c9",
+        "sample_D1K.hardware.txt": "0d8c8f140a07a25d9f0497f5629368506cf490dfcb0490bb82bd84e48fdf98a3",
+        "sample_D1K.baseline.txt": "30741999862d9ae753754724b3a529d621b82d66ec14beea1fb02fb9cdeaebe4",
+        "sample_D1K_r1.txt": "db5c60cd47191e9a61136907b586d892efe2fe69af87bd9b976b261488617541",
+        "sample_D1K_r2.txt": "dfe2059d12d1a21be9b6cee5ff6cdc2012ca85bcb87be7fcd4a3b354df53fce1",
+        "sample_D1K_r3.txt": "b5fd945d32a21b8d430f99dcfbe974c4549b3488d9cde9c86c0b48e9badf7c87",
+        "reference_after.hardware.txt": "c7fd22dd4cf34a141469f2bc2e78ce169f78f14ea6b7705a329de15576fbd6d1",
+        "reference_after.baseline.txt": "30741999862d9ae753754724b3a529d621b82d66ec14beea1fb02fb9cdeaebe4",
+        "reference_after_r1.txt": "73ca47195e73b0d87930464db78e8a2c3893aa5bcc0a43f65e9192a06eabee57",
+        "reference_after_r2.txt": "fbd0159c53c56cb5c4c5c90ff89bd4019c64cc08db3d689ef2a1a537ed6d66dc",
+        "reference_after_r3.txt": "2b9aa9e5bd45c3dad2dadd3fc15da0ad15ca69865b21cf08008d82e67ac58594",
+        "baseline_after.txt": "30741999862d9ae753754724b3a529d621b82d66ec14beea1fb02fb9cdeaebe4",
+        "hardware_after.txt": "cdce9867cc48dbb1671678abfb188e4668622db6fa8dda7e7e51dc4b19a63ba7"
+      }
+    },
+    {
+      "schema": "STAGE36_POSITION_CHILD_ANALYSIS_1",
+      "status": "PASS",
+      "data_integrity_status": "PASS",
+      "evidence_kind": "operator_declared_live_board_capture",
+      "firmware_stage": 35,
+      "model_sha256": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+      "front_m": 15,
+      "back_m": 5,
+      "baseline_id": 3,
+      "baseline_crc32": "387905EF",
+      "reference_profile_id": 1,
+      "reference_profile_mask": 1,
+      "transcript_TX_records": 38,
+      "transcript_RX_records": 19923,
+      "commands": {
+        "V": 5,
+        "B": 1,
+        "J": 5,
+        "D": 9,
+        "R": 9,
+        "C": 9
+      },
+      "new_acquisitions": 12,
+      "exact_correlation_points": 2304,
+      "exact_display_pixels": 4608,
+      "candidate_C_Python_exact_all_nine": true,
+      "outcome": {
+        "profile1_mask1": true,
+        "all_six_controls_LOW_RETURN": true,
+        "all_three_samples_negative_candidate_target_plusminus500mm": true,
+        "development_expectation_pass": true
+      },
+      "candidate_rows": [
+        {
+          "state": "reference_before",
+          "sequence": 28,
+          "candidate": {
+            "SEQ": "28",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "187",
+            "SIGN": "1",
+            "PEAK_NUM": "549453824",
+            "DC_SUM_DELTA": "-64",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "3",
+            "BASE_CRC": "387905EF",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "reference_before",
+          "sequence": 29,
+          "candidate": {
+            "SEQ": "29",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "121",
+            "SIGN": "1",
+            "PEAK_NUM": "509476864",
+            "DC_SUM_DELTA": "-30",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "3",
+            "BASE_CRC": "387905EF",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "reference_before",
+          "sequence": 30,
+          "candidate": {
+            "SEQ": "30",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "177",
+            "SIGN": "1",
+            "PEAK_NUM": "563544064",
+            "DC_SUM_DELTA": "-55",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "3",
+            "BASE_CRC": "387905EF",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "sample_D1K",
+          "sequence": 31,
+          "candidate": {
+            "SEQ": "31",
+            "MODEL": "1",
+            "STATUS": "NEGATIVE_DISTANCE_CANDIDATE",
+            "L_MM": "15000",
+            "AVAILABLE": "1",
+            "PEAK_LAG": "173",
+            "SIGN": "-1",
+            "PEAK_NUM": "-5824380928",
+            "DC_SUM_DELTA": "-1751",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "3",
+            "BASE_CRC": "387905EF",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "sample_D1K",
+          "sequence": 32,
+          "candidate": {
+            "SEQ": "32",
+            "MODEL": "1",
+            "STATUS": "NEGATIVE_DISTANCE_CANDIDATE",
+            "L_MM": "15000",
+            "AVAILABLE": "1",
+            "PEAK_LAG": "173",
+            "SIGN": "-1",
+            "PEAK_NUM": "-5674631168",
+            "DC_SUM_DELTA": "-1700",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "3",
+            "BASE_CRC": "387905EF",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "sample_D1K",
+          "sequence": 33,
+          "candidate": {
+            "SEQ": "33",
+            "MODEL": "1",
+            "STATUS": "NEGATIVE_DISTANCE_CANDIDATE",
+            "L_MM": "15000",
+            "AVAILABLE": "1",
+            "PEAK_LAG": "173",
+            "SIGN": "-1",
+            "PEAK_NUM": "-5745213440",
+            "DC_SUM_DELTA": "-1647",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "3",
+            "BASE_CRC": "387905EF",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "reference_after",
+          "sequence": 34,
+          "candidate": {
+            "SEQ": "34",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "159",
+            "SIGN": "-1",
+            "PEAK_NUM": "-618921984",
+            "DC_SUM_DELTA": "36",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "3",
+            "BASE_CRC": "387905EF",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "reference_after",
+          "sequence": 35,
+          "candidate": {
+            "SEQ": "35",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "184",
+            "SIGN": "-1",
+            "PEAK_NUM": "-676134912",
+            "DC_SUM_DELTA": "-19",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "3",
+            "BASE_CRC": "387905EF",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        },
+        {
+          "state": "reference_after",
+          "sequence": 36,
+          "candidate": {
+            "SEQ": "36",
+            "MODEL": "1",
+            "STATUS": "LOW_RETURN",
+            "L_MM": "-1",
+            "AVAILABLE": "0",
+            "PEAK_LAG": "207",
+            "SIGN": "-1",
+            "PEAK_NUM": "-526647296",
+            "DC_SUM_DELTA": "-60",
+            "PROFILE_FITTED": "1",
+            "BASE_ID": "3",
+            "BASE_CRC": "387905EF",
+            "DIAGNOSTIC": "1",
+            "DISTANCE_VALID": "0"
+          }
+        }
+      ],
+      "screen_observations": {
+        "reference_before": {
+          "requested_before_measurements": true,
+          "answer": "YES"
+        },
+        "sample_D1K": {
+          "requested_before_measurements": true,
+          "answer": "YES"
+        },
+        "reference_after": {
+          "requested_before_measurements": true,
+          "answer": "YES"
+        }
+      },
+      "sample_screen_observation": "YES",
+      "screen_observation_is_operator_report": true,
+      "independent_optical_verification": false,
+      "candidate_available_is_optical_proof": false,
+      "live_board_data_checked": true,
+      "distance_valid": false,
+      "formal_accuracy_qualified": false,
+      "calibrated_Gamma": false,
+      "detector_statistics_validated": false,
+      "qualification": "Fresh-barrel/D1k/restored-barrel Stage35 position display loop; three PC_D technical repeats each. A valid dataset may have a false/unsupported development outcome. Candidate availability and plot completion do not establish physical screen appearance. LOW_RETURN is not health proof.",
+      "source_sha256": {
+        "session.json": "d8cf7ddd11835ed1067ceb004577dbaf7ac218ec1d915c4cf56b9c9f26f7eecd",
+        "serial_transcript.txt": "b0eebdcc3886f2e4cfd483ddae9c12bc2b5c2996ebb5103f0836376284849752",
+        "hardware_before.txt": "cdce9867cc48dbb1671678abfb188e4668622db6fa8dda7e7e51dc4b19a63ba7",
+        "baseline.txt": "04bf3db2a2018de16666d0e68ae4d099142311ebdb3f1d1dd8b06d3f6ec1016c",
+        "reference_before.hardware.txt": "b5e43c141a8f5b453aa0526cd2f1af91c5fc7bc5d6870bf1aecd138f7a352664",
+        "reference_before.baseline.txt": "5598978809a5f54f59cf14b71a4a40dd46b6542ade6fd340016b3567be79f44b",
+        "reference_before_r1.txt": "b09abe92f77b3231121714e0b96bf4d78f79f5bbcb179a7d1a80228670701a1f",
+        "reference_before_r2.txt": "8bc7db9821f7a2e4bfb42946000b24db9d395c2749ecd727f5af7d1eeaf4217c",
+        "reference_before_r3.txt": "60e5285e44ea89e2cf365055933defb68ca9a13f12674d206152f8d4a9ba2504",
+        "sample_D1K.hardware.txt": "98cc76aa127f6e7a17b6cf745462a3576778173ec89180f6cdb0f521e2c785a0",
+        "sample_D1K.baseline.txt": "5598978809a5f54f59cf14b71a4a40dd46b6542ade6fd340016b3567be79f44b",
+        "sample_D1K_r1.txt": "db7b29cc4fef0cca1b238cb9686075c89a87179eb762e8654b9f8e822e24e40f",
+        "sample_D1K_r2.txt": "e3d2c259b02dab64c50ac0a49c6214e5a9f0c978d9ce34ca266a8fb0e77c7378",
+        "sample_D1K_r3.txt": "25c6a792de55074e66e22e00a8cdc932d6f7c6dba560c8278e2f422b0df9885c",
+        "reference_after.hardware.txt": "96eb5184dd63e755483c4b297d7d5faa7f564ffe91d908d5d391d53c70b50722",
+        "reference_after.baseline.txt": "5598978809a5f54f59cf14b71a4a40dd46b6542ade6fd340016b3567be79f44b",
+        "reference_after_r1.txt": "ecfe9027353254008fc7bd66610df6619671c01267b6e7b5b195461faebaf309",
+        "reference_after_r2.txt": "1342a5142f3f733b3c189faae0ea5a1eb47b37b257d7444874274417a7decf66",
+        "reference_after_r3.txt": "a27973c61f1c498f22b3590348713826cdc2eaec056c6fc15293bcbb57710f32",
+        "baseline_after.txt": "5598978809a5f54f59cf14b71a4a40dd46b6542ade6fd340016b3567be79f44b",
+        "hardware_after.txt": "904b1af19f545b299323178d04e9020d903d2323e13d2e0eb39816848ae93fd8"
+      }
+    }
+  ],
+  "all_nominal_development_expectations_pass": true,
+  "all_screen_observations_operator_YES": true,
+  "formal_distance_validated": false,
+  "independent_optical_verification": false,
+  "qualification": "5m/15m fitted endpoints; deployment check, not independent accuracy validation or detector rates."
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "VISIBLE_USER_REQUEST_EXCERPT_1",
+  "record_kind": "selected_verbatim_user_messages",
+  "complete_conversation": false,
+  "source": "Visible user messages in the current Codex conversation; original message timestamps unavailable",
+  "messages": [
+    {"role": "user", "text": "刚才那个确实是短路帽，[HMI] SINGLE -> live Mode5 locator", "excerpt_only": true},
+    {"role": "user", "text": "我们做的东西应该在0-33m范围内都可以检测检测开路、短路和弱阻抗", "excerpt_only": false},
+    {"role": "user", "text": "0m处的弱阻抗不做了，我想问一下，现在的多板测试是不是有多少故障都可以检测出来", "excerpt_only": false},
+    {"role": "user", "text": "屏幕显示正确，但是我想对啊一个功能：在末端开路或者短路的时候也能测出弱阻抗：先不着急改，评判一下可不可行", "excerpt_only": false},
+    {"role": "user", "text": "算了不做这个了，请生成交付包（要求有工程需要的所有东西，包括数据）和使用说明", "excerpt_only": false},
+    {"role": "user", "text": "原始数据、参考编号、CRC与测量序号可导出，支持结果追溯。这句话的依据是什么", "excerpt_only": false},
+    {"role": "user", "text": "同时保留我对报告的修改", "excerpt_only": false},
+    {"role": "user", "text": "\"D:\\vivado_project\\TDR\"请在这里按照图片格式把完整工程整合成这样：你应该知道是哪个完整工程", "excerpt_only": false, "attachment_note": "User supplied competition directory layout image; image is not embedded in this JSON"}
+  ]
+}

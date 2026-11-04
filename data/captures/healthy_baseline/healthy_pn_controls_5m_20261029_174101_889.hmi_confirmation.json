@@ -1,0 +1,15 @@
+{
+  "schema": "STAGE21_SIGNED_PEAK_OPERATOR_CONFIRMATION_1",
+  "date": "2026-10-29",
+  "session": "healthy_pn_controls_5m_20261029_174101_889",
+  "source": "direct_user_messages_in_current_chat",
+  "initial_statement": "没来得及观察屏幕",
+  "followup_statement": "我又测试了一下，确实有向上向下的峰",
+  "observation_timing": "additional manual observation after the submitted batch",
+  "operator_up_down_peaks_confirmed": true,
+  "manual_observation_sequence_ids_recorded": false,
+  "manual_retests_included_in_batch_acquisition_count": false,
+  "waveform_page_buttons_verified": false,
+  "lcd_visual_test_complete": false,
+  "agent_board_access_performed": false
+}

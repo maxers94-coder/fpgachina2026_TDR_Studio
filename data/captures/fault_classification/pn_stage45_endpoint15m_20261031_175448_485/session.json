@@ -1,0 +1,193 @@
+{
+    "schema":  "PN_STAGE45_ENDPOINT_INPUT_SESSION_1",
+    "status":  "complete",
+    "firmware_stage":  44,
+    "evidence_kind":  "operator_declared_live_board_capture",
+    "plan":  {
+                 "schema":  "PN_STAGE45_ENDPOINT_INPUT_PLAN_1",
+                 "firmware_stage":  44,
+                 "tools_stage":  45,
+                 "cable_length_m":  15,
+                 "cable_count":  1,
+                 "intermediate_fixture":  "NONE",
+                 "baseline_end":  "same_verified_50ohm",
+                 "waveform":  "PN127",
+                 "sample_rate_hz":  200000000,
+                 "pair_hz":  100000000,
+                 "chip_hz":  50000000,
+                 "average_frames":  32,
+                 "states":  [
+                                "reference_before",
+                                "endpoint_open",
+                                "endpoint_short",
+                                "reference_after"
+                            ],
+                 "technical_repeats_per_state":  3,
+                 "baseline_sources":  3,
+                 "new_acquisitions":  15,
+                 "new_D_captures":  12,
+                 "model_sha256":  "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+                 "positive_model_sha256":  "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+                 "pc_command_allowlist":  [
+                                              "V",
+                                              "B",
+                                              "J",
+                                              "D",
+                                              "R",
+                                              "C"
+                                          ],
+                 "fresh_reference_required":  true,
+                 "reference_replacement_during_loop_allowed":  false,
+                 "previous_boot_reference_required":  false,
+                 "classification_performed":  false,
+                 "classifier_fitted":  false,
+                 "truth_sent_to_firmware":  false,
+                 "distance_valid":  false,
+                 "formal_accuracy_qualified":  false,
+                 "firmware_changed":  false,
+                 "screen_project_changed":  false,
+                 "model_retuned":  false
+             },
+    "operator_port":  "COM7",
+    "captures":  [
+                     {
+                         "state":  "reference_before",
+                         "repeat":  1,
+                         "file":  "reference_before_r1.txt",
+                         "sequence":  36,
+                         "trigger":  "PC_D",
+                         "sha256":  "7047c15ac6855ddbbdcea4caa4b2600ed1dbdb95b571c7fce52ced6d28c8920f",
+                         "checked_file":  "reference_before_r1.checked.json"
+                     },
+                     {
+                         "state":  "reference_before",
+                         "repeat":  2,
+                         "file":  "reference_before_r2.txt",
+                         "sequence":  37,
+                         "trigger":  "PC_D",
+                         "sha256":  "afffa7e5236df739534fcd1b5128199488b1e810df8e101ac66650b859394632",
+                         "checked_file":  "reference_before_r2.checked.json"
+                     },
+                     {
+                         "state":  "reference_before",
+                         "repeat":  3,
+                         "file":  "reference_before_r3.txt",
+                         "sequence":  38,
+                         "trigger":  "PC_D",
+                         "sha256":  "a892ec8f3a2c87acc7b6b2a967d1d4141b51bdeab6ad4ebf83c84a68fa9f40fe",
+                         "checked_file":  "reference_before_r3.checked.json"
+                     },
+                     {
+                         "state":  "endpoint_open",
+                         "repeat":  1,
+                         "file":  "endpoint_open_r1.txt",
+                         "sequence":  39,
+                         "trigger":  "PC_D",
+                         "sha256":  "a261061a3b06a71cb2e1cb0a7236d36c683267963e11bf5349795f893509a62a",
+                         "checked_file":  "endpoint_open_r1.checked.json"
+                     },
+                     {
+                         "state":  "endpoint_open",
+                         "repeat":  2,
+                         "file":  "endpoint_open_r2.txt",
+                         "sequence":  40,
+                         "trigger":  "PC_D",
+                         "sha256":  "754e1d276e9286d5300f3bd9af5f3d839b9edec7b6ab12dab2d515b53f87e25e",
+                         "checked_file":  "endpoint_open_r2.checked.json"
+                     },
+                     {
+                         "state":  "endpoint_open",
+                         "repeat":  3,
+                         "file":  "endpoint_open_r3.txt",
+                         "sequence":  41,
+                         "trigger":  "PC_D",
+                         "sha256":  "e71c085172eb8cfc74ef46c4a94429d05e5bfc105b4db5812fe3eafcf9dcb2a9",
+                         "checked_file":  "endpoint_open_r3.checked.json"
+                     },
+                     {
+                         "state":  "endpoint_short",
+                         "repeat":  1,
+                         "file":  "endpoint_short_r1.txt",
+                         "sequence":  42,
+                         "trigger":  "PC_D",
+                         "sha256":  "cd6f936e46fe5d523abac118568b469b0c0dfabc0950f2ff9ca9609d9c0df64d",
+                         "checked_file":  "endpoint_short_r1.checked.json"
+                     },
+                     {
+                         "state":  "endpoint_short",
+                         "repeat":  2,
+                         "file":  "endpoint_short_r2.txt",
+                         "sequence":  43,
+                         "trigger":  "PC_D",
+                         "sha256":  "5f3893c2fe73e92c9112a658ecb2c2a2cf7ace72f2e6255b79cea6f11b60445c",
+                         "checked_file":  "endpoint_short_r2.checked.json"
+                     },
+                     {
+                         "state":  "endpoint_short",
+                         "repeat":  3,
+                         "file":  "endpoint_short_r3.txt",
+                         "sequence":  44,
+                         "trigger":  "PC_D",
+                         "sha256":  "828fd96d5283bae6d99d4947038b0dd98d3c2e1c3a03fd3232fb93a90c01d948",
+                         "checked_file":  "endpoint_short_r3.checked.json"
+                     },
+                     {
+                         "state":  "reference_after",
+                         "repeat":  1,
+                         "file":  "reference_after_r1.txt",
+                         "sequence":  45,
+                         "trigger":  "PC_D",
+                         "sha256":  "985aae9e90b5b0b6d4b06f34a7ea10c33bed99c0e8e3c41db155c9033551d45c",
+                         "checked_file":  "reference_after_r1.checked.json"
+                     },
+                     {
+                         "state":  "reference_after",
+                         "repeat":  2,
+                         "file":  "reference_after_r2.txt",
+                         "sequence":  46,
+                         "trigger":  "PC_D",
+                         "sha256":  "5e3c82deb5c84fa4e30c0bc1c571168c650373ece176f1e2acac27fce5cf229f",
+                         "checked_file":  "reference_after_r2.checked.json"
+                     },
+                     {
+                         "state":  "reference_after",
+                         "repeat":  3,
+                         "file":  "reference_after_r3.txt",
+                         "sequence":  47,
+                         "trigger":  "PC_D",
+                         "sha256":  "a206e8b02cb34a0abd5ef359b105f83e514a4c5541d7ad8a858ff97e8c3ed211",
+                         "checked_file":  "reference_after_r3.checked.json"
+                     }
+                 ],
+    "model_sha256":  "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+    "positive_model_sha256":  "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+    "host_expected_elf_sha256":  "bcf8aa035f427b6b7aaa4a2bbe74140e6f8eb83ee3e6b07e0b571a61106ddc60",
+    "board_elf_hash_readback_performed":  false,
+    "agent_board_access_performed":  false,
+    "distance_valid":  false,
+    "model_retuned":  false,
+    "classification_performed":  false,
+    "screen_observations":  {
+                                "reference_before":  {
+                                                         "requested_before_measurements":  true,
+                                                         "answer":  "YES"
+                                                     },
+                                "endpoint_open":  {
+                                                      "requested_before_measurements":  true,
+                                                      "answer":  "YES"
+                                                  },
+                                "endpoint_short":  {
+                                                       "requested_before_measurements":  true,
+                                                       "answer":  "YES"
+                                                   },
+                                "reference_after":  {
+                                                        "requested_before_measurements":  true,
+                                                        "answer":  "YES"
+                                                    }
+                            },
+    "baseline_id":  3,
+    "baseline_crc32":  "99EDE246",
+    "reference_profile_id":  1,
+    "reference_profile_mask":  1,
+    "new_acquisitions":  15
+}

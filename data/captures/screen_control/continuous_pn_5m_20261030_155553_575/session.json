@@ -1,0 +1,105 @@
+{
+    "schema":  "STAGE26_CONTINUOUS_BOARD_SESSION_1",
+    "firmware_stage":  26,
+    "status":  "complete",
+    "session":  "continuous_pn_5m_20261030_155553_575",
+    "plan":  {
+                 "schema":  "STAGE26_CONTINUOUS_BOARD_PLAN_1",
+                 "firmware_stage":  26,
+                 "length_m":  5,
+                 "baseline_trigger":  "SCREEN REFERENCE/CAL arm then confirm within 15 seconds",
+                 "run_trigger":  "SCREEN MEASURE CONTINUOUS",
+                 "stop_triggers":  [
+                                       "SCREEN STOP",
+                                       "SCREEN change page"
+                                   ],
+                 "pc_command_allowlist":  [
+                                              "V",
+                                              "J",
+                                              "I",
+                                              "R",
+                                              "C"
+                                          ],
+                 "pc_acquisition_commands":  [
+
+                                             ],
+                 "baseline_sources":  3,
+                 "rounds":  [
+                                "USER",
+                                "PAGE"
+                            ],
+                 "minimum_completed_frames_per_round":  2,
+                 "suggested_seconds_per_round":  10,
+                 "screen_distance":  "-- m",
+                 "baseline_storage":  "volatile_RAM",
+                 "distance_valid":  false,
+                 "weak_impedance_validated":  false,
+                 "timed_refresh_acceptance":  false,
+                 "stop_latency_scope":  "firmware parsed request to safe stop; not finger-to-display latency",
+                 "reference_guard_version":  1,
+                 "reference_profile_count":  2,
+                 "reference_bank_crc32":  "02FEEBDD",
+                 "reference_gate_q16":  208916480,
+                 "adaptive_profile_alignment":  false
+             },
+    "evidence_kind":  "operator_declared_live_screen_capture",
+    "operator_port":  "COM7",
+    "rounds":  [
+                   {
+                       "name":  "user",
+                       "reason":  "USER",
+                       "session":  1,
+                       "completed_frames":  482,
+                       "first_sequence":  10,
+                       "last_sequence":  491,
+                       "measurement_watermark":  491,
+                       "stop_latency_ms":  26,
+                       "stop_latency_scope":  "firmware parsed request to safe stop",
+                       "quiet_intervals_ms":  [
+                                                  1000,
+                                                  1000
+                                              ],
+                       "baseline_unchanged":  true,
+                       "full_last_snapshot_checked":  true,
+                       "frame_summaries_checked":  true,
+                       "all_frame_full_arrays_checked":  false
+                   },
+                   {
+                       "name":  "page",
+                       "reason":  "PAGE",
+                       "session":  2,
+                       "completed_frames":  260,
+                       "first_sequence":  492,
+                       "last_sequence":  751,
+                       "measurement_watermark":  752,
+                       "stop_latency_ms":  0,
+                       "stop_latency_scope":  "firmware parsed request to safe stop",
+                       "quiet_intervals_ms":  [
+                                                  1000,
+                                                  1000
+                                              ],
+                       "baseline_unchanged":  true,
+                       "full_last_snapshot_checked":  false,
+                       "frame_summaries_checked":  true,
+                       "all_frame_full_arrays_checked":  false
+                   }
+               ],
+    "host_expected_elf_sha256":  "3ecc48760b6dfd883cd47de4f2a2ed29a71b9e45971885e76f1dde4b10040382",
+    "board_elf_hash_readback_performed":  false,
+    "agent_board_access_performed":  false,
+    "pc_acquisition_commands_sent":  0,
+    "weak_impedance_validated":  false,
+    "distance_valid":  false,
+    "baseline_id":  3,
+    "baseline_crc32":  "45004C4D",
+    "reference_profile_id":  1,
+    "reference_profile_mask":  1,
+    "reference_bank_crc32":  "02FEEBDD",
+    "source_raw_sequences":  [
+                                 7,
+                                 8,
+                                 9
+                             ],
+    "operator_visual_confirmation":  "pending; confirm refreshing, STOP, page stop and -- m separately",
+    "performance_or_two_hour_acceptance":  false
+}

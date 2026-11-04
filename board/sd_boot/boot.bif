@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+ [bootloader] fsbl_sd_uart1.elf
+ echo_pn_stage17.bit
+ echo_pn_stage63.elf
+}

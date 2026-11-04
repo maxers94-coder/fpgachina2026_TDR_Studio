@@ -1,0 +1,4 @@
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/weak_candidate1.c:3:17:magnitude	16	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/weak_candidate1.c:10:13:reset_result	16	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/weak_candidate1.c:21:24:weak_candidate1_evaluate	64	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/weak_candidate1.c:81:13:weak_candidate1_status_name	16	static

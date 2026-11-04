@@ -1,0 +1,597 @@
+{
+  "schema": "STAGE53_LONG29_BATCH_CHECK_1",
+  "status": "ALL_DATA_INTEGRITY_PASS_LONG_DISTANCE_ANALYSIS_PENDING",
+  "actual_board_acquisitions_operator_driven": true,
+  "nominal_total_length_m": 29,
+  "intermediate_nominal_positions_m": [
+    15,
+    25,
+    28
+  ],
+  "short_cap_extra_adapter_count": 1,
+  "short_only_adapter_changes_endpoint_reference_plane": true,
+  "prospective_nominal_29m_within_500mm_and_sign_controls": true,
+  "tolerance_is_development_rule_not_certified_accuracy": true,
+  "prospective_model_sha256": "f26ce906932e54856f91e1379fd39ab3de9e147e07936ac4510b389f4d40413c",
+  "new_reference_sources": 3,
+  "checked_D_captures": 8,
+  "checked_raw_words": 11264,
+  "checked_correlations": 2048,
+  "checked_logical_pixels": 4096,
+  "FW50_distance_span_unchanged": true,
+  "long_distance_model_fitted": false,
+  "no_expected_length_or_polarity_used_to_select_peak": true,
+  "states": {
+    "matched_before": {
+      "repeats": 1,
+      "global_lags": [
+        87
+      ],
+      "signs": [
+        -1
+      ],
+      "median_global_lag": 87
+    },
+    "far_open": {
+      "repeats": 3,
+      "global_lags": [
+        202,
+        202,
+        202
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "median_global_lag": 202
+    },
+    "far_short": {
+      "repeats": 3,
+      "global_lags": [
+        202,
+        202,
+        202
+      ],
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "median_global_lag": 202
+    },
+    "matched_restored": {
+      "repeats": 1,
+      "global_lags": [
+        20
+      ],
+      "signs": [
+        -1
+      ],
+      "median_global_lag": 20
+    }
+  },
+  "captures": [
+    {
+      "schema": "STAGE53_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "matched_before",
+      "sequence": 110,
+      "capture_sha256": "b1d4d44dc078509f18057fe02dbcfdc53e9597f949dfecb794f791c3e709481f",
+      "baseline_sha256": "55c49ea963ac363abcb4dae40e55ecc02b3e29d3e728767c7b14c56c557c18ca",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 87,
+      "global_peak_sign": -1,
+      "global_peak_numerator": -547618816,
+      "separated_peaks": [
+        {
+          "lag": 87,
+          "sign": -1,
+          "numerator": -547618816
+        },
+        {
+          "lag": 226,
+          "sign": -1,
+          "numerator": -526647296
+        },
+        {
+          "lag": 142,
+          "sign": 1,
+          "numerator": 444334080
+        },
+        {
+          "lag": 53,
+          "sign": 1,
+          "numerator": 427556864
+        },
+        {
+          "lag": 112,
+          "sign": -1,
+          "numerator": -419692544
+        },
+        {
+          "lag": 33,
+          "sign": 1,
+          "numerator": 408682496
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": -28000,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true,
+      "frozen_long_endpoint_candidate": {
+        "status": "LOW_RETURN",
+        "status_code": 2,
+        "lag": 87,
+        "sign": -1,
+        "peak_num": -547618816,
+        "abs_peak_num": 547618816,
+        "other_abs_num": 526647296,
+        "label_available": false,
+        "fault_type_valid": false,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false,
+        "model_id": 3
+      },
+      "frozen_long_model_sha256": "f26ce906932e54856f91e1379fd39ab3de9e147e07936ac4510b389f4d40413c"
+    },
+    {
+      "schema": "STAGE53_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_open",
+      "sequence": 111,
+      "capture_sha256": "6384298e4416ec79833a9042139e3e7c86d876e7db478c60621cff33f6123592",
+      "baseline_sha256": "55c49ea963ac363abcb4dae40e55ecc02b3e29d3e728767c7b14c56c557c18ca",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 202,
+      "global_peak_sign": 1,
+      "global_peak_numerator": 202738040832,
+      "separated_peaks": [
+        {
+          "lag": 202,
+          "sign": 1,
+          "numerator": 202738040832
+        },
+        {
+          "lag": 207,
+          "sign": 1,
+          "numerator": 24264114176
+        },
+        {
+          "lag": 54,
+          "sign": -1,
+          "numerator": -22066167808
+        },
+        {
+          "lag": 126,
+          "sign": -1,
+          "numerator": -16869425152
+        },
+        {
+          "lag": 42,
+          "sign": -1,
+          "numerator": -16124936192
+        },
+        {
+          "lag": 142,
+          "sign": -1,
+          "numerator": -14587723776
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 29500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true,
+      "frozen_long_endpoint_candidate": {
+        "status": "LONG_OPEN_LIKE",
+        "status_code": 6,
+        "lag": 202,
+        "sign": 1,
+        "peak_num": 202738040832,
+        "abs_peak_num": 202738040832,
+        "other_abs_num": 24264114176,
+        "label_available": true,
+        "fault_type_valid": false,
+        "L_mm": 29000,
+        "available": true,
+        "distance_valid": false,
+        "model_id": 3
+      },
+      "frozen_long_model_sha256": "f26ce906932e54856f91e1379fd39ab3de9e147e07936ac4510b389f4d40413c"
+    },
+    {
+      "schema": "STAGE53_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_open",
+      "sequence": 112,
+      "capture_sha256": "aa1ee2f98c4feb259d1db6efd57304389e46d5cf0ddd6940aa08105a25b160a5",
+      "baseline_sha256": "55c49ea963ac363abcb4dae40e55ecc02b3e29d3e728767c7b14c56c557c18ca",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 202,
+      "global_peak_sign": 1,
+      "global_peak_numerator": 203160748032,
+      "separated_peaks": [
+        {
+          "lag": 202,
+          "sign": 1,
+          "numerator": 203160748032
+        },
+        {
+          "lag": 207,
+          "sign": 1,
+          "numerator": 24233836544
+        },
+        {
+          "lag": 54,
+          "sign": -1,
+          "numerator": -22167748608
+        },
+        {
+          "lag": 126,
+          "sign": -1,
+          "numerator": -16807428096
+        },
+        {
+          "lag": 42,
+          "sign": -1,
+          "numerator": -15846932480
+        },
+        {
+          "lag": 142,
+          "sign": -1,
+          "numerator": -14139850752
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 29500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true,
+      "frozen_long_endpoint_candidate": {
+        "status": "LONG_OPEN_LIKE",
+        "status_code": 6,
+        "lag": 202,
+        "sign": 1,
+        "peak_num": 203160748032,
+        "abs_peak_num": 203160748032,
+        "other_abs_num": 24233836544,
+        "label_available": true,
+        "fault_type_valid": false,
+        "L_mm": 29000,
+        "available": true,
+        "distance_valid": false,
+        "model_id": 3
+      },
+      "frozen_long_model_sha256": "f26ce906932e54856f91e1379fd39ab3de9e147e07936ac4510b389f4d40413c"
+    },
+    {
+      "schema": "STAGE53_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_open",
+      "sequence": 113,
+      "capture_sha256": "f6839ea7ec4a5adf4eb65676a00d4128f2e56f2ce84aead1d720852d59941c27",
+      "baseline_sha256": "55c49ea963ac363abcb4dae40e55ecc02b3e29d3e728767c7b14c56c557c18ca",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 202,
+      "global_peak_sign": 1,
+      "global_peak_numerator": 203084070912,
+      "separated_peaks": [
+        {
+          "lag": 202,
+          "sign": 1,
+          "numerator": 203084070912
+        },
+        {
+          "lag": 207,
+          "sign": 1,
+          "numerator": 24253628416
+        },
+        {
+          "lag": 54,
+          "sign": -1,
+          "numerator": -22099722240
+        },
+        {
+          "lag": 126,
+          "sign": -1,
+          "numerator": -16668098560
+        },
+        {
+          "lag": 42,
+          "sign": -1,
+          "numerator": -16049438720
+        },
+        {
+          "lag": 142,
+          "sign": -1,
+          "numerator": -14440923136
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 29500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true,
+      "frozen_long_endpoint_candidate": {
+        "status": "LONG_OPEN_LIKE",
+        "status_code": 6,
+        "lag": 202,
+        "sign": 1,
+        "peak_num": 203084070912,
+        "abs_peak_num": 203084070912,
+        "other_abs_num": 24253628416,
+        "label_available": true,
+        "fault_type_valid": false,
+        "L_mm": 29000,
+        "available": true,
+        "distance_valid": false,
+        "model_id": 3
+      },
+      "frozen_long_model_sha256": "f26ce906932e54856f91e1379fd39ab3de9e147e07936ac4510b389f4d40413c"
+    },
+    {
+      "schema": "STAGE53_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_short",
+      "sequence": 114,
+      "capture_sha256": "756bac59dc568a49f121372a54b9007cf2a34a7418de3a5f13f2e02b3e56d1fa",
+      "baseline_sha256": "55c49ea963ac363abcb4dae40e55ecc02b3e29d3e728767c7b14c56c557c18ca",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 202,
+      "global_peak_sign": -1,
+      "global_peak_numerator": -202113548288,
+      "separated_peaks": [
+        {
+          "lag": 202,
+          "sign": -1,
+          "numerator": -202113548288
+        },
+        {
+          "lag": 207,
+          "sign": -1,
+          "numerator": -21446000640
+        },
+        {
+          "lag": 54,
+          "sign": 1,
+          "numerator": 19718995968
+        },
+        {
+          "lag": 126,
+          "sign": 1,
+          "numerator": 17569415168
+        },
+        {
+          "lag": 42,
+          "sign": 1,
+          "numerator": 14010548224
+        },
+        {
+          "lag": 142,
+          "sign": 1,
+          "numerator": 13444317184
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 29500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true,
+      "frozen_long_endpoint_candidate": {
+        "status": "LONG_SHORT_LIKE",
+        "status_code": 7,
+        "lag": 202,
+        "sign": -1,
+        "peak_num": -202113548288,
+        "abs_peak_num": 202113548288,
+        "other_abs_num": 21446000640,
+        "label_available": true,
+        "fault_type_valid": false,
+        "L_mm": 29000,
+        "available": true,
+        "distance_valid": false,
+        "model_id": 3
+      },
+      "frozen_long_model_sha256": "f26ce906932e54856f91e1379fd39ab3de9e147e07936ac4510b389f4d40413c"
+    },
+    {
+      "schema": "STAGE53_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_short",
+      "sequence": 115,
+      "capture_sha256": "1cf44323932a5afe0250abeec1bc76ad96404d82273e641053f22d387d692f64",
+      "baseline_sha256": "55c49ea963ac363abcb4dae40e55ecc02b3e29d3e728767c7b14c56c557c18ca",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 202,
+      "global_peak_sign": -1,
+      "global_peak_numerator": -202129473536,
+      "separated_peaks": [
+        {
+          "lag": 202,
+          "sign": -1,
+          "numerator": -202129473536
+        },
+        {
+          "lag": 207,
+          "sign": -1,
+          "numerator": -21386428416
+        },
+        {
+          "lag": 54,
+          "sign": 1,
+          "numerator": 19975700480
+        },
+        {
+          "lag": 126,
+          "sign": 1,
+          "numerator": 17746427904
+        },
+        {
+          "lag": 42,
+          "sign": 1,
+          "numerator": 14191755264
+        },
+        {
+          "lag": 142,
+          "sign": 1,
+          "numerator": 13512278016
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 29500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true,
+      "frozen_long_endpoint_candidate": {
+        "status": "LONG_SHORT_LIKE",
+        "status_code": 7,
+        "lag": 202,
+        "sign": -1,
+        "peak_num": -202129473536,
+        "abs_peak_num": 202129473536,
+        "other_abs_num": 21386428416,
+        "label_available": true,
+        "fault_type_valid": false,
+        "L_mm": 29000,
+        "available": true,
+        "distance_valid": false,
+        "model_id": 3
+      },
+      "frozen_long_model_sha256": "f26ce906932e54856f91e1379fd39ab3de9e147e07936ac4510b389f4d40413c"
+    },
+    {
+      "schema": "STAGE53_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "far_short",
+      "sequence": 116,
+      "capture_sha256": "420babd4efc5faf35b1363920971e1b7a651549d42a965c2553b3a475480d675",
+      "baseline_sha256": "55c49ea963ac363abcb4dae40e55ecc02b3e29d3e728767c7b14c56c557c18ca",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 202,
+      "global_peak_sign": -1,
+      "global_peak_numerator": -202511941632,
+      "separated_peaks": [
+        {
+          "lag": 202,
+          "sign": -1,
+          "numerator": -202511941632
+        },
+        {
+          "lag": 207,
+          "sign": -1,
+          "numerator": -21636775936
+        },
+        {
+          "lag": 54,
+          "sign": 1,
+          "numerator": 19958136832
+        },
+        {
+          "lag": 126,
+          "sign": 1,
+          "numerator": 17347182592
+        },
+        {
+          "lag": 42,
+          "sign": 1,
+          "numerator": 13859618816
+        },
+        {
+          "lag": 142,
+          "sign": 1,
+          "numerator": 13266124800
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": 29500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true,
+      "frozen_long_endpoint_candidate": {
+        "status": "LONG_SHORT_LIKE",
+        "status_code": 7,
+        "lag": 202,
+        "sign": -1,
+        "peak_num": -202511941632,
+        "abs_peak_num": 202511941632,
+        "other_abs_num": 21636775936,
+        "label_available": true,
+        "fault_type_valid": false,
+        "L_mm": 29000,
+        "available": true,
+        "distance_valid": false,
+        "model_id": 3
+      },
+      "frozen_long_model_sha256": "f26ce906932e54856f91e1379fd39ab3de9e147e07936ac4510b389f4d40413c"
+    },
+    {
+      "schema": "STAGE53_LONG_RAW_CORR_CHECK_1",
+      "status": "DATA_INTEGRITY_PASS_NOT_LONG_DISTANCE_QUALIFICATION",
+      "operator_declared_state": "matched_restored",
+      "sequence": 117,
+      "capture_sha256": "15ae4d5de0f9e981210286a81f087ba838568fd7496d6cbe51cbe388de797d03",
+      "baseline_sha256": "55c49ea963ac363abcb4dae40e55ecc02b3e29d3e728767c7b14c56c557c18ca",
+      "long_distance_model_fitted": false,
+      "firmware_stage": 50,
+      "global_peak_lag": 20,
+      "global_peak_sign": -1,
+      "global_peak_numerator": -555548672,
+      "separated_peaks": [
+        {
+          "lag": 20,
+          "sign": -1,
+          "numerator": -555548672
+        },
+        {
+          "lag": 223,
+          "sign": -1,
+          "numerator": -492634112
+        },
+        {
+          "lag": 87,
+          "sign": -1,
+          "numerator": -412942336
+        },
+        {
+          "lag": 182,
+          "sign": 1,
+          "numerator": 402849792
+        },
+        {
+          "lag": 235,
+          "sign": 1,
+          "numerator": 386072576
+        },
+        {
+          "lag": 31,
+          "sign": -1,
+          "numerator": -383582208
+        }
+      ],
+      "outside_frozen_5_to_15m_fit": true,
+      "old_mapping_coordinate_mm_NOT_calibrated_distance": -61500,
+      "distance_valid": false,
+      "peak_chosen_without_expected_length_or_state": true,
+      "frozen_long_endpoint_candidate": {
+        "status": "LOW_RETURN",
+        "status_code": 2,
+        "lag": 20,
+        "sign": -1,
+        "peak_num": -555548672,
+        "abs_peak_num": 555548672,
+        "other_abs_num": 492634112,
+        "label_available": false,
+        "fault_type_valid": false,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false,
+        "model_id": 3
+      },
+      "frozen_long_model_sha256": "f26ce906932e54856f91e1379fd39ab3de9e147e07936ac4510b389f4d40413c"
+    }
+  ],
+  "qualification": "Data completeness/arithmetic only; adapter echoes and endpoint interpretation require analysis. Old nominal coordinates are extrapolations, not validated measurements."
+}

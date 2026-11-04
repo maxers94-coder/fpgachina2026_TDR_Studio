@@ -1,0 +1,63 @@
+{
+    "schema":  "PN_POSITIVE_A_FIT_PAIR_1",
+    "status":  "complete",
+    "firmware_stage":  38,
+    "fixture_id":  "A_series_27ohm",
+    "plan":  {
+                 "schema":  "PN_POSITIVE_A_FIT_PAIR_PLAN_1",
+                 "firmware_stage":  38,
+                 "fixture_id":  "A_series_27ohm",
+                 "phases":  [
+                                {
+                                    "label":  "position_5m",
+                                    "front_length_m":  5,
+                                    "back_length_m":  15
+                                },
+                                {
+                                    "label":  "position_15m",
+                                    "front_length_m":  15,
+                                    "back_length_m":  5
+                                }
+                            ],
+                 "same_cables_and_fixture_required":  true,
+                 "far_end":  "same_verified_50ohm",
+                 "new_acquisitions":  24,
+                 "new_D_captures":  18,
+                 "reference_type":  "SMA_BARREL_PROVISIONAL",
+                 "same_structure_normal_pcb":  false,
+                 "classification_performed":  false,
+                 "distance_valid":  false,
+                 "truth_used_for_peak_selection":  false,
+                 "resume_preserved5m":  true,
+                 "remaining_new_acquisitions":  12,
+                 "resolved_resume5m_zip":  "D:\\vivado_project\\vitis_echo200_hmi_ws\\captures\\weak_distance_validation\\pn_positive_A_fitpos5m_20261031_115527_827_recovered_fix1.zip"
+             },
+    "operator_port":  "COM7",
+    "phases":  [
+                   {
+                       "label":  "position_5m",
+                       "front_length_m":  5,
+                       "back_length_m":  15,
+                       "zip":  "position_5m.zip",
+                       "sha256":  "bd209b2d321b37e4b6fb42e641e8476c8653ee8b346b692e454ff18f6fea94bb",
+                       "source_zip":  "D:\\vivado_project\\vitis_echo200_hmi_ws\\captures\\weak_distance_validation\\pn_positive_A_fitpos5m_20261031_115527_827_recovered_fix1.zip"
+                   },
+                   {
+                       "label":  "position_15m",
+                       "front_length_m":  15,
+                       "back_length_m":  5,
+                       "zip":  "position_15m.zip",
+                       "sha256":  "7437837bd47aaa0790505030d0a22ef1682d96aa2b7efd9340e3896ef8e6ef6c",
+                       "source_zip":  "D:\\vivado_project\\vitis_echo200_hmi_ws\\captures\\weak_distance_validation\\pn_positive_A_fitpos15m_20261031_121319_615.zip"
+                   }
+               ],
+    "classification_performed":  false,
+    "distance_valid":  false,
+    "operator_declared_same_cables_fixture_and_load":  true,
+    "agent_board_access_performed":  false,
+    "optical_screen_confirmation_requested":  true,
+    "resume_preserved5m":  {
+                               "source_zip":  "D:\\vivado_project\\vitis_echo200_hmi_ws\\captures\\weak_distance_validation\\pn_positive_A_fitpos5m_20261031_115527_827_recovered_fix1.zip",
+                               "new5m_acquisition":  false
+                           }
+}

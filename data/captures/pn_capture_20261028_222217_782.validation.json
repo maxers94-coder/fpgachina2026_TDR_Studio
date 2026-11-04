@@ -1,0 +1,14 @@
+{
+  "source": "pn_capture_20261028_222217_782.txt",
+  "sha256": "e7e94adeb00c4d7108b722b878abfc66e47ee6322314cc641cb479fa473fbd0f",
+  "raw_integrity": "PASS",
+  "mode": "5",
+  "sequence": 5,
+  "points": 1024,
+  "sum": 584332,
+  "min": 499,
+  "max": 1234,
+  "fnv1a": "4C3CD4FB",
+  "pn_numerical_validation": "NOT_POSSIBLE",
+  "reason": "MODE=5; no CORR capture; device reported no cached PN correlation"
+}

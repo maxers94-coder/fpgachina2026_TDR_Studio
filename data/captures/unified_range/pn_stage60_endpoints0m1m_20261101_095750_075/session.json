@@ -1,0 +1,42 @@
+{
+    "schema":  "STAGE60_RANGE_DEVELOPMENT_SESSION_1",
+    "status":  "incomplete",
+    "positions_m":  [
+                        0,
+                        1
+                    ],
+    "plan":  {
+                 "schema":  "STAGE60_NEAR_ENDPOINT_PLAN_1",
+                 "firmware_stage":  56,
+                 "positions_m":  [
+                                     0,
+                                     1
+                                 ],
+                 "healthy_segments_m":  [
+                                            1,
+                                            3
+                                        ],
+                 "healthy_barrels":  1,
+                 "endpoint_states":  [
+                                         "open1",
+                                         "short1",
+                                         "open0",
+                                         "short0"
+                                     ],
+                 "reference_sources":  3,
+                 "D_snapshots":  14,
+                 "total_acquisitions":  17,
+                 "automatic_retry":  false,
+                 "truth_sent_to_firmware":  false,
+                 "requires_new_firmware":  false,
+                 "expected_sign_or_distance_required":  false
+             },
+    "initial_sequence":  88,
+    "captures":  [
+
+                 ],
+    "truth_sent_to_firmware":  false,
+    "operator_port":  "COM7",
+    "screen_observation":  "NOT_CHECKED",
+    "failure_reason":  "Device/display rejected step; retained transcript: [BASE] DENIED: no common frozen Normal profile; check matched healthy cable"
+}

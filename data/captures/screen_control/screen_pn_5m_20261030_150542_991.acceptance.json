@@ -1,0 +1,63 @@
+{
+  "schema": "STAGE25_SCREEN_BOARD_ACCEPTANCE_1",
+  "date": "2026-10-30",
+  "status": "SCREEN_REFERENCE_AND_SINGLE_BOARD_VERIFIED_PROFILE1",
+  "archive": "captures/screen_control/screen_pn_5m_20261030_150542_991.zip",
+  "archive_sha256": "73f7b254ab77772b8ebf16b97cc769e7a3f3632a232bc85c86f49ac4d11e8e03",
+  "firmware_stage": 25,
+  "hardware_version": "00030002",
+  "hardware_caps": 15,
+  "host_elf_sha256": "b510b8554252676e045c22782160c9cb8f9e793c776e71fe0e8900ba9c18ab5f",
+  "board_elf_hash_readback_performed": false,
+  "reference_profile_id": 1,
+  "reference_profile_mask": 1,
+  "reference_bank_crc32": "02FEEBDD",
+  "profile2_live_board_path_verified": false,
+  "reference_admission_gate_changed": false,
+  "baseline_id": 1,
+  "baseline_crc32": "21F41700",
+  "source_sequences": [
+    1,
+    2,
+    3
+  ],
+  "screen_single_sequences": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "new_acquisition_count": 7,
+  "pc_acquisition_commands_sent": 0,
+  "initial_readonly_V_header_retries": 1,
+  "difference_correlations_exact": 1024,
+  "drawing_pixels_exact": 2048,
+  "baseline_three_source_mean_exact": true,
+  "baseline_after_unchanged": true,
+  "operator_screen_confirmation": {
+    "schema": "STAGE25_SCREEN_OPERATOR_CONFIRMATION_1",
+    "date": "2026-10-30",
+    "evidence_kind": "explicit_user_message_after_this_capture",
+    "question": "这轮屏幕是否显示：开路向上峰、短路向下峰、接回50Ω后回到中线附近，而且四次距离都为“-- m”？",
+    "answer": "是，都符合",
+    "open_positive": true,
+    "short_negative": true,
+    "restored_matched_near_center": true,
+    "all_four_distance_display": "-- m",
+    "optical_refresh_timing_measured": false,
+    "source_archive_sha256": "73f7b254ab77772b8ebf16b97cc769e7a3f3632a232bc85c86f49ac4d11e8e03"
+  },
+  "new_D_distance_valid": false,
+  "weak_impedance_validated": false,
+  "screen_continuous_implemented": false,
+  "stage25_board_refresh_rate_hz": null,
+  "two_hour_soak_verified": false,
+  "agent_board_access_performed": false,
+  "scope": "One operator-declared 5m cable session; three reference sources and four screen SINGLE states. Profile1 path, strong controls and restored matched only; no multi-boot/profile2/weak-fault/range/performance qualification.",
+  "evidence_sha256": {
+    "pn_dev/work/stage25_screen_board_numeric_audit_20261030.json": "27cd6d192a7da3e46566951e4b442bc7789fc1ec0a53a93caf0ea881badfd7e8",
+    "pn_dev/work/stage25_screen_board_protocol_audit_20261030.json": "d52e62a959dc12a850e37341f2053dc4cda7a9bf6fb207b404139af87247a687",
+    "captures/screen_control/screen_pn_5m_20261030_150542_991.hmi_confirmation.json": "b72fbe805c3940745ad260a073f9f3fcd31d73dd818a6bd43d1af5df31e1e2ca",
+    "captures/screen_control/screen_pn_5m_20261030_150542_991/session.json": "ec3d506cc7e3dfff790bd55d090897f41d2e3d9533d4841a6f9a34ff68e83cee"
+  }
+}

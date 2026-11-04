@@ -1,0 +1,138 @@
+{
+    "schema":  "STAGE60_RANGE_DEVELOPMENT_SESSION_1",
+    "status":  "data_integrity_pass_interpretation_pending",
+    "positions_m":  [
+                        0,
+                        1
+                    ],
+    "plan":  {
+                 "schema":  "STAGE60_NEAR_ENDPOINT_PLAN_1",
+                 "firmware_stage":  56,
+                 "positions_m":  [
+                                     0,
+                                     1
+                                 ],
+                 "healthy_segments_m":  [
+                                            1,
+                                            3
+                                        ],
+                 "healthy_barrels":  1,
+                 "endpoint_states":  [
+                                         "open1",
+                                         "short1",
+                                         "open0",
+                                         "short0"
+                                     ],
+                 "reference_sources":  3,
+                 "D_snapshots":  14,
+                 "total_acquisitions":  17,
+                 "automatic_retry":  false,
+                 "truth_sent_to_firmware":  false,
+                 "requires_new_firmware":  false,
+                 "expected_sign_or_distance_required":  false
+             },
+    "initial_sequence":  102,
+    "captures":  [
+                     {
+                         "state":  "matched_before",
+                         "repeat":  1,
+                         "file":  "matched_before_r1.txt",
+                         "sequence":  106,
+                         "sha256":  "7e9d5e6593108db2f6ead585c0d62d0d431263b3a20dd4382160bb60f9e2943f"
+                     },
+                     {
+                         "state":  "endpoint_open1",
+                         "repeat":  1,
+                         "file":  "endpoint_open1_r1.txt",
+                         "sequence":  107,
+                         "sha256":  "a5d5380879c67f7445cb597ec7504e6bc19b0cfbebe76fbb016f04c75968ceb3"
+                     },
+                     {
+                         "state":  "endpoint_open1",
+                         "repeat":  2,
+                         "file":  "endpoint_open1_r2.txt",
+                         "sequence":  108,
+                         "sha256":  "7bc554d4e8fb54c5a8bd2fb5f3f997b795265b6a258165afdd4849f1af06be7d"
+                     },
+                     {
+                         "state":  "endpoint_open1",
+                         "repeat":  3,
+                         "file":  "endpoint_open1_r3.txt",
+                         "sequence":  109,
+                         "sha256":  "df6dc4ae679f7323da223721adc94a3bed0647c8cc7af6c8965e3d3a1a406fb7"
+                     },
+                     {
+                         "state":  "endpoint_short1",
+                         "repeat":  1,
+                         "file":  "endpoint_short1_r1.txt",
+                         "sequence":  110,
+                         "sha256":  "d0fa6b3ae5e72c7c37a76f8b479808fb381e210b412ce1510f5d222571384a38"
+                     },
+                     {
+                         "state":  "endpoint_short1",
+                         "repeat":  2,
+                         "file":  "endpoint_short1_r2.txt",
+                         "sequence":  111,
+                         "sha256":  "32edd4a6325724f834d7500d0bfcd4e2bd952712584ad3d7ae6ab5131f795469"
+                     },
+                     {
+                         "state":  "endpoint_short1",
+                         "repeat":  3,
+                         "file":  "endpoint_short1_r3.txt",
+                         "sequence":  112,
+                         "sha256":  "85a0394e0b5f2ceb7aba63ca785900c27a9dfc1a77aaec6ac84f48ee63175469"
+                     },
+                     {
+                         "state":  "endpoint_open0",
+                         "repeat":  1,
+                         "file":  "endpoint_open0_r1.txt",
+                         "sequence":  113,
+                         "sha256":  "840744045a0149e9cd05d92ca432edab7b583d19da5dfb84d177dca7665e7b14"
+                     },
+                     {
+                         "state":  "endpoint_open0",
+                         "repeat":  2,
+                         "file":  "endpoint_open0_r2.txt",
+                         "sequence":  114,
+                         "sha256":  "9cd51594c061caff9cff44506d2a242ebcbf5c7518a0f6ec0e9cca98f48b73be"
+                     },
+                     {
+                         "state":  "endpoint_open0",
+                         "repeat":  3,
+                         "file":  "endpoint_open0_r3.txt",
+                         "sequence":  115,
+                         "sha256":  "c44f5102b1be3404acff6b0fa328bb53108fb608de24c5dab0992c1d7e28126e"
+                     },
+                     {
+                         "state":  "endpoint_short0",
+                         "repeat":  1,
+                         "file":  "endpoint_short0_r1.txt",
+                         "sequence":  116,
+                         "sha256":  "e2f9cf6c1f2dfc53edd712eddeeb0f004eeb822558658996f99501a5e4f27c07"
+                     },
+                     {
+                         "state":  "endpoint_short0",
+                         "repeat":  2,
+                         "file":  "endpoint_short0_r2.txt",
+                         "sequence":  117,
+                         "sha256":  "6909b06e09107662aca77d52600ccd7860ebff3fd7143dc8cabc2d46a4125a41"
+                     },
+                     {
+                         "state":  "endpoint_short0",
+                         "repeat":  3,
+                         "file":  "endpoint_short0_r3.txt",
+                         "sequence":  118,
+                         "sha256":  "8e457cab9d37254c12b76ecb06ab4e3f4f34d117c46872355bdec67d3baa5e3f"
+                     },
+                     {
+                         "state":  "matched_restored",
+                         "repeat":  1,
+                         "file":  "matched_restored_r1.txt",
+                         "sequence":  119,
+                         "sha256":  "b5acb9af56716ae62ab256bff6ef738dac53565400a5c35e5d63d16d4bda05d8"
+                     }
+                 ],
+    "truth_sent_to_firmware":  false,
+    "operator_port":  "COM7",
+    "screen_observation":  "NOT_CHECKED"
+}

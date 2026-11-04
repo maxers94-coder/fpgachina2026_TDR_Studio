@@ -1,0 +1,23 @@
+{
+  "source_manifest": "captures/weak_development/pn_weak_A_development_20261030_180815_786/session.json",
+  "source_manifest_sha256": "56249f1475056b5e586099b2f3ac94553a73359ad2e95c08b86908e296c1f2d4",
+  "imported_from": "captures/weak_development/pn_weak_A_development_20261030_180815_786/baseline.txt",
+  "sha256": "37eef2d75286670678e7891b3f21041d6c1c4ad8f95395e84f6ed4ffb8402732",
+  "source_zip": "captures/weak_development/pn_weak_A_development_20261030_180815_786.zip",
+  "source_zip_sha256": "62374678f71ca77f373a77c23e55cf89e5f4380bee3e47dd422e00a1770fbed0",
+  "new_acquisition": false,
+  "source_frame_count": 3,
+  "baseline_id": 1,
+  "baseline_crc32": "53484C18",
+  "reference_profile_id": 2,
+  "reference_profile_mask": 2,
+  "reference_bank_crc32": "02FEEBDD",
+  "source_raw_sequences": [
+    1,
+    2,
+    3
+  ],
+  "front_length_m": 10,
+  "back_length_m": 3,
+  "host_expected_elf_sha256": "3ecc48760b6dfd883cd47de4f2a2ed29a71b9e45971885e76f1dde4b10040382"
+}

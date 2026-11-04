@@ -1,0 +1,211 @@
+{
+    "schema":  "PN_NORMAL_RECONNECT_1",
+    "session":  "pn_normal_5m_20261029_103203_996",
+    "evidence_kind":  "operator_declared_live_capture",
+    "plan":  {
+                 "purpose":  "normal_reconnect_development",
+                 "length_m":  5,
+                 "termination":  "matched_50ohm",
+                 "formal_fixture_normal":  false,
+                 "waveform":  "PN127",
+                 "sample_rate_hz":  200000000,
+                 "frames":  32,
+                 "baseline_repeats":  3,
+                 "reconnect_groups":  5,
+                 "repeats_per_reconnect":  3,
+                 "total_captures":  18,
+                 "baseline_policy":  "fixed_initial_batch_mean_dc128",
+                 "operation":  "remove_then_reattach_the_same_far_end_50ohm_termination",
+                 "near_end_connections":  "unchanged",
+                 "firmware_reference_changed":  false,
+                 "technical_repeats_are_independent_trials":  false
+             },
+    "operator_port":  "COM7",
+    "status":  "complete",
+    "captures":  [
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_baseline_0_r1_20261029_103204_161.txt",
+                         "group_kind":  "baseline",
+                         "operation":  0,
+                         "repeat":  1,
+                         "sequence":  1,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:06.2736615Z",
+                         "sha256":  "ae56046d2a85eed0968023e89e60113e021086c400986d70830d7c7759d49a19"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_baseline_0_r2_20261029_103206_296.txt",
+                         "group_kind":  "baseline",
+                         "operation":  0,
+                         "repeat":  2,
+                         "sequence":  2,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:08.3720731Z",
+                         "sha256":  "12a48d6c02e4c280a18b01108a36a970b049d716babfa44233f59e265538aae3"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_baseline_0_r3_20261029_103208_402.txt",
+                         "group_kind":  "baseline",
+                         "operation":  0,
+                         "repeat":  3,
+                         "sequence":  3,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:10.4916279Z",
+                         "sha256":  "9ce99db02b5780abfb75fa27e507dd0312000840e94fefc40c7f6aac33a86b55"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_1_r1_20261029_103222_461.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  1,
+                         "repeat":  1,
+                         "sequence":  4,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:24.4793521Z",
+                         "sha256":  "6bc630b37fa9f9f36b6c3f754014bc3df2767588c43ae144bcd0beb564116928"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_1_r2_20261029_103224_490.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  1,
+                         "repeat":  2,
+                         "sequence":  5,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:26.5488601Z",
+                         "sha256":  "82dae31d157e83b3c8ee05be47de528e58e75789ab07534e41f994ce0990d434"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_1_r3_20261029_103226_581.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  1,
+                         "repeat":  3,
+                         "sequence":  6,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:28.6209974Z",
+                         "sha256":  "65b9b66402c785c5cb6c92e2a07978ac84de4669d4d97def57f7a3f141ea60ce"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_2_r1_20261029_103238_707.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  2,
+                         "repeat":  1,
+                         "sequence":  7,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:40.7565999Z",
+                         "sha256":  "2fe24a508ca2443c66922188a799c731d6f45ecdcaf06529a9c5e1636ae70492"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_2_r2_20261029_103240_800.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  2,
+                         "repeat":  2,
+                         "sequence":  8,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:42.8598320Z",
+                         "sha256":  "f030211b4834b9f737551e1c83d42c4c71a09ce5a43c5280b949c912e9389bd7"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_2_r3_20261029_103242_878.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  2,
+                         "repeat":  3,
+                         "sequence":  9,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:44.8939089Z",
+                         "sha256":  "be187c7327270e1fa21e0af138798b6e48fd35d89624817b2250c96872a1503a"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_3_r1_20261029_103255_172.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  3,
+                         "repeat":  1,
+                         "sequence":  10,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:57.2003795Z",
+                         "sha256":  "cb1b7001b262c4a6cd67f9fde63edc6c9dd160b2d570be24392f48a8a214b0c9"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_3_r2_20261029_103257_210.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  3,
+                         "repeat":  2,
+                         "sequence":  11,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:32:59.2332794Z",
+                         "sha256":  "55a37ce1bf7cbe9e474dc3d66f630c7e924fde8f32dd9d7a01a4d04baf9580cb"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_3_r3_20261029_103259_245.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  3,
+                         "repeat":  3,
+                         "sequence":  12,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:33:01.2764508Z",
+                         "sha256":  "ef0fe364cd4825bc1094fe055c230a4bdec0e3ce402054a280777e3d99bb9028"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_4_r1_20261029_103313_848.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  4,
+                         "repeat":  1,
+                         "sequence":  13,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:33:15.8577990Z",
+                         "sha256":  "86199cf5971ffb6833e8ffa74d4ba83b8d3d197b9c35944981b705ae3f26aa86"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_4_r2_20261029_103315_868.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  4,
+                         "repeat":  2,
+                         "sequence":  14,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:33:17.8812612Z",
+                         "sha256":  "1dcfb65983f583966d0a279bfb8682744f897fd21b829daccea6df9c14eaa8cc"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_4_r3_20261029_103317_920.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  4,
+                         "repeat":  3,
+                         "sequence":  15,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:33:19.9361860Z",
+                         "sha256":  "9e12ffc92d29a6e41f85ba02fb2d871e87a720f7920ca4caa8038b3966f8f0da"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_5_r1_20261029_103333_317.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  5,
+                         "repeat":  1,
+                         "sequence":  16,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:33:35.3650536Z",
+                         "sha256":  "51c14941e4bafa46a023983c5d46c6d87d8a5f876c522f34ea55e610dff4b988"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_5_r2_20261029_103335_382.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  5,
+                         "repeat":  2,
+                         "sequence":  17,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:33:37.4227852Z",
+                         "sha256":  "a20c5558fcbf8409136a6e30e4ce1db55fb92209f03f8e1e2ecdb2ca831fcee9"
+                     },
+                     {
+                         "file":  "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_5_r3_20261029_103337_437.txt",
+                         "group_kind":  "reconnect",
+                         "operation":  5,
+                         "repeat":  3,
+                         "sequence":  18,
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "captured_utc":  "2026-10-29T02:33:39.4703682Z",
+                         "sha256":  "2640a6c0bde0044d421b6b05d8a087908738b936032acea6ea1628ac9c482058"
+                     }
+                 ],
+    "expected_firmware":  "Stage18 PN distance diagnostics",
+    "host_expected_elf_sha256":  "88557da0550e97906203b5e2985ebf181b667f4bc8d1c05d6efb372344139bdc",
+    "board_elf_hash_readback_performed":  false,
+    "created_utc":  "2026-10-29T02:32:04.0580142Z"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "STAGE63_MAIN_EXPORT_CHECK_1",
+  "status": "HOST_PRODUCTION_ROUTING_CANDIDATES_AND_PIXELS_INDEPENDENTLY_PASS",
+  "actual_archived_inputs": 71,
+  "unique_correlation_points": 18176,
+  "export_files": 77,
+  "unique_plot_views": 80,
+  "unique_pixels": 42496,
+  "pixel_evaluations": 48640,
+  "firmware_board_test": false,
+  "independent_optical_test": false,
+  "source_sha256": {
+    "pn_dev/check_stage63_main_exports.py": "ef75e48f9e9d8771242ccd69d1630c5d81697df01d08b5dbfac3548893616eff",
+    "captures/calibration/pn_unified_return_host_model2_20261101.json": "dba1a730709ebfd751c0b2368115763a4c718f104f0ea0e69dc23824edaee713",
+    "pn_dev/work/stage63_multi_host/stage63_multi_main_host.log": "b466d11955d913684e80bbbd1727501549d4665c9464d43e55753967bb2bf362"
+  }
+}

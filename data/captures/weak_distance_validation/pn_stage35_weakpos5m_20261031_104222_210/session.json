@@ -1,0 +1,74 @@
+{
+    "schema":  "STAGE35_WEAK_BOARD_SESSION_1",
+    "status":  "incomplete",
+    "firmware_stage":  35,
+    "fixture_id":  "D_shunt_1kohm",
+    "evidence_kind":  "operator_declared_live_board_capture",
+    "plan":  {
+                 "schema":  "STAGE35_WEAK_BOARD_PLAN_1",
+                 "firmware_stage":  35,
+                 "fixture_id":  "D_shunt_1kohm",
+                 "front_length_m":  5,
+                 "back_length_m":  15,
+                 "far_end":  "same_verified_50ohm",
+                 "sample_orientation":  "J1_toward_near_end",
+                 "waveform":  "PN127",
+                 "sample_rate_hz":  200000000,
+                 "chip_hz":  50000000,
+                 "average_frames":  32,
+                 "states":  [
+                                "reference_before",
+                                "sample_D1K",
+                                "reference_after"
+                            ],
+                 "technical_repeats_per_state":  3,
+                 "baseline_sources":  3,
+                 "new_acquisitions":  12,
+                 "new_D_captures":  9,
+                 "reference_type":  "SMA_BARREL_PROVISIONAL",
+                 "same_structure_normal_pcb":  false,
+                 "fresh_B_required":  true,
+                 "reference_replacement_during_loop_allowed":  false,
+                 "previous_runtime_watermark_required":  false,
+                 "model_sha256":  "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+                 "profile1_mask1_distance_supported":  true,
+                 "profile2_distance_supported":  false,
+                 "nominal_target_mm":  5000,
+                 "individual_nominal_tolerance_mm":  500,
+                 "pc_command_allowlist":  [
+                                              "V",
+                                              "B",
+                                              "J",
+                                              "D",
+                                              "R",
+                                              "C"
+                                          ],
+                 "distance_valid":  false,
+                 "formal_accuracy_qualified":  false,
+                 "optical_observation_requested_before_each_state":  true,
+                 "optical_answers":  [
+                                         "YES",
+                                         "NO",
+                                         "NOT_CHECKED"
+                                     ],
+                 "available_field_is_optical_proof":  false,
+                 "screen_project_changed":  false,
+                 "agent_board_access_performed":  false
+             },
+    "operator_port":  "COM7",
+    "captures":  [
+
+                 ],
+    "model_sha256":  "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+    "host_expected_elf_sha256":  "0b43440f3da21f169e1f273da9bd743ac1878c46fd44055706e25d48ecb13815",
+    "board_elf_hash_readback_performed":  false,
+    "agent_board_access_performed":  false,
+    "distance_valid":  false,
+    "formal_accuracy_qualified":  false,
+    "physical_fixture_and_geometry_independently_verified":  false,
+    "screen_observations":  {
+
+                            },
+    "sample_screen_observation":  "NOT_CHECKED",
+    "failure_reason":  "Fresh barrel reference was not confirmed"
+}

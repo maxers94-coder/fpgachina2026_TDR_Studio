@@ -1,0 +1,13 @@
+{
+  "schema": "STAGE26_CONTINUOUS_OPERATOR_CONFIRMATION_1",
+  "date": "2026-10-30",
+  "evidence_kind": "explicit_user_reply_after_this_capture",
+  "source_archive_sha256": "771eb85c59293170bd437501adc8858a144b5db3ce0e6ae8392387ffe309a9e1",
+  "question": "这轮屏幕是否能持续测量，按STOP后停止，切换页面后也停止，并且距离一直显示“-- m”？",
+  "answer": "是，都正常",
+  "continuous_operation_observed": true,
+  "STOP_observed": true,
+  "page_stop_observed": true,
+  "distance_display": "-- m",
+  "physical_touch_to_stop_or_optical_refresh_time_measured": false
+}

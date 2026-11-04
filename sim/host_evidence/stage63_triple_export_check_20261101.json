@@ -1,0 +1,21 @@
+{
+  "schema": "STAGE63_ACTUAL_TRIPLE_REPLAY_CHECK_1",
+  "status": "THREE_ACTUAL_RETURNS_AND_THREE_ACKED_ROWS_REPLAY_PASS",
+  "actual_archived_correlation_points": 256,
+  "plot_pixels": 512,
+  "rows": {
+    "t_frames": "3:+33.147 m*",
+    "t_cal": "1:-25.049 m",
+    "t_ref": "2:+30.045 m"
+  },
+  "one_per_row_boxes_fit_using_conservative18px_character_bound": true,
+  "actual_FW63_board_test": false,
+  "optical_screen_test": false,
+  "old_FW61_missing_third_list_root_cause_not_proven": true,
+  "source_sha256": {
+    "pn_dev/work/stage63_multi_host/stage63_actual_triple_DRCV.txt": "2c1b66b05fc465bac8e6fd6a6c4b870698adab40b4bb521c3e619c708fb4983b",
+    "pn_dev/work/stage63_multi_host/stage63_actual_triple_screen_commands.bin": "02c4871896ff658aff2313062ea79850c1a82f86015cfede8130b9fb495d6924",
+    "pn_dev/check_stage63_triple_exports.py": "cd2b1f1b13b54af3eee7afc0eb29f1ece815c4790d7ad9779558ca7773c06114",
+    "pn_dev/work/stage61_actual_triple_audit_20261101.json": "9ca979fb25ec20093af91e4bfc05def385ea10795bd563dc67977a9a82848c87"
+  }
+}

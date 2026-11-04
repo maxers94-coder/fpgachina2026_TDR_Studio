@@ -1,0 +1,261 @@
+{
+  "schema": "STAGE35_WEAK_BOARD_ANALYSIS_1",
+  "status": "PASS",
+  "data_integrity_status": "PASS",
+  "evidence_kind": "operator_declared_live_board_capture",
+  "firmware_stage": 35,
+  "model_sha256": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+  "baseline_id": 1,
+  "baseline_crc32": "C7091A00",
+  "reference_profile_id": 1,
+  "reference_profile_mask": 1,
+  "transcript_TX_records": 38,
+  "transcript_RX_records": 19923,
+  "commands": {
+    "V": 5,
+    "B": 1,
+    "J": 5,
+    "D": 9,
+    "R": 9,
+    "C": 9
+  },
+  "new_acquisitions": 12,
+  "exact_correlation_points": 2304,
+  "exact_display_pixels": 4608,
+  "candidate_C_Python_exact_all_nine": true,
+  "outcome": {
+    "profile1_mask1": true,
+    "all_six_controls_LOW_RETURN": true,
+    "all_three_samples_negative_candidate_10000_plusminus500mm": true,
+    "development_expectation_pass": true
+  },
+  "candidate_rows": [
+    {
+      "state": "reference_before",
+      "sequence": 4,
+      "candidate": {
+        "SEQ": "4",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "255",
+        "SIGN": "-1",
+        "PEAK_NUM": "-400031744",
+        "DC_SUM_DELTA": "-40",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "1",
+        "BASE_CRC": "C7091A00",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_before",
+      "sequence": 5,
+      "candidate": {
+        "SEQ": "5",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "229",
+        "SIGN": "1",
+        "PEAK_NUM": "546242560",
+        "DC_SUM_DELTA": "81",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "1",
+        "BASE_CRC": "C7091A00",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_before",
+      "sequence": 6,
+      "candidate": {
+        "SEQ": "6",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "16",
+        "SIGN": "1",
+        "PEAK_NUM": "449314816",
+        "DC_SUM_DELTA": "-8",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "1",
+        "BASE_CRC": "C7091A00",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "sample_D1K",
+      "sequence": 7,
+      "candidate": {
+        "SEQ": "7",
+        "MODEL": "1",
+        "STATUS": "NEGATIVE_DISTANCE_CANDIDATE",
+        "L_MM": "10000",
+        "AVAILABLE": "1",
+        "PEAK_LAG": "163",
+        "SIGN": "-1",
+        "PEAK_NUM": "-6231687168",
+        "DC_SUM_DELTA": "-1648",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "1",
+        "BASE_CRC": "C7091A00",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "sample_D1K",
+      "sequence": 8,
+      "candidate": {
+        "SEQ": "8",
+        "MODEL": "1",
+        "STATUS": "NEGATIVE_DISTANCE_CANDIDATE",
+        "L_MM": "10000",
+        "AVAILABLE": "1",
+        "PEAK_LAG": "163",
+        "SIGN": "-1",
+        "PEAK_NUM": "-6182731776",
+        "DC_SUM_DELTA": "-1659",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "1",
+        "BASE_CRC": "C7091A00",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "sample_D1K",
+      "sequence": 9,
+      "candidate": {
+        "SEQ": "9",
+        "MODEL": "1",
+        "STATUS": "NEGATIVE_DISTANCE_CANDIDATE",
+        "L_MM": "10000",
+        "AVAILABLE": "1",
+        "PEAK_LAG": "163",
+        "SIGN": "-1",
+        "PEAK_NUM": "-6465781760",
+        "DC_SUM_DELTA": "-1596",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "1",
+        "BASE_CRC": "C7091A00",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 10,
+      "candidate": {
+        "SEQ": "10",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "114",
+        "SIGN": "-1",
+        "PEAK_NUM": "-548601856",
+        "DC_SUM_DELTA": "19",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "1",
+        "BASE_CRC": "C7091A00",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 11,
+      "candidate": {
+        "SEQ": "11",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "116",
+        "SIGN": "-1",
+        "PEAK_NUM": "-455213056",
+        "DC_SUM_DELTA": "66",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "1",
+        "BASE_CRC": "C7091A00",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    },
+    {
+      "state": "reference_after",
+      "sequence": 12,
+      "candidate": {
+        "SEQ": "12",
+        "MODEL": "1",
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "AVAILABLE": "0",
+        "PEAK_LAG": "235",
+        "SIGN": "-1",
+        "PEAK_NUM": "-492109824",
+        "DC_SUM_DELTA": "117",
+        "PROFILE_FITTED": "1",
+        "BASE_ID": "1",
+        "BASE_CRC": "C7091A00",
+        "DIAGNOSTIC": "1",
+        "DISTANCE_VALID": "0"
+      }
+    }
+  ],
+  "screen_observations": {
+    "reference_before": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    },
+    "sample_D1K": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    },
+    "reference_after": {
+      "requested_before_measurements": true,
+      "answer": "YES"
+    }
+  },
+  "sample_screen_observation": "YES",
+  "screen_observation_is_operator_report": true,
+  "independent_optical_verification": false,
+  "candidate_available_is_optical_proof": false,
+  "live_board_data_checked": true,
+  "distance_valid": false,
+  "formal_accuracy_qualified": false,
+  "calibrated_Gamma": false,
+  "detector_statistics_validated": false,
+  "qualification": "Fresh-barrel/D1k/restored-barrel first Stage35 display loop; three PC_D technical repeats each. A valid dataset may have a false/unsupported development outcome. Candidate availability and plot completion do not establish physical screen appearance. LOW_RETURN is not health proof.",
+  "source_sha256": {
+    "session.json": "ba1f3a0d6d1c8d7315746c4cf076c4bd2f0d7b2b6c2015d681744bf635e192c2",
+    "serial_transcript.txt": "af0d6657c0bde0b265973873ae737fabe3185d0c69cd3a44acf677b3930880c5",
+    "hardware_before.txt": "25a3c6ad7b4c3526447b59b63ca81eb8f66a7b538584778dfc4aaf05481a875e",
+    "baseline.txt": "dc75cffc8035e73da1f64432a90c24ad56f91157bb695b6a65cc1ae38e0d405d",
+    "reference_before.hardware.txt": "5c1fe6918e10a36a20102a29792281bb1c39c8f5afeff7b7409e251e7366bb04",
+    "reference_before.baseline.txt": "7bdaf978234d377077acd6764640b0dc3f4384a91212681aaeda8ba85820d0f3",
+    "reference_before_r1.txt": "fc1d79b0f18af09cdac095a2dd5042b0f2ab29cf9a758ed8f36436b271119278",
+    "reference_before_r2.txt": "275800f757ea1eee8712a4845ae46d7b6bfa9424594a78cd53a085c64d1ecab8",
+    "reference_before_r3.txt": "2eccd77cabaa57d33eaf7f035676d8001d37ea9201895d7a150c0fc6ee6c645c",
+    "sample_D1K.hardware.txt": "b83f6d4f24e6cc0bcc58acbe6ac27e9155c55b5a406dfaee11637be4bfe59572",
+    "sample_D1K.baseline.txt": "7bdaf978234d377077acd6764640b0dc3f4384a91212681aaeda8ba85820d0f3",
+    "sample_D1K_r1.txt": "2ea95d572cb82ae2cb320d04fc88ff8e6a50bfc013eba08aa566fdd4e6eabfa3",
+    "sample_D1K_r2.txt": "2608343911c1d8e2a5f7941957b4aff6d341413cb92e648f660eceface62eca1",
+    "sample_D1K_r3.txt": "5e4925903e0d1d4d192792a42573e8b3be9a22d82bd97d776bb6b4400f7cc473",
+    "reference_after.hardware.txt": "8878912832338cfc7119cdee1734f7820025fcf92d9a95463e3b5ab3bfdf54ce",
+    "reference_after.baseline.txt": "7bdaf978234d377077acd6764640b0dc3f4384a91212681aaeda8ba85820d0f3",
+    "reference_after_r1.txt": "d96779716b41222d3c4b1d6fb2d89ecf3adc4dd37130d82d01cd5a4dc93a25df",
+    "reference_after_r2.txt": "c2b7fcf3d49e2b40fa6ca0682f5012a6db0e712e1e867d0decdbbf000da03673",
+    "reference_after_r3.txt": "fe7031925c703561a6b499148c3fd477cc7325a30e1daa62c74c936c84016a7e",
+    "baseline_after.txt": "7bdaf978234d377077acd6764640b0dc3f4384a91212681aaeda8ba85820d0f3",
+    "hardware_after.txt": "cc7dbe0a9f28413cd9c6c2777acf9cbbff7c41f8b84712f4bbe1c01ffd4f195a"
+  }
+}

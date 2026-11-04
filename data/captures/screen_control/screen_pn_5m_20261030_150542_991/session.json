@@ -1,0 +1,151 @@
+{
+    "schema":  "STAGE25_SCREEN_BOARD_SESSION_1",
+    "firmware_stage":  25,
+    "status":  "complete",
+    "session":  "screen_pn_5m_20261030_150542_991",
+    "plan":  {
+                 "schema":  "STAGE25_SCREEN_BOARD_PLAN_1",
+                 "firmware_stage":  25,
+                 "length_m":  5,
+                 "baseline_trigger":  "screen REFERENCE/CAL: arm, then confirm within 15 seconds",
+                 "measurement_trigger":  "screen MEASURE: SINGLE",
+                 "pc_command_allowlist":  [
+                                              "V",
+                                              "J",
+                                              "R",
+                                              "C"
+                                          ],
+                 "pc_acquisition_commands":  [
+
+                                             ],
+                 "baseline_sources":  3,
+                 "states":  [
+                                "matched",
+                                "open",
+                                "short",
+                                "restored_matched"
+                            ],
+                 "new_acquisition_count":  7,
+                 "screen_distance":  "-- m",
+                 "baseline_storage":  "volatile_RAM",
+                 "distance_valid":  false,
+                 "weak_impedance_validated":  false,
+                 "reference_guard_version":  1,
+                 "reference_profile_count":  2,
+                 "reference_bank_crc32":  "02FEEBDD",
+                 "reference_gate_q16":  208916480,
+                 "adaptive_profile_alignment":  false
+             },
+    "evidence_kind":  "operator_declared_live_screen_capture",
+    "operator_port":  "COM7",
+    "captures":  [
+                     {
+                         "state":  "matched",
+                         "file":  "matched.txt",
+                         "sequence":  4,
+                         "screen_zoom":  0,
+                         "trigger":  "SCREEN_SINGLE",
+                         "arithmetic":  "ALL_256_EXACT",
+                         "pixels":  "ALL_512_EXACT",
+                         "dc_removed_peak_lag":  181,
+                         "dc_removed_sign":  -1,
+                         "dc_removed_raw_rms_q2":  3.597374191576232,
+                         "sha256":  "d89aab883bb5645349155151cf5283bf81ce6fdf07f6864e5f25f934b7e0530c"
+                     },
+                     {
+                         "state":  "open",
+                         "file":  "open.txt",
+                         "sequence":  5,
+                         "screen_zoom":  0,
+                         "trigger":  "SCREEN_SINGLE",
+                         "arithmetic":  "ALL_256_EXACT",
+                         "pixels":  "ALL_512_EXACT",
+                         "dc_removed_peak_lag":  153,
+                         "dc_removed_sign":  1,
+                         "dc_removed_raw_rms_q2":  188.55479674872535,
+                         "sha256":  "4609a29dfb1f3a1eb43e5db0964d8586da82edd546caf73f6193fda48d1d4ed8"
+                     },
+                     {
+                         "state":  "short",
+                         "file":  "short.txt",
+                         "sequence":  6,
+                         "screen_zoom":  0,
+                         "trigger":  "SCREEN_SINGLE",
+                         "arithmetic":  "ALL_256_EXACT",
+                         "pixels":  "ALL_512_EXACT",
+                         "dc_removed_peak_lag":  153,
+                         "dc_removed_sign":  -1,
+                         "dc_removed_raw_rms_q2":  188.64842658055318,
+                         "sha256":  "798d219f48324bf4566cb0468b328790674c05429ee1fd787e3bab4eb3b8877c"
+                     },
+                     {
+                         "state":  "restored_matched",
+                         "file":  "restored_matched.txt",
+                         "sequence":  7,
+                         "screen_zoom":  0,
+                         "trigger":  "SCREEN_SINGLE",
+                         "arithmetic":  "ALL_256_EXACT",
+                         "pixels":  "ALL_512_EXACT",
+                         "dc_removed_peak_lag":  150,
+                         "dc_removed_sign":  1,
+                         "dc_removed_raw_rms_q2":  3.527644384336912,
+                         "sha256":  "e1e2a4f5d671c805a6074569fabc1122644f8a032aa5813e48a821074790b577"
+                     }
+                 ],
+    "host_expected_elf_sha256":  "b510b8554252676e045c22782160c9cb8f9e793c776e71fe0e8900ba9c18ab5f",
+    "board_elf_hash_readback_performed":  false,
+    "agent_board_access_performed":  false,
+    "pc_acquisition_commands_sent":  0,
+    "weak_impedance_validated":  false,
+    "distance_valid":  false,
+    "baseline_id":  1,
+    "baseline_crc32":  "21F41700",
+    "reference_guard_version":  1,
+    "reference_profile_id":  1,
+    "reference_profile_mask":  1,
+    "reference_bank_crc32":  "02FEEBDD",
+    "reference_guard_sources":  [
+                                    {
+                                        "sequence":  1,
+                                        "matched_mask":  1,
+                                        "peak_numerators":  [
+                                                                8642035712,
+                                                                150541762560
+                                                            ],
+                                        "denominator":  384,
+                                        "gate_q16":  208916480,
+                                        "bank_crc32":  "02FEEBDD"
+                                    },
+                                    {
+                                        "sequence":  2,
+                                        "matched_mask":  1,
+                                        "peak_numerators":  [
+                                                                8179417088,
+                                                                151161274368
+                                                            ],
+                                        "denominator":  384,
+                                        "gate_q16":  208916480,
+                                        "bank_crc32":  "02FEEBDD"
+                                    },
+                                    {
+                                        "sequence":  3,
+                                        "matched_mask":  1,
+                                        "peak_numerators":  [
+                                                                8545697792,
+                                                                150936158208
+                                                            ],
+                                        "denominator":  384,
+                                        "gate_q16":  208916480,
+                                        "bank_crc32":  "02FEEBDD"
+                                    }
+                                ],
+    "source_raw_sequences":  [
+                                 1,
+                                 2,
+                                 3
+                             ],
+    "new_acquisition_count":  7,
+    "baseline_after_matches":  true,
+    "independent_arithmetic_and_pixels_passed":  true,
+    "operator_visual_confirmation":  "pending; inspect curves and -- m separately"
+}

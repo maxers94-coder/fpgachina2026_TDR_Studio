@@ -1,0 +1,10 @@
+{
+    "schema":  "SERIAL_TEXT_LOG_1",
+    "port":  "COM7",
+    "baud":  115200,
+    "ended_with_Q":  true,
+    "failure":  null,
+    "automatic_commands_sent":  0,
+    "physical_screen_observation_recorded":  false,
+    "qualification":  "Raw received text and manually requested read exports; no automatic measurement or numerical acceptance."
+}

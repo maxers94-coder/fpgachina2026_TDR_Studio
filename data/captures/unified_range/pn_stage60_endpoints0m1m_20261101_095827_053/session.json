@@ -1,0 +1,111 @@
+{
+    "schema":  "STAGE60_RANGE_DEVELOPMENT_SESSION_1",
+    "status":  "incomplete",
+    "positions_m":  [
+                        0,
+                        1
+                    ],
+    "plan":  {
+                 "schema":  "STAGE60_NEAR_ENDPOINT_PLAN_1",
+                 "firmware_stage":  56,
+                 "positions_m":  [
+                                     0,
+                                     1
+                                 ],
+                 "healthy_segments_m":  [
+                                            1,
+                                            3
+                                        ],
+                 "healthy_barrels":  1,
+                 "endpoint_states":  [
+                                         "open1",
+                                         "short1",
+                                         "open0",
+                                         "short0"
+                                     ],
+                 "reference_sources":  3,
+                 "D_snapshots":  14,
+                 "total_acquisitions":  17,
+                 "automatic_retry":  false,
+                 "truth_sent_to_firmware":  false,
+                 "requires_new_firmware":  false,
+                 "expected_sign_or_distance_required":  false
+             },
+    "initial_sequence":  89,
+    "captures":  [
+                     {
+                         "state":  "matched_before",
+                         "repeat":  1,
+                         "file":  "matched_before_r1.txt",
+                         "sequence":  93,
+                         "sha256":  "58df33a9c0e9676dcf00aca26aee6398161b8db18421a7d3c02e50a3c68f5bc6"
+                     },
+                     {
+                         "state":  "endpoint_open1",
+                         "repeat":  1,
+                         "file":  "endpoint_open1_r1.txt",
+                         "sequence":  94,
+                         "sha256":  "28a1c7353ee7628cb12715036c3c89beca0aedeecf50985bb17e61efa668bba5"
+                     },
+                     {
+                         "state":  "endpoint_open1",
+                         "repeat":  2,
+                         "file":  "endpoint_open1_r2.txt",
+                         "sequence":  95,
+                         "sha256":  "3f468dcc04ee75f97ba8e972a256cb5d7cdd5d68a2a3cafbce2f8a1ce55fa1a4"
+                     },
+                     {
+                         "state":  "endpoint_open1",
+                         "repeat":  3,
+                         "file":  "endpoint_open1_r3.txt",
+                         "sequence":  96,
+                         "sha256":  "004758262566625ac29d0af676fbb1d7ebb5c6f32f58a2badcdf086823b2319f"
+                     },
+                     {
+                         "state":  "endpoint_short1",
+                         "repeat":  1,
+                         "file":  "endpoint_short1_r1.txt",
+                         "sequence":  97,
+                         "sha256":  "1600e9a2c746bc73ce9dea3e771977adf0109aa6b19e73de185fa8f1aa9100e4"
+                     },
+                     {
+                         "state":  "endpoint_short1",
+                         "repeat":  2,
+                         "file":  "endpoint_short1_r2.txt",
+                         "sequence":  98,
+                         "sha256":  "ebcd68e149ded24eacc365ae92614679ccc8762b8759a0fc9aa2c6b065271e9e"
+                     },
+                     {
+                         "state":  "endpoint_short1",
+                         "repeat":  3,
+                         "file":  "endpoint_short1_r3.txt",
+                         "sequence":  99,
+                         "sha256":  "b78b4a6fb43e43e5ed73419d78c02bc4d36bad84ba448902cd685707ff12139f"
+                     },
+                     {
+                         "state":  "endpoint_open0",
+                         "repeat":  1,
+                         "file":  "endpoint_open0_r1.txt",
+                         "sequence":  100,
+                         "sha256":  "106dd27abe5cc3a541272fe21abf46f86f11388e07c073c2ed911702b7c18b55"
+                     },
+                     {
+                         "state":  "endpoint_open0",
+                         "repeat":  2,
+                         "file":  "endpoint_open0_r2.txt",
+                         "sequence":  101,
+                         "sha256":  "9cbba04650b67dc6c89d4916535c5d8d94bbfa4a52bb5ce86db04948540eed22"
+                     },
+                     {
+                         "state":  "endpoint_open0",
+                         "repeat":  3,
+                         "file":  "endpoint_open0_r3.txt",
+                         "sequence":  102,
+                         "sha256":  "d05bd28baedc9abf7b6ae3fb321588935ea118265b8d440492b3714b1a95776c"
+                     }
+                 ],
+    "truth_sent_to_firmware":  false,
+    "operator_port":  "COM7",
+    "screen_observation":  "NOT_CHECKED",
+    "failure_reason":  "Sample state not confirmed"
+}

@@ -1,0 +1,438 @@
+{
+  "schema": "PN_WEAK_CANDIDATE10M_ANALYSIS_1",
+  "status": "PASS",
+  "scope": "integrity plus frozen development candidate check; not formal accuracy or health certification",
+  "evidence_kind": "operator_declared_live_development_capture",
+  "firmware_stage": 26,
+  "model_id": "WEAK_CANDIDATE1",
+  "model_sha256": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+  "verified_batch": {
+    "archive_sha256": "fede98cf3753dc0f5fbe2f1eed4738fc404c4f21ab6476d07fb09a1eadfb9a4c",
+    "evidence_kind": "operator_declared_live_development_capture",
+    "front_length_m": 10,
+    "back_length_m": 3,
+    "baseline_id": 7,
+    "baseline_crc32": "BB989C29",
+    "source_raw_sequences": [
+      73,
+      74,
+      75
+    ],
+    "groups": {
+      "reference_before": {
+        "technical_repeats": 3,
+        "independent_trials": 1,
+        "sequences": [
+          76,
+          77,
+          78
+        ],
+        "mean_raw_rms_q2": 3.609581605120584,
+        "peak_lags": [
+          56,
+          73,
+          151
+        ],
+        "signs": [
+          -1,
+          1,
+          1
+        ],
+        "max_abs_peak_q16": 5432832.0,
+        "mean_correlation_peak_lag": 56,
+        "mean_correlation_peak_q16": -3319125.3333333335,
+        "mean_correlation_denominator": 384
+      },
+      "sample_D1K": {
+        "technical_repeats": 3,
+        "independent_trials": 1,
+        "sequences": [
+          79,
+          80,
+          81
+        ],
+        "mean_raw_rms_q2": 5.696740620879034,
+        "peak_lags": [
+          163,
+          163,
+          163
+        ],
+        "signs": [
+          -1,
+          -1,
+          -1
+        ],
+        "max_abs_peak_q16": 49651200.0,
+        "mean_correlation_peak_lag": 163,
+        "mean_correlation_peak_q16": -48811520.0,
+        "mean_correlation_denominator": 384
+      },
+      "reference_after": {
+        "technical_repeats": 3,
+        "independent_trials": 1,
+        "sequences": [
+          82,
+          83,
+          84
+        ],
+        "mean_raw_rms_q2": 3.564424629494764,
+        "peak_lags": [
+          151,
+          230,
+          82
+        ],
+        "signs": [
+          1,
+          1,
+          -1
+        ],
+        "max_abs_peak_q16": 4792320.0,
+        "mean_correlation_peak_lag": 230,
+        "mean_correlation_peak_q16": 2788010.6666666665,
+        "mean_correlation_denominator": 384
+      }
+    },
+    "before_hardware": {
+      "HW_INFO": {
+        "IP_ID": "4543484F",
+        "VERSION": "00030002",
+        "FS_HZ": "200000000",
+        "PAIR_HZ": "100000000",
+        "CAPS": "15"
+      },
+      "HW_STATUS": {
+        "STATUS": "00840047",
+        "ERROR": "00000000",
+        "FRAME": "32",
+        "RESULT": "256",
+        "PULSE_CFG": "00000405",
+        "AVG_VALID": "00000003"
+      },
+      "PN_INFO": {
+        "CONFIG": "0",
+        "INFO": "007F0207",
+        "SEED": "127",
+        "AMPLITUDE": "4096",
+        "CHIP_HZ": "50000000"
+      },
+      "HMI_INFO": {
+        "PAGE": "0",
+        "VALID": "1",
+        "LOCKED": "0",
+        "VIEW": "0",
+        "ZOOM": "0",
+        "WAVE_VERSION": "1"
+      },
+      "REF_GUARD_INFO": {
+        "VERSION": "1",
+        "PROFILES": "2",
+        "BANK_CRC32": "02FEEBDD",
+        "ACTIVE_PROFILE": "1",
+        "ACTIVE_MASK": "1",
+        "GATE_Q16": "208916480",
+        "ADAPTIVE": "0"
+      },
+      "CONT_INFO": {
+        "STATE": "IDLE",
+        "SESSION": "0",
+        "FRAMES": "0",
+        "BASE_ID": "0",
+        "BASE_CRC": "00000000",
+        "LAST_SEQ": "0",
+        "MEAS_SEQ": "72",
+        "IN_FLIGHT": "0"
+      },
+      "HEALTHY_INFO": {
+        "VALID": "1",
+        "BASE_ID": "6",
+        "CRC32": "2A5917D1",
+        "REF_N": "3",
+        "VOLATILE": "1",
+        "DISTANCE_VALID": "0",
+        "FW_STAGE": "26"
+      }
+    },
+    "after_hardware": {
+      "HW_INFO": {
+        "IP_ID": "4543484F",
+        "VERSION": "00030002",
+        "FS_HZ": "200000000",
+        "PAIR_HZ": "100000000",
+        "CAPS": "15"
+      },
+      "HW_STATUS": {
+        "STATUS": "00840347",
+        "ERROR": "00000000",
+        "FRAME": "32",
+        "RESULT": "256",
+        "PULSE_CFG": "00000405",
+        "AVG_VALID": "00000003"
+      },
+      "PN_INFO": {
+        "CONFIG": "0",
+        "INFO": "007F0207",
+        "SEED": "127",
+        "AMPLITUDE": "4096",
+        "CHIP_HZ": "50000000"
+      },
+      "HMI_INFO": {
+        "PAGE": "0",
+        "VALID": "1",
+        "LOCKED": "0",
+        "VIEW": "0",
+        "ZOOM": "0",
+        "WAVE_VERSION": "1"
+      },
+      "REF_GUARD_INFO": {
+        "VERSION": "1",
+        "PROFILES": "2",
+        "BANK_CRC32": "02FEEBDD",
+        "ACTIVE_PROFILE": "1",
+        "ACTIVE_MASK": "1",
+        "GATE_Q16": "208916480",
+        "ADAPTIVE": "0"
+      },
+      "CONT_INFO": {
+        "STATE": "IDLE",
+        "SESSION": "0",
+        "FRAMES": "0",
+        "BASE_ID": "0",
+        "BASE_CRC": "00000000",
+        "LAST_SEQ": "0",
+        "MEAS_SEQ": "84",
+        "IN_FLIGHT": "0"
+      },
+      "HEALTHY_INFO": {
+        "VALID": "1",
+        "BASE_ID": "7",
+        "CRC32": "BB989C29",
+        "REF_N": "3",
+        "VOLATILE": "1",
+        "DISTANCE_VALID": "0",
+        "FW_STAGE": "26"
+      }
+    },
+    "transcript": {
+      "TX_count": 38,
+      "RX_count": 19909,
+      "V_header_retries": 0,
+      "commands": {
+        "V": 5,
+        "B": 1,
+        "J": 5,
+        "D": 9,
+        "R": 9,
+        "C": 9
+      },
+      "RX_files_exact": true
+    },
+    "checked_JSON_exact": 23,
+    "exact_correlation_points": 2304,
+    "exact_display_pixels": 4608
+  },
+  "rows": [
+    {
+      "source_file": "reference_before_r1.txt",
+      "sequence": 76,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "status_code": 1,
+        "lag": 56,
+        "sign": -1,
+        "peak_num": -572456960,
+        "abs_peak_num": 572456960,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      },
+      "state": "reference_before",
+      "repeat": 1,
+      "nominal_error_mm": null
+    },
+    {
+      "source_file": "reference_before_r2.txt",
+      "sequence": 77,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "status_code": 1,
+        "lag": 73,
+        "sign": 1,
+        "peak_num": 429129728,
+        "abs_peak_num": 429129728,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      },
+      "state": "reference_before",
+      "repeat": 2,
+      "nominal_error_mm": null
+    },
+    {
+      "source_file": "reference_before_r3.txt",
+      "sequence": 78,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "status_code": 1,
+        "lag": 151,
+        "sign": 1,
+        "peak_num": 695402496,
+        "abs_peak_num": 695402496,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      },
+      "state": "reference_before",
+      "repeat": 3,
+      "nominal_error_mm": null
+    },
+    {
+      "source_file": "sample_D1K_r1.txt",
+      "sequence": 79,
+      "candidate": {
+        "status": "NEGATIVE_DISTANCE_CANDIDATE",
+        "status_code": 5,
+        "lag": 163,
+        "sign": -1,
+        "peak_num": -6177488896,
+        "abs_peak_num": 6177488896,
+        "L_mm": 10000,
+        "available": true,
+        "distance_valid": false
+      },
+      "state": "sample_D1K",
+      "repeat": 1,
+      "nominal_error_mm": 0
+    },
+    {
+      "source_file": "sample_D1K_r2.txt",
+      "sequence": 80,
+      "candidate": {
+        "status": "NEGATIVE_DISTANCE_CANDIDATE",
+        "status_code": 5,
+        "lag": 163,
+        "sign": -1,
+        "peak_num": -6355353600,
+        "abs_peak_num": 6355353600,
+        "L_mm": 10000,
+        "available": true,
+        "distance_valid": false
+      },
+      "state": "sample_D1K",
+      "repeat": 2,
+      "nominal_error_mm": 0
+    },
+    {
+      "source_file": "sample_D1K_r3.txt",
+      "sequence": 81,
+      "candidate": {
+        "status": "NEGATIVE_DISTANCE_CANDIDATE",
+        "status_code": 5,
+        "lag": 163,
+        "sign": -1,
+        "peak_num": -6210781184,
+        "abs_peak_num": 6210781184,
+        "L_mm": 10000,
+        "available": true,
+        "distance_valid": false
+      },
+      "state": "sample_D1K",
+      "repeat": 3,
+      "nominal_error_mm": 0
+    },
+    {
+      "source_file": "reference_after_r1.txt",
+      "sequence": 82,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "status_code": 1,
+        "lag": 151,
+        "sign": 1,
+        "peak_num": 561643520,
+        "abs_peak_num": 561643520,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      },
+      "state": "reference_after",
+      "repeat": 1,
+      "nominal_error_mm": null
+    },
+    {
+      "source_file": "reference_after_r2.txt",
+      "sequence": 83,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "status_code": 1,
+        "lag": 230,
+        "sign": 1,
+        "peak_num": 476446720,
+        "abs_peak_num": 476446720,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      },
+      "state": "reference_after",
+      "repeat": 2,
+      "nominal_error_mm": null
+    },
+    {
+      "source_file": "reference_after_r3.txt",
+      "sequence": 84,
+      "candidate": {
+        "status": "LOW_RETURN",
+        "status_code": 1,
+        "lag": 82,
+        "sign": -1,
+        "peak_num": -613416960,
+        "abs_peak_num": 613416960,
+        "L_mm": -1,
+        "available": false,
+        "distance_valid": false
+      },
+      "state": "reference_after",
+      "repeat": 3,
+      "nominal_error_mm": null
+    }
+  ],
+  "outcome": {
+    "control_LOW_RETURN": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "sample_NEGATIVE_DISTANCE_CANDIDATE": [
+      true,
+      true,
+      true
+    ],
+    "sample_within_nominal_tolerance": [
+      true,
+      true,
+      true
+    ],
+    "predeclared_check_pass": true
+  },
+  "live_prospective_check_pass": true,
+  "candidate_classification_performed": true,
+  "candidate_selection_uses_state_or_position": false,
+  "nominal_target_mm": 10000,
+  "predeclared_nominal_tolerance_mm": 500,
+  "fit_total_cable_m": 20,
+  "check_total_cable_m": 13,
+  "positive_distance_supported": false,
+  "model_retuned_after_capture": false,
+  "production_firmware_changed": false,
+  "distance_valid": false,
+  "weak_impedance_validated": false,
+  "calibrated_Gamma": false,
+  "detector_statistics_validated": false,
+  "qualification": "Same-session D1k nominal10m check with10m+3m cables, transferring from5m/15m fit with20m total. Three technical repeats per one state. LOW_RETURN is not cable-health proof; negative residual is not a short-circuit decision. No same-structure Normal PCB or formal detection/false-alarm/accuracy qualification.",
+  "source_sha256": {
+    "session.json": "69269632d5e659d63c2b8806c2971677e37cbba0d478877b995c9c583dec8e29",
+    "capture_10m.zip": "fede98cf3753dc0f5fbe2f1eed4738fc404c4f21ab6476d07fb09a1eadfb9a4c",
+    "weak_distance_candidate1.json": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4"
+  }
+}

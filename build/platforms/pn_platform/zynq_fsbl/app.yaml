@@ -1,0 +1,4 @@
+domain_path: D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_platform/zynq_fsbl/zynq_fsbl_bsp
+app_src_dir: D:\AMDDesignTools\2026.1\Vitis\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

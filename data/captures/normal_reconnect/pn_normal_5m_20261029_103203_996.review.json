@@ -1,0 +1,386 @@
+{
+  "schema": "PN_NORMAL_RECONNECT_REVIEW_1",
+  "review_date": "2026-10-29",
+  "session": "pn_normal_5m_20261029_103203_996",
+  "source_zip": "pn_normal_5m_20261029_103203_996.zip",
+  "source_zip_sha256": "4855502eae87243db74454228e829c89f6197c247a8a5f76c56330b592033eff",
+  "zip_file_count": 20,
+  "zip_crc_and_folder_bytes_exact": true,
+  "source_session_sha256": "44dcb0414a4a08a08d618ecd24b0147dbc5364bcee0bbcb014b4901915866ef3",
+  "source_analysis_sha256": "6fc048c7fb6168ab791997031c6aadf77679bc1fbb807ca39a39316e9df278d4",
+  "fresh_analysis_matches_saved": true,
+  "source_tool_sha256": {
+    "analyze_pn_normal_reconnect.py": "c9e09056f3126fed085ef0b2d2a930de3c9a3f1fdd8bcf5347dddb8fd1977394",
+    "compare_pn_states.py": "a18f59caae2055e709ef74441dd54fb4a67428f337fb2440218157b7ee90e5f9",
+    "check_pn_capture.py": "ede37f3f68fe62e9e3bac0e8f53fa36d1c60fb368b59c22e89698274fbcd1f37",
+    "check_raw_capture.py": "fbf5c493ef6a4f6bf4994d34ed23cc0b2a239b7b7e25bb7c5a11d353364b3bde"
+  },
+  "captures_verified": 18,
+  "sequence_range": [
+    1,
+    18
+  ],
+  "sequence_consecutive": true,
+  "reconnect_operations": 5,
+  "technical_repeats_per_operation": 3,
+  "pn_distance_status_counts": {
+    "LOW_RETURN": 18
+  },
+  "device_failure_lines": [],
+  "group_metrics": [
+    {
+      "group_kind": "baseline",
+      "operation": 0,
+      "technical_repeat_count": 3,
+      "sequences": [
+        1,
+        2,
+        3
+      ],
+      "max_abs_dc_removed_correlation_peak_q16": 3180885.3333333335,
+      "max_abs_dc_change_q2": 0.11979166666666667,
+      "mean_dc_removed_raw_rms_q2": 2.521321054371335,
+      "max_dc_removed_raw_rms_q2": 2.5481687664870236,
+      "pretrigger_dc_min_q2": 562.21875,
+      "pretrigger_dc_max_q2": 562.421875
+    },
+    {
+      "group_kind": "reconnect",
+      "operation": 1,
+      "technical_repeat_count": 3,
+      "sequences": [
+        4,
+        5,
+        6
+      ],
+      "max_abs_dc_removed_correlation_peak_q16": 4052992.0,
+      "max_abs_dc_change_q2": 0.3854166666666667,
+      "mean_dc_removed_raw_rms_q2": 3.5347369404355207,
+      "max_dc_removed_raw_rms_q2": 3.599485911644189,
+      "pretrigger_dc_min_q2": 562.328125,
+      "pretrigger_dc_max_q2": 562.6875
+    },
+    {
+      "group_kind": "reconnect",
+      "operation": 2,
+      "technical_repeat_count": 3,
+      "sequences": [
+        7,
+        8,
+        9
+      ],
+      "max_abs_dc_removed_correlation_peak_q16": 4877482.666666667,
+      "max_abs_dc_change_q2": 0.6145833333333334,
+      "mean_dc_removed_raw_rms_q2": 3.5091299702626397,
+      "max_dc_removed_raw_rms_q2": 3.5273596114445884,
+      "pretrigger_dc_min_q2": 561.6875,
+      "pretrigger_dc_max_q2": 562.4765625
+    },
+    {
+      "group_kind": "reconnect",
+      "operation": 3,
+      "technical_repeat_count": 3,
+      "sequences": [
+        10,
+        11,
+        12
+      ],
+      "max_abs_dc_removed_correlation_peak_q16": 3530752.0,
+      "max_abs_dc_change_q2": 0.21614583333333334,
+      "mean_dc_removed_raw_rms_q2": 3.5709476779393996,
+      "max_dc_removed_raw_rms_q2": 3.665908272657905,
+      "pretrigger_dc_min_q2": 562.0859375,
+      "pretrigger_dc_max_q2": 562.3828125
+    },
+    {
+      "group_kind": "reconnect",
+      "operation": 4,
+      "technical_repeat_count": 3,
+      "sequences": [
+        13,
+        14,
+        15
+      ],
+      "max_abs_dc_removed_correlation_peak_q16": 4339370.666666667,
+      "max_abs_dc_change_q2": 0.2864583333333333,
+      "mean_dc_removed_raw_rms_q2": 3.6105464772753937,
+      "max_dc_removed_raw_rms_q2": 3.6833141297635237,
+      "pretrigger_dc_min_q2": 562.015625,
+      "pretrigger_dc_max_q2": 562.1171875
+    },
+    {
+      "group_kind": "reconnect",
+      "operation": 5,
+      "technical_repeat_count": 3,
+      "sequences": [
+        16,
+        17,
+        18
+      ],
+      "max_abs_dc_removed_correlation_peak_q16": 4711936.0,
+      "max_abs_dc_change_q2": 0.4817708333333333,
+      "mean_dc_removed_raw_rms_q2": 3.570925017347546,
+      "max_dc_removed_raw_rms_q2": 3.647481026481381,
+      "pretrigger_dc_min_q2": 561.8203125,
+      "pretrigger_dc_max_q2": 562.3203125
+    }
+  ],
+  "within_and_between_groups": [
+    {
+      "operation": 0,
+      "pairwise_within_group_rms_q2": [
+        4.32048908997147,
+        4.356104564017747,
+        4.42457956159396
+      ],
+      "pairwise_within_group_mean_rms_q2": 4.367057738527726,
+      "group_mean_to_initial_baseline_mean_rms_q2": 0.0
+    },
+    {
+      "operation": 1,
+      "pairwise_within_group_rms_q2": [
+        4.294473760871348,
+        4.402366279334544,
+        4.32498617004653
+      ],
+      "pairwise_within_group_mean_rms_q2": 4.3406087367508075,
+      "group_mean_to_initial_baseline_mean_rms_q2": 2.4940005052054963
+    },
+    {
+      "operation": 2,
+      "pairwise_within_group_rms_q2": [
+        4.264562453514062,
+        4.3620605947001625,
+        4.281025456018467
+      ],
+      "pairwise_within_group_mean_rms_q2": 4.302549501410897,
+      "group_mean_to_initial_baseline_mean_rms_q2": 2.4784950180005323
+    },
+    {
+      "operation": 3,
+      "pairwise_within_group_rms_q2": [
+        4.350838345827553,
+        4.454000393672629,
+        4.36795610409992
+      ],
+      "pairwise_within_group_mean_rms_q2": 4.3909316145333674,
+      "group_mean_to_initial_baseline_mean_rms_q2": 2.515701829830908
+    },
+    {
+      "operation": 4,
+      "pairwise_within_group_rms_q2": [
+        4.3067783601840945,
+        4.153901548097772,
+        4.4144237269229505
+      ],
+      "pairwise_within_group_mean_rms_q2": 4.291701211734939,
+      "group_mean_to_initial_baseline_mean_rms_q2": 2.625902131895512
+    },
+    {
+      "operation": 5,
+      "pairwise_within_group_rms_q2": [
+        4.3067783601840945,
+        4.280736739306682,
+        4.338688597952151
+      ],
+      "pairwise_within_group_mean_rms_q2": 4.3087345658143095,
+      "group_mean_to_initial_baseline_mean_rms_q2": 2.5632756411009097
+    }
+  ],
+  "same_batch_baseline_max_reconnect_abs_residual_q16": 4877482.666666667,
+  "same_batch_baseline_reconnect_raw_rms_mean_q2": 3.5592572166521,
+  "old_reference_sha256": "9bcbec3dfc56bd9f6bf663d0380523314ee284a5fc89cbfe94ab95b93636a20d",
+  "old_reference_comparisons": [
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_baseline_0_r1_20261029_103204_161.txt",
+      "sequence": 1,
+      "sha256": "ae56046d2a85eed0968023e89e60113e021086c400986d70830d7c7759d49a19",
+      "dc_difference_from_reference_q2": -3.8151041666666665,
+      "dc_removed_difference_raw_rms_q2": 4.608429973156945,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 22297429.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_baseline_0_r2_20261029_103206_296.txt",
+      "sequence": 2,
+      "sha256": "12a48d6c02e4c280a18b01108a36a970b049d716babfa44233f59e265538aae3",
+      "dc_difference_from_reference_q2": -3.6588541666666665,
+      "dc_removed_difference_raw_rms_q2": 4.436131990325612,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 23941973.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_baseline_0_r3_20261029_103208_402.txt",
+      "sequence": 3,
+      "sha256": "9ce99db02b5780abfb75fa27e507dd0312000840e94fefc40c7f6aac33a86b55",
+      "dc_difference_from_reference_q2": -3.8619791666666665,
+      "dc_removed_difference_raw_rms_q2": 4.566621402414055,
+      "dc_removed_difference_peak_lag": 149,
+      "dc_removed_difference_peak_q16": 22671872.0,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_1_r1_20261029_103222_461.txt",
+      "sequence": 4,
+      "sha256": "6bc630b37fa9f9f36b6c3f754014bc3df2767588c43ae144bcd0beb564116928",
+      "dc_difference_from_reference_q2": -3.7057291666666665,
+      "dc_removed_difference_raw_rms_q2": 4.637126981408863,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 23322453.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_1_r2_20261029_103224_490.txt",
+      "sequence": 5,
+      "sha256": "82dae31d157e83b3c8ee05be47de528e58e75789ab07534e41f994ce0990d434",
+      "dc_difference_from_reference_q2": -3.3932291666666665,
+      "dc_removed_difference_raw_rms_q2": 4.3528879529983895,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 21057365.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_1_r3_20261029_103226_581.txt",
+      "sequence": 6,
+      "sha256": "65b9b66402c785c5cb6c92e2a07978ac84de4669d4d97def57f7a3f141ea60ce",
+      "dc_difference_from_reference_q2": -3.7526041666666665,
+      "dc_removed_difference_raw_rms_q2": 4.480224295254155,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 22424405.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_2_r1_20261029_103238_707.txt",
+      "sequence": 7,
+      "sha256": "2fe24a508ca2443c66922188a799c731d6f45ecdcaf06529a9c5e1636ae70492",
+      "dc_difference_from_reference_q2": -3.6041666666666665,
+      "dc_removed_difference_raw_rms_q2": 4.427336083471295,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 22775125.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_2_r2_20261029_103240_800.txt",
+      "sequence": 8,
+      "sha256": "f030211b4834b9f737551e1c83d42c4c71a09ce5a43c5280b949c912e9389bd7",
+      "dc_difference_from_reference_q2": -3.7526041666666665,
+      "dc_removed_difference_raw_rms_q2": 4.431601363388714,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 22473557.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_2_r3_20261029_103242_878.txt",
+      "sequence": 9,
+      "sha256": "be187c7327270e1fa21e0af138798b6e48fd35d89624817b2250c96872a1503a",
+      "dc_difference_from_reference_q2": -4.393229166666667,
+      "dc_removed_difference_raw_rms_q2": 4.569014312896125,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 23236437.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_3_r1_20261029_103255_172.txt",
+      "sequence": 10,
+      "sha256": "cb1b7001b262c4a6cd67f9fde63edc6c9dd160b2d570be24392f48a8a214b0c9",
+      "dc_difference_from_reference_q2": -3.9869791666666665,
+      "dc_removed_difference_raw_rms_q2": 4.5600927031911365,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 23619413.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_3_r2_20261029_103257_210.txt",
+      "sequence": 11,
+      "sha256": "55a37ce1bf7cbe9e474dc3d66f630c7e924fde8f32dd9d7a01a4d04baf9580cb",
+      "dc_difference_from_reference_q2": -3.9947916666666665,
+      "dc_removed_difference_raw_rms_q2": 4.466469254567474,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 21834069.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_3_r3_20261029_103259_245.txt",
+      "sequence": 12,
+      "sha256": "ef0fe364cd4825bc1094fe055c230a4bdec0e3ce402054a280777e3d99bb9028",
+      "dc_difference_from_reference_q2": -3.6979166666666665,
+      "dc_removed_difference_raw_rms_q2": 4.498302751879807,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 22732117.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_4_r1_20261029_103313_848.txt",
+      "sequence": 13,
+      "sha256": "86199cf5971ffb6833e8ffa74d4ba83b8d3d197b9c35944981b705ae3f26aa86",
+      "dc_difference_from_reference_q2": -3.9713541666666665,
+      "dc_removed_difference_raw_rms_q2": 4.35740529008809,
+      "dc_removed_difference_peak_lag": 151,
+      "dc_removed_difference_peak_q16": 20893184.0,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_4_r2_20261029_103315_868.txt",
+      "sequence": 14,
+      "sha256": "1dcfb65983f583966d0a279bfb8682744f897fd21b829daccea6df9c14eaa8cc",
+      "dc_difference_from_reference_q2": -4.065104166666667,
+      "dc_removed_difference_raw_rms_q2": 4.505442589345663,
+      "dc_removed_difference_peak_lag": 151,
+      "dc_removed_difference_peak_q16": 22636032.0,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_4_r3_20261029_103317_920.txt",
+      "sequence": 15,
+      "sha256": "9e12ffc92d29a6e41f85ba02fb2d871e87a720f7920ca4caa8038b3966f8f0da",
+      "dc_difference_from_reference_q2": -3.9635416666666665,
+      "dc_removed_difference_raw_rms_q2": 4.393219904653347,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 21209429.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_5_r1_20261029_103333_317.txt",
+      "sequence": 16,
+      "sha256": "51c14941e4bafa46a023983c5d46c6d87d8a5f876c522f34ea55e610dff4b988",
+      "dc_difference_from_reference_q2": -4.010416666666667,
+      "dc_removed_difference_raw_rms_q2": 4.564159259977026,
+      "dc_removed_difference_peak_lag": 151,
+      "dc_removed_difference_peak_q16": 21682176.0,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_5_r2_20261029_103335_382.txt",
+      "sequence": 17,
+      "sha256": "a20c5558fcbf8409136a6e30e4ce1db55fb92209f03f8e1e2ecdb2ca831fcee9",
+      "dc_difference_from_reference_q2": -3.7604166666666665,
+      "dc_removed_difference_raw_rms_q2": 4.420262822027511,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 21605717.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    },
+    {
+      "file": "pn_capture_pn_normal_5m_20261029_103203_996_reconnect_5_r3_20261029_103337_437.txt",
+      "sequence": 18,
+      "sha256": "2640a6c0bde0044d421b6b05d8a087908738b936032acea6ea1628ac9c482058",
+      "dc_difference_from_reference_q2": -4.260416666666667,
+      "dc_removed_difference_raw_rms_q2": 4.6405533921710544,
+      "dc_removed_difference_peak_lag": 150,
+      "dc_removed_difference_peak_q16": 22670677.333333332,
+      "difference_arithmetic_identity": "ALL_256_EXACT"
+    }
+  ],
+  "old_reference_max_abs_residual_q16": 23941973.333333332,
+  "current_frozen_large_return_gate_q16": 208916480,
+  "old_reference_max_residual_fraction_of_gate": 0.11460069274254157,
+  "frozen_model_and_sources_unchanged": true,
+  "firmware_reference_changed": false,
+  "new_unique_complete_pn_captures": 18,
+  "previous_host_replay_unique_captures": 33,
+  "combined_unique_complete_pn_captures": 51,
+  "formal_fixture_normal_test": false,
+  "weak_impedance_validated": false,
+  "qualification": "Five operator-declared far-end reconnect operations, each with three technical repeats, observed in about 95 seconds. No formal false-alarm rate, weak-return sensitivity, full-chain 10Hz or two-hour stability conclusion. Baseline self-residuals share their own fitted mean, unlike reconnect residuals."
+}

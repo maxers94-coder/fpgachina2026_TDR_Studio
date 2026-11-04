@@ -1,0 +1,109 @@
+{
+    "schema":  "STAGE57_RANGE_DEVELOPMENT_SESSION_1",
+    "status":  "data_integrity_pass_interpretation_pending",
+    "position_m":  33,
+    "plan":  {
+                 "schema":  "STAGE57_RANGE_DEVELOPMENT_PLAN_1",
+                 "firmware_stage":  56,
+                 "position_m":  33,
+                 "front_segments_m":  [
+                                          15,
+                                          10,
+                                          5,
+                                          3
+                                      ],
+                 "back_segments_m":  1,
+                 "normal_barrels":  4,
+                 "reference_sources":  3,
+                 "sample_repeats":  3,
+                 "D_snapshots":  11,
+                 "total_acquisitions":  14,
+                 "automatic_retry":  false,
+                 "truth_sent_to_firmware":  false,
+                 "requires_new_firmware":  false,
+                 "distance_or_type_outcome_required":  false
+             },
+    "initial_sequence":  31,
+    "captures":  [
+                     {
+                         "state":  "matched_before",
+                         "repeat":  1,
+                         "file":  "matched_before_r1.txt",
+                         "sequence":  35,
+                         "sha256":  "b30164afbc385f6409abc0aecef8d4c1b0db3a7f85801ec742914770eac9b4ca"
+                     },
+                     {
+                         "state":  "sample_A27",
+                         "repeat":  1,
+                         "file":  "sample_A27_r1.txt",
+                         "sequence":  36,
+                         "sha256":  "f69e2fd872f561eac3ec789cc43335986f3b8828ab096f0b3573f0c89873e6fa"
+                     },
+                     {
+                         "state":  "sample_A27",
+                         "repeat":  2,
+                         "file":  "sample_A27_r2.txt",
+                         "sequence":  37,
+                         "sha256":  "ed785ef9fad6ffc826277491e52e9c2c709c74912e25f10600ab684ee1fcb686"
+                     },
+                     {
+                         "state":  "sample_A27",
+                         "repeat":  3,
+                         "file":  "sample_A27_r3.txt",
+                         "sequence":  38,
+                         "sha256":  "7d6b23b78812f670ec2b99489ebd6bee6aac3a6ad86c71bbd5ddccd2b31f80f0"
+                     },
+                     {
+                         "state":  "sample_B47",
+                         "repeat":  1,
+                         "file":  "sample_B47_r1.txt",
+                         "sequence":  39,
+                         "sha256":  "b7ea3a87cbee39fc3e933fa6fb96c33eb6cffa064e272a93945edc80ea167ea1"
+                     },
+                     {
+                         "state":  "sample_B47",
+                         "repeat":  2,
+                         "file":  "sample_B47_r2.txt",
+                         "sequence":  40,
+                         "sha256":  "5da4d9db1dcb56cf6e694143f3d73ec848ba25791abe496e9c0d9f0753ce17bf"
+                     },
+                     {
+                         "state":  "sample_B47",
+                         "repeat":  3,
+                         "file":  "sample_B47_r3.txt",
+                         "sequence":  41,
+                         "sha256":  "492fa5afff7daebd3a1d2cd72562faa39221729b203d3c56d5d0b20701019a90"
+                     },
+                     {
+                         "state":  "sample_D1K",
+                         "repeat":  1,
+                         "file":  "sample_D1K_r1.txt",
+                         "sequence":  42,
+                         "sha256":  "07274f06b0359c0b10ba419eee62221bf384888f3f6552143a30216373776c74"
+                     },
+                     {
+                         "state":  "sample_D1K",
+                         "repeat":  2,
+                         "file":  "sample_D1K_r2.txt",
+                         "sequence":  43,
+                         "sha256":  "e1deb4a3a4ac5e0114a3f467bbdec6c86bc8b4142372d079782d64f72cc1c41d"
+                     },
+                     {
+                         "state":  "sample_D1K",
+                         "repeat":  3,
+                         "file":  "sample_D1K_r3.txt",
+                         "sequence":  44,
+                         "sha256":  "1698145bcada89944929cc63c5e3fb7e1d630ad496ef35b8c2c5d8e1e8bc60c9"
+                     },
+                     {
+                         "state":  "matched_restored",
+                         "repeat":  1,
+                         "file":  "matched_restored_r1.txt",
+                         "sequence":  45,
+                         "sha256":  "1bd31577d6badc67035b9fcca8f01fb1b87bd4aff5e1f6095cefceee7d3ac646"
+                     }
+                 ],
+    "truth_sent_to_firmware":  false,
+    "operator_port":  "COM7",
+    "screen_observation":  "NOT_CHECKED"
+}

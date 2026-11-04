@@ -1,0 +1,123 @@
+{
+    "schema":  "PN_CAL_BATCH_1",
+    "session":  "pn_cal_15m_fit_20261028_232001_184",
+    "plan":  {
+                 "schema":  "PN_CAL_1",
+                 "length_m":  15,
+                 "length_mm":  15000,
+                 "role":  "fit",
+                 "waveform":  "PN127",
+                 "sample_rate_hz":  200000000,
+                 "repeats_per_state":  3,
+                 "total_captures":  9,
+                 "order":  [
+                               "matched",
+                               "open",
+                               "short"
+                           ],
+                 "calibrated":  false,
+                 "length_source":  "operator_declared_known_length",
+                 "fit_lengths_m":  [
+                                       1,
+                                       15
+                                   ],
+                 "validation_lengths_m":  [
+                                              3,
+                                              5
+                                          ]
+             },
+    "operator_port":  "COM7",
+    "status":  "complete",
+    "captures":  [
+                     {
+                         "file":  "pn_capture_pn_cal_15m_fit_20261028_232001_184_matched_r1_20261028_232015_009.txt",
+                         "state":  "matched",
+                         "repeat":  1,
+                         "sequence":  12,
+                         "length_mm":  15000,
+                         "role":  "fit",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "3ee7a5de06b5c42e278bc3858491ba1bed3d9d475933eb55b64329612b3a3a09"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_15m_fit_20261028_232001_184_matched_r2_20261028_232017_140.txt",
+                         "state":  "matched",
+                         "repeat":  2,
+                         "sequence":  13,
+                         "length_mm":  15000,
+                         "role":  "fit",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "de2af1e787b6c63dcfb806342d1012a20dc73380f978729786145ce8bfc23547"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_15m_fit_20261028_232001_184_matched_r3_20261028_232019_179.txt",
+                         "state":  "matched",
+                         "repeat":  3,
+                         "sequence":  14,
+                         "length_mm":  15000,
+                         "role":  "fit",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "3f22e6f856eb89a1494657023ab00826aa2730682dc7486c932db1e8db125a9b"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_15m_fit_20261028_232001_184_open_r1_20261028_232029_335.txt",
+                         "state":  "open",
+                         "repeat":  1,
+                         "sequence":  15,
+                         "length_mm":  15000,
+                         "role":  "fit",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "8d2ca13647cb55a98e7a1039514e5ea5a370c39a522d56c38cfc7e2825a773d0"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_15m_fit_20261028_232001_184_open_r2_20261028_232031_433.txt",
+                         "state":  "open",
+                         "repeat":  2,
+                         "sequence":  16,
+                         "length_mm":  15000,
+                         "role":  "fit",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "e748572090a936e46e574d30b1d5778d70450a5df2f21e681ededfe3ddb8ce1e"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_15m_fit_20261028_232001_184_open_r3_20261028_232033_522.txt",
+                         "state":  "open",
+                         "repeat":  3,
+                         "sequence":  17,
+                         "length_mm":  15000,
+                         "role":  "fit",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "241fa2358e7fdc94f22bfa5119c1c6173918f4018ccac62af8a5d2f3699fa9e1"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_15m_fit_20261028_232001_184_short_r1_20261028_232042_389.txt",
+                         "state":  "short",
+                         "repeat":  1,
+                         "sequence":  18,
+                         "length_mm":  15000,
+                         "role":  "fit",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "5dc2320a57c7c8e6200f4eb5fe89e9eb494a2951f9eff1e4ed548994392beb44"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_15m_fit_20261028_232001_184_short_r2_20261028_232044_384.txt",
+                         "state":  "short",
+                         "repeat":  2,
+                         "sequence":  19,
+                         "length_mm":  15000,
+                         "role":  "fit",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "b0a1d3c7b70d8c1502efa4336e131e515fab9ed21ac3794a35a0b67006afd883"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_15m_fit_20261028_232001_184_short_r3_20261028_232046_375.txt",
+                         "state":  "short",
+                         "repeat":  3,
+                         "sequence":  20,
+                         "length_mm":  15000,
+                         "role":  "fit",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "de9dfbccce358e25da35fc78ca724bea548e35be30eee651bbf65f279d937e94"
+                     }
+                 ]
+}

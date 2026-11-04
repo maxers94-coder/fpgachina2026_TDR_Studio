@@ -1,0 +1,174 @@
+{
+    "schema":  "PN_STAGE42_B_POSITION_SESSION_1",
+    "status":  "complete",
+    "firmware_stage":  41,
+    "fixture_id":  "B_series_4p7ohm",
+    "evidence_kind":  "operator_declared_live_board_capture",
+    "plan":  {
+                 "schema":  "PN_STAGE42_B_POSITION_PLAN_1",
+                 "firmware_stage":  41,
+                 "fixture_id":  "B_series_4p7ohm",
+                 "front_length_m":  5,
+                 "back_length_m":  15,
+                 "far_end":  "same_verified_50ohm",
+                 "sample_orientation":  "J1_toward_near_end",
+                 "waveform":  "PN127",
+                 "sample_rate_hz":  200000000,
+                 "chip_hz":  50000000,
+                 "average_frames":  32,
+                 "states":  [
+                                "reference_before",
+                                "sample_B47",
+                                "reference_after"
+                            ],
+                 "technical_repeats_per_state":  3,
+                 "baseline_sources":  3,
+                 "new_acquisitions":  12,
+                 "new_D_captures":  9,
+                 "reference_type":  "SMA_BARREL_PROVISIONAL",
+                 "same_structure_normal_pcb":  false,
+                 "fresh_B_required":  true,
+                 "reference_replacement_during_loop_allowed":  false,
+                 "previous_runtime_watermark_required":  false,
+                 "model_sha256":  "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+                 "existing_negative_model_unchanged":  true,
+                 "positive_distance_supported":  true,
+                 "profile2_distance_supported":  false,
+                 "positive_fit_performed":  false,
+                 "nominal_target_mm":  5000,
+                 "individual_nominal_tolerance_mm":  500,
+                 "fixed_model_position_validation":  true,
+                 "positive_model_sha256":  "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+                 "pc_command_allowlist":  [
+                                              "V",
+                                              "B",
+                                              "J",
+                                              "D",
+                                              "R",
+                                              "C"
+                                          ],
+                 "distance_valid":  false,
+                 "formal_accuracy_qualified":  false,
+                 "optical_observation_requested_before_each_state":  true,
+                 "optical_answers":  [
+                                         "YES",
+                                         "NO",
+                                         "NOT_CHECKED"
+                                     ],
+                 "available_field_is_optical_proof":  false,
+                 "screen_project_changed":  false,
+                 "agent_board_access_performed":  false
+             },
+    "operator_port":  "COM7",
+    "captures":  [
+                     {
+                         "state":  "reference_before",
+                         "repeat":  1,
+                         "file":  "reference_before_r1.txt",
+                         "sequence":  16,
+                         "trigger":  "PC_D",
+                         "sha256":  "5514259640b03d49fad4d46b1342142341a28d596d446cdd2238e88333912ad0",
+                         "checked_file":  "reference_before_r1.checked.json"
+                     },
+                     {
+                         "state":  "reference_before",
+                         "repeat":  2,
+                         "file":  "reference_before_r2.txt",
+                         "sequence":  17,
+                         "trigger":  "PC_D",
+                         "sha256":  "097d8dafbefb994ae5f118a1a4729d295ce37d1716d4211cd64f295501245a96",
+                         "checked_file":  "reference_before_r2.checked.json"
+                     },
+                     {
+                         "state":  "reference_before",
+                         "repeat":  3,
+                         "file":  "reference_before_r3.txt",
+                         "sequence":  18,
+                         "trigger":  "PC_D",
+                         "sha256":  "ac8a1b1bcce60ac7554fb854eef170eeefcf9d43b892dd81ebe83a9224ac7101",
+                         "checked_file":  "reference_before_r3.checked.json"
+                     },
+                     {
+                         "state":  "sample_B47",
+                         "repeat":  1,
+                         "file":  "sample_B47_r1.txt",
+                         "sequence":  19,
+                         "trigger":  "PC_D",
+                         "sha256":  "19fe7fd3ce04293cb048e95e423b2eaf67a1c0aa3b813100d29c86c2e741b4af",
+                         "checked_file":  "sample_B47_r1.checked.json"
+                     },
+                     {
+                         "state":  "sample_B47",
+                         "repeat":  2,
+                         "file":  "sample_B47_r2.txt",
+                         "sequence":  20,
+                         "trigger":  "PC_D",
+                         "sha256":  "42b2e84c5b2dbc9f316709702ab341ffbb3939787fd8b7377556e18fab82a92e",
+                         "checked_file":  "sample_B47_r2.checked.json"
+                     },
+                     {
+                         "state":  "sample_B47",
+                         "repeat":  3,
+                         "file":  "sample_B47_r3.txt",
+                         "sequence":  21,
+                         "trigger":  "PC_D",
+                         "sha256":  "e5bd5054abce8ead84afb0ceb0fd0bdb40943049ca5b33709ef392c7c61c51d9",
+                         "checked_file":  "sample_B47_r3.checked.json"
+                     },
+                     {
+                         "state":  "reference_after",
+                         "repeat":  1,
+                         "file":  "reference_after_r1.txt",
+                         "sequence":  22,
+                         "trigger":  "PC_D",
+                         "sha256":  "1bcdab76fac33044bf4daf60b3cd791d890b160f36bc02acc47d16d0dc07f6e0",
+                         "checked_file":  "reference_after_r1.checked.json"
+                     },
+                     {
+                         "state":  "reference_after",
+                         "repeat":  2,
+                         "file":  "reference_after_r2.txt",
+                         "sequence":  23,
+                         "trigger":  "PC_D",
+                         "sha256":  "b8d222800c1a34d2f1f28fe5ecc0ed99b2f176f2144bc10f980a31aa66700ffd",
+                         "checked_file":  "reference_after_r2.checked.json"
+                     },
+                     {
+                         "state":  "reference_after",
+                         "repeat":  3,
+                         "file":  "reference_after_r3.txt",
+                         "sequence":  24,
+                         "trigger":  "PC_D",
+                         "sha256":  "092df09c69591797b0a2308296ebfd0f74368d979c8906ddc7c65892b1763585",
+                         "checked_file":  "reference_after_r3.checked.json"
+                     }
+                 ],
+    "model_sha256":  "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+    "positive_model_sha256":  "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+    "host_expected_elf_sha256":  "ab83b9dab9d469ee715c3528b531b6bbcee7ca73cba93d808bcd18f1f6d9f07f",
+    "board_elf_hash_readback_performed":  false,
+    "agent_board_access_performed":  false,
+    "distance_valid":  false,
+    "model_retuned":  false,
+    "formal_accuracy_qualified":  false,
+    "screen_observations":  {
+                                "reference_before":  {
+                                                         "requested_before_measurements":  true,
+                                                         "answer":  "YES"
+                                                     },
+                                "sample_B47":  {
+                                                   "requested_before_measurements":  true,
+                                                   "answer":  "YES"
+                                               },
+                                "reference_after":  {
+                                                        "requested_before_measurements":  true,
+                                                        "answer":  "YES"
+                                                    }
+                            },
+    "sample_screen_observation":  "YES",
+    "baseline_id":  2,
+    "baseline_crc32":  "6AEAD2E2",
+    "reference_profile_id":  1,
+    "reference_profile_mask":  1,
+    "new_acquisitions":  12
+}

@@ -1,0 +1,99 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "system_frontend_0_0",
+    "cell_name": "frontend_0",
+    "component_reference": "xilinx.com:module_ref:ac820_adc_dac_frontend_ps:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../echo_ps_system.gen/sources_1/bd/system/ip/system_frontend_0_0",
+    "parameters": {
+      "component_parameters": {
+        "PHASE_STEP": [ { "value": "0x1999999A", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "Q_MODE": [ { "value": "1", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "ADC_IDELAY_TAP": [ { "value": "4", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "POWERUP_CYCLES": [ { "value": "50000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "SPI_HALF_PERIOD": [ { "value": "25", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "CLOCK_SETTLE_CYCLES": [ { "value": "5000000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "PLL_WAIT_CYCLES": [ { "value": "500000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "POLL_LIMIT": [ { "value": "4096", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "CLOCK_WAIT_CYCLES": [ { "value": "5000000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "MONITOR_WINDOW": [ { "value": "50000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "system_frontend_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "PHASE_STEP": [ { "value": "0x1999999A", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "Q_MODE": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "ADC_IDELAY_TAP": [ { "value": "4", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "POWERUP_CYCLES": [ { "value": "50000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "SPI_HALF_PERIOD": [ { "value": "25", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "CLOCK_SETTLE_CYCLES": [ { "value": "5000000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "PLL_WAIT_CYCLES": [ { "value": "500000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "POLL_LIMIT": [ { "value": "4096", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "CLOCK_WAIT_CYCLES": [ { "value": "5000000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "MONITOR_WINDOW": [ { "value": "50000", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq", "resolve_type": "generated", "usage": "all" } ],
+        "BASE_BOARD_PART": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "BOARD_CONNECTIONS": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "DEVICE": [ { "value": "xc7z020", "resolve_type": "generated", "usage": "all" } ],
+        "PACKAGE": [ { "value": "clg484", "resolve_type": "generated", "usage": "all" } ],
+        "PREFHDL": [ { "value": "VERILOG", "resolve_type": "generated", "usage": "all" } ],
+        "SILICON_REVISION": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED", "resolve_type": "generated", "usage": "all" } ],
+        "SPEEDGRADE": [ { "value": "-2", "resolve_type": "generated", "usage": "all" } ],
+        "STATIC_POWER": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "TEMPERATURE_GRADE": [ { "value": "", "resolve_type": "generated", "usage": "all" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../echo_ps_system.gen/sources_1/bd/system/ip/system_frontend_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2026.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "clk_50m": [ { "direction": "in" } ],
+        "adc_dco_p": [ { "direction": "in" } ],
+        "adc_dco_n": [ { "direction": "in" } ],
+        "adc_data_p": [ { "direction": "in", "size_left": "13", "size_right": "0" } ],
+        "adc_data_n": [ { "direction": "in", "size_left": "13", "size_right": "0" } ],
+        "adk_spi_sda": [ { "direction": "out" } ],
+        "adk_spi_sclk": [ { "direction": "out" } ],
+        "adk_spi_csb": [ { "direction": "out" } ],
+        "dac_spi_sdio": [ { "direction": "inout" } ],
+        "dac_spi_sclk": [ { "direction": "out" } ],
+        "dac_spi_csb": [ { "direction": "out" } ],
+        "dac_dci_p": [ { "direction": "out" } ],
+        "dac_dci_n": [ { "direction": "out" } ],
+        "dac_data_p": [ { "direction": "out", "size_left": "15", "size_right": "0" } ],
+        "dac_data_n": [ { "direction": "out", "size_left": "15", "size_right": "0" } ],
+        "pll_done_led": [ { "direction": "out" } ],
+        "dac_done_led": [ { "direction": "out" } ],
+        "adc_ready_led": [ { "direction": "out" } ],
+        "adc_clip_led": [ { "direction": "out" } ],
+        "echo_clk_acq": [ { "direction": "out" } ],
+        "echo_rst_acq": [ { "direction": "out" } ],
+        "echo_adc_ready": [ { "direction": "out" } ],
+        "echo_pair_valid": [ { "direction": "out" } ],
+        "echo_sample_rise_u14": [ { "direction": "out", "size_left": "13", "size_right": "0" } ],
+        "echo_sample_fall_u14": [ { "direction": "out", "size_left": "13", "size_right": "0" } ],
+        "echo_sample_clip": [ { "direction": "out" } ],
+        "echo_pulse_start_acq": [ { "direction": "in" } ],
+        "echo_pulse_mode": [ { "direction": "in", "size_left": "2", "size_right": "0" } ],
+        "echo_pulse_width": [ { "direction": "in", "size_left": "5", "size_right": "0" } ],
+        "echo_pn_enable": [ { "direction": "in" } ],
+        "echo_pulse_ready": [ { "direction": "out" } ],
+        "echo_tx_marker": [ { "direction": "out" } ],
+        "echo_frame_meta": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "echo_pulse_frames_sent": [ { "direction": "out", "size_left": "5", "size_right": "0" } ]
+      }
+    }
+  },
+  "checksum": "6a781f04"
+}

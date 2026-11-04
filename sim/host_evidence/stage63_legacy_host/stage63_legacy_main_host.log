@@ -1,0 +1,4 @@
+FINITE_RX capacity=64 dropped=0 locked=0 tx=3->4 pending=0
+STAGE63_LEGACY_MAIN_HOST_PASS: 410 groups; 198115 checks; production command routing with controlled UART/driver/transaction mocks
+HOST MOCK ONLY: no UART device, MMIO device, RTL execution or board measurements performed.
+FINITE_RX capacity=32 dropped=0 locked=0 tx=3->4 pending=0

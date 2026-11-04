@@ -1,0 +1,6 @@
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_decision.c:10:12:timing_usable	32	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_decision.c:24:5:echo_analyze_correlation	160	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_decision.c:100:13:echo_decision_kind_name	16	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_decision.c:112:13:echo_decision_reason_name	16	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_decision.c:128:5:echo_classify_fixture_mean	168	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_decision.c:179:13:echo_fixture_label_name	16	static

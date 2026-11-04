@@ -1,0 +1,43 @@
+{
+    "schema":  "PN_STAGE42_B_POSITION_PAIR_1",
+    "status":  "incomplete",
+    "firmware_stage":  41,
+    "fixture_id":  "B_series_4p7ohm",
+    "plan":  {
+                 "schema":  "PN_STAGE42_B_POSITION_PAIR_PLAN_1",
+                 "firmware_stage":  41,
+                 "fixture_id":  "B_series_4p7ohm",
+                 "phases":  [
+                                {
+                                    "label":  "position_5m",
+                                    "front_length_m":  5,
+                                    "back_length_m":  15
+                                },
+                                {
+                                    "label":  "position_15m",
+                                    "front_length_m":  15,
+                                    "back_length_m":  5
+                                }
+                            ],
+                 "same_cables_and_fixture_required":  true,
+                 "new_acquisitions":  24,
+                 "new_D_captures":  18,
+                 "fresh_reference_per_phase":  true,
+                 "previous_boot_reference_required":  false,
+                 "power_cycle_between_phases_allowed":  false,
+                 "positive_model_sha256":  "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+                 "model_retuned":  false,
+                 "firmware_changed":  false,
+                 "truth_sent_to_firmware":  false,
+                 "distance_valid":  false
+             },
+    "phases":  [
+
+               ],
+    "operator_port":  "COM7",
+    "operator_declared_same_cables_fixture_and_load":  true,
+    "evidence_kind":  "operator_declared_live_board_capture",
+    "distance_valid":  false,
+    "model_retuned":  false,
+    "failure_reason":  "使用“0”个参数调用“Open”时发生异常:“对端口“COM7”的访问被拒绝。”"
+}

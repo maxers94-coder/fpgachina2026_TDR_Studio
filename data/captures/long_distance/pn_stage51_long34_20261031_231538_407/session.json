@@ -1,0 +1,108 @@
+{
+    "schema":  "STAGE51_LONG34_CAPTURE_SESSION_1",
+    "status":  "incomplete",
+    "firmware_stage":  50,
+    "plan":  {
+                 "schema":  "STAGE51_LONG34_PLAN_1",
+                 "tools_stage":  51,
+                 "firmware_stage":  50,
+                 "firmware_changed":  false,
+                 "cable_segments_near_to_far_m":  [
+                                                      15,
+                                                      10,
+                                                      5,
+                                                      3,
+                                                      1
+                                                  ],
+                 "total_nominal_m":  34,
+                 "barrel_count":  4,
+                 "intermediate_positions_m":  [
+                                                  15,
+                                                  25,
+                                                  30,
+                                                  33
+                                              ],
+                 "baseline_sources":  3,
+                 "states":  [
+                                "matched_before",
+                                "far_open",
+                                "far_short",
+                                "matched_restored"
+                            ],
+                 "repeats":  [
+                                 1,
+                                 3,
+                                 3,
+                                 1
+                             ],
+                 "D_captures":  8,
+                 "new_acquisitions":  11,
+                 "commands":  [
+                                  "V",
+                                  "B",
+                                  "J",
+                                  "D",
+                                  "R",
+                                  "C"
+                              ],
+                 "automatic_retry":  false,
+                 "reference_gate_changed":  false,
+                 "FW50_fit_span_m":  [
+                                         5,
+                                         15
+                                     ],
+                 "screen_FULL_span_m":  [
+                                            0,
+                                            25
+                                        ],
+                 "truth_metadata_sent_to_firmware":  false,
+                 "long_distance_model_fitted":  false,
+                 "distance_valid":  false
+             },
+    "cable_segments_near_to_far_m":  [
+                                         15,
+                                         10,
+                                         5,
+                                         3,
+                                         1
+                                     ],
+    "barrel_count":  4,
+    "total_nominal_m":  34,
+    "operator_port":  "COM7",
+    "topology_confirmation":  "MATCHED",
+    "initial_sequence":  77,
+    "captures":  [
+                     {
+                         "state":  "matched_before",
+                         "repeat":  1,
+                         "file":  "matched_before_r1.txt",
+                         "sequence":  81,
+                         "sha256":  "a9c721b5d2aad14fc23cd8b916f5189019df66cb4b9df04218deeec704d10833"
+                     },
+                     {
+                         "state":  "far_open",
+                         "repeat":  1,
+                         "file":  "far_open_r1.txt",
+                         "sequence":  82,
+                         "sha256":  "347ebf39931b19ed85afe89d7ff1cdd7c07cacd99f0834e12d424dba9cd7adf7"
+                     },
+                     {
+                         "state":  "far_open",
+                         "repeat":  2,
+                         "file":  "far_open_r2.txt",
+                         "sequence":  83,
+                         "sha256":  "3ff91a0605dfca13df09fe19e28638013da5950052c4efadd8d5fce8798cd7d4"
+                     },
+                     {
+                         "state":  "far_open",
+                         "repeat":  3,
+                         "file":  "far_open_r3.txt",
+                         "sequence":  84,
+                         "sha256":  "c1f709905a03bc0d0506ab17e798aad3962e4d37f9c3a04907ca372dbcc2916d"
+                     }
+                 ],
+    "screen_observation":  "NOT_CHECKED",
+    "truth_sent_to_firmware":  false,
+    "long_distance_model_fitted":  false,
+    "distance_valid":  false
+}

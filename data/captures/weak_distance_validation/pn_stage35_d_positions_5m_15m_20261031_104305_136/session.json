@@ -1,0 +1,56 @@
+{
+    "schema":  "STAGE36_FW35_POSITION_PAIR_1",
+    "status":  "complete",
+    "firmware_stage":  35,
+    "fixture_id":  "D_shunt_1kohm",
+    "plan":  {
+                 "schema":  "PN_WEAK_D_POSITION_PAIR_PLAN_1",
+                 "firmware_stage":  35,
+                 "fixture_id":  "D_shunt_1kohm",
+                 "phases":  [
+                                {
+                                    "label":  "position_5m",
+                                    "front_length_m":  5,
+                                    "back_length_m":  15
+                                },
+                                {
+                                    "label":  "position_15m",
+                                    "front_length_m":  15,
+                                    "back_length_m":  5
+                                }
+                            ],
+                 "same_cables_and_fixture_required":  true,
+                 "far_end":  "same_verified_50ohm",
+                 "new_acquisitions":  24,
+                 "new_D_captures":  18,
+                 "reference_type":  "SMA_BARREL_PROVISIONAL",
+                 "same_structure_normal_pcb":  false,
+                 "classification_performed":  false,
+                 "distance_valid":  false,
+                 "truth_used_for_peak_selection":  false
+             },
+    "operator_port":  "COM7",
+    "phases":  [
+                   {
+                       "label":  "position_5m",
+                       "front_length_m":  5,
+                       "back_length_m":  15,
+                       "zip":  "position_5m.zip",
+                       "sha256":  "4409feef8d1dc2897173f6db39b9c1386afb2f5da1d314abd3dadace90cd54bf",
+                       "source_zip":  "D:\\vivado_project\\vitis_echo200_hmi_ws\\captures\\weak_distance_validation\\pn_stage35_weakpos5m_20261031_104341_403.zip"
+                   },
+                   {
+                       "label":  "position_15m",
+                       "front_length_m":  15,
+                       "back_length_m":  5,
+                       "zip":  "position_15m.zip",
+                       "sha256":  "a994ba44a81e5736bb0494b45ccac9e503f9393a5136aac94ea5055fb15116a4",
+                       "source_zip":  "D:\\vivado_project\\vitis_echo200_hmi_ws\\captures\\weak_distance_validation\\pn_stage35_weakpos15m_20261031_104731_879.zip"
+                   }
+               ],
+    "classification_performed":  false,
+    "distance_valid":  false,
+    "operator_declared_same_cables_fixture_and_load":  true,
+    "agent_board_access_performed":  false,
+    "optical_screen_confirmation_requested":  true
+}

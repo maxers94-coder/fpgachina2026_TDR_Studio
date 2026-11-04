@@ -1,0 +1,46 @@
+{
+    "schema":  "STAGE24_SCREEN_BOARD_SESSION_1",
+    "firmware_stage":  24,
+    "status":  "incomplete",
+    "session":  "screen_pn_5m_20261029_235955_041",
+    "plan":  {
+                 "schema":  "STAGE24_SCREEN_BOARD_PLAN_1",
+                 "firmware_stage":  24,
+                 "length_m":  5,
+                 "baseline_trigger":  "screen REFERENCE/CAL: arm, then confirm within 15 seconds",
+                 "measurement_trigger":  "screen MEASURE: SINGLE",
+                 "pc_command_allowlist":  [
+                                              "V",
+                                              "J",
+                                              "R",
+                                              "C"
+                                          ],
+                 "pc_acquisition_commands":  [
+
+                                             ],
+                 "baseline_sources":  3,
+                 "states":  [
+                                "matched",
+                                "open",
+                                "short",
+                                "restored_matched"
+                            ],
+                 "new_acquisition_count":  7,
+                 "screen_distance":  "-- m",
+                 "baseline_storage":  "volatile_RAM",
+                 "distance_valid":  false,
+                 "weak_impedance_validated":  false
+             },
+    "evidence_kind":  "operator_declared_live_screen_capture",
+    "operator_port":  "COM7",
+    "captures":  [
+
+                 ],
+    "host_expected_elf_sha256":  "8e4d1ae48648defa2a385e37ddcc5a69eb400803925ebfd983d4ec028f2fbbc0",
+    "board_elf_hash_readback_performed":  false,
+    "agent_board_access_performed":  false,
+    "pc_acquisition_commands_sent":  0,
+    "weak_impedance_validated":  false,
+    "distance_valid":  false,
+    "failure_reason":  "Device/display rejected this step: [BASE] DENIED: large/invalid legacy PN return; check matched healthy cable"
+}

@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-29",
+  "source": "human confirmation in this chat",
+  "question": "这轮新版本的 D 测量时，你是否看到屏幕距离显示“-- m”，且没有显示旧的距离数值？",
+  "answer": "已确认显示 -- m",
+  "scope": "D mode distance placeholder, user visual confirmation; no screenshot provided",
+  "associated_batch": "healthy_pn_5m_20261029_113807_058"
+}

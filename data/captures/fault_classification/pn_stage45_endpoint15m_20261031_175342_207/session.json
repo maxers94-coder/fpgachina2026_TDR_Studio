@@ -1,0 +1,122 @@
+{
+    "schema":  "PN_STAGE45_ENDPOINT_INPUT_SESSION_1",
+    "status":  "incomplete",
+    "firmware_stage":  44,
+    "evidence_kind":  "operator_declared_live_board_capture",
+    "plan":  {
+                 "schema":  "PN_STAGE45_ENDPOINT_INPUT_PLAN_1",
+                 "firmware_stage":  44,
+                 "tools_stage":  45,
+                 "cable_length_m":  15,
+                 "cable_count":  1,
+                 "intermediate_fixture":  "NONE",
+                 "baseline_end":  "same_verified_50ohm",
+                 "waveform":  "PN127",
+                 "sample_rate_hz":  200000000,
+                 "pair_hz":  100000000,
+                 "chip_hz":  50000000,
+                 "average_frames":  32,
+                 "states":  [
+                                "reference_before",
+                                "endpoint_open",
+                                "endpoint_short",
+                                "reference_after"
+                            ],
+                 "technical_repeats_per_state":  3,
+                 "baseline_sources":  3,
+                 "new_acquisitions":  15,
+                 "new_D_captures":  12,
+                 "model_sha256":  "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+                 "positive_model_sha256":  "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+                 "pc_command_allowlist":  [
+                                              "V",
+                                              "B",
+                                              "J",
+                                              "D",
+                                              "R",
+                                              "C"
+                                          ],
+                 "fresh_reference_required":  true,
+                 "reference_replacement_during_loop_allowed":  false,
+                 "previous_boot_reference_required":  false,
+                 "classification_performed":  false,
+                 "classifier_fitted":  false,
+                 "truth_sent_to_firmware":  false,
+                 "distance_valid":  false,
+                 "formal_accuracy_qualified":  false,
+                 "firmware_changed":  false,
+                 "screen_project_changed":  false,
+                 "model_retuned":  false
+             },
+    "operator_port":  "COM7",
+    "captures":  [
+                     {
+                         "state":  "reference_before",
+                         "repeat":  1,
+                         "file":  "reference_before_r1.txt",
+                         "sequence":  27,
+                         "trigger":  "PC_D",
+                         "sha256":  "8869d3565d81f1df4e463cb318760fdf63d9c739abf8aeb6b7e04499fd5fe1eb",
+                         "checked_file":  "reference_before_r1.checked.json"
+                     },
+                     {
+                         "state":  "reference_before",
+                         "repeat":  2,
+                         "file":  "reference_before_r2.txt",
+                         "sequence":  28,
+                         "trigger":  "PC_D",
+                         "sha256":  "6fb3d56a80d214c0397b16ced6832231d0ad2250e6cde5762beed66c6fc95e1c",
+                         "checked_file":  "reference_before_r2.checked.json"
+                     },
+                     {
+                         "state":  "reference_before",
+                         "repeat":  3,
+                         "file":  "reference_before_r3.txt",
+                         "sequence":  29,
+                         "trigger":  "PC_D",
+                         "sha256":  "0796fe43651db7403c349f39c28f4ce4ee893a0fc4ab102ff14b834c273528ce",
+                         "checked_file":  "reference_before_r3.checked.json"
+                     },
+                     {
+                         "state":  "endpoint_open",
+                         "repeat":  1,
+                         "file":  "endpoint_open_r1.txt",
+                         "sequence":  30,
+                         "trigger":  "PC_D",
+                         "sha256":  "37dc4acc85e0f563228ec5fa225e13d7aa689fd021e1eaeb01d4182337ba1c53",
+                         "checked_file":  "endpoint_open_r1.checked.json"
+                     },
+                     {
+                         "state":  "endpoint_open",
+                         "repeat":  2,
+                         "file":  "endpoint_open_r2.txt",
+                         "sequence":  31,
+                         "trigger":  "PC_D",
+                         "sha256":  "4984e9422f928acf17dca0583faddde3f2941bc19d9541e564d9afb26804e421",
+                         "checked_file":  "endpoint_open_r2.checked.json"
+                     }
+                 ],
+    "model_sha256":  "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+    "positive_model_sha256":  "8b49823088b0cf74bf58677221f1f8d393b0b33dc523791466ab425b1f035e40",
+    "host_expected_elf_sha256":  "bcf8aa035f427b6b7aaa4a2bbe74140e6f8eb83ee3e6b07e0b571a61106ddc60",
+    "board_elf_hash_readback_performed":  false,
+    "agent_board_access_performed":  false,
+    "distance_valid":  false,
+    "model_retuned":  false,
+    "classification_performed":  false,
+    "screen_observations":  {
+                                "reference_before":  {
+                                                         "requested_before_measurements":  true,
+                                                         "answer":  "YES"
+                                                     },
+                                "endpoint_open":  {
+                                                      "requested_before_measurements":  true,
+                                                      "answer":  "NOT_CHECKED"
+                                                  }
+                            },
+    "baseline_id":  2,
+    "baseline_crc32":  "D55705D3",
+    "reference_profile_id":  1,
+    "reference_profile_mask":  1,
+    "failure_reason":  "FW44 D requires ten ordered records"
+}

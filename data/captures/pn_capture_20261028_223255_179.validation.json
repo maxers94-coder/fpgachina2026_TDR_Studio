@@ -1,0 +1,16 @@
+{
+  "file": "pn_capture_20261028_223255_179.txt",
+  "sha256": "050f018a6c73ba2489d19863f1cf244ab772ae193c614e4d9e17cc843126a7f2",
+  "sequence": 8,
+  "mode": "PN127",
+  "raw_integrity": "PASS",
+  "correlation_integrity": "PASS",
+  "pc_pl_arithmetic": "PASS_ALL_256_EXACT",
+  "raw_points": 1024,
+  "correlation_points": 256,
+  "raw_fnv1a": "DF89CCD4",
+  "peak_lag": 143,
+  "peak_q16": 4373807104,
+  "raw_min": -274,
+  "raw_max": 1432
+}

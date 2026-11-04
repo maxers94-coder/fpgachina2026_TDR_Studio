@@ -1,0 +1,118 @@
+{
+  "source_file": "stage18_board_5m_summary_20261029.txt",
+  "source_sha256": "2566cfa7d5c9f8452e6c1a0ddfdf451e0092888e97d30690c1edc4cce80dfce0",
+  "evidence_type": "user_pasted_uart_summaries",
+  "date": "2026-10-29",
+  "associated_release_elf_sha256": "88557da0550e97906203b5e2985ebf181b667f4bc8d1c05d6efb372344139bdc",
+  "board_elf_hash_readback_performed": false,
+  "ps_5m_three_state_user_reported_pass": true,
+  "hmi_display_verified": true,
+  "hmi_user_reply": "其他一致",
+  "mode5_after_stage18_verified": true,
+  "complete_raw_corr_for_these_three_transactions": false,
+  "weak_impedance_validated": false,
+  "records": [
+    {
+      "condition": "short",
+      "trace": {
+        "SEQ": "1",
+        "ENTRY": "0",
+        "AFTER_CLEAR": "0",
+        "END": "1",
+        "RC": "0"
+      },
+      "distance": {
+        "STATUS": "NEGATIVE_RETURN",
+        "L_MM": "5016",
+        "LAG_MILLI": "152850",
+        "IN_SPAN": "1",
+        "MODEL": "1",
+        "DIAGNOSTIC": "1"
+      },
+      "measurement": {
+        "SEQ": "1",
+        "RAW_AVAILABLE": "1"
+      },
+      "rounded_lag_distance_consistency_mm": 0.4360483906675654
+    },
+    {
+      "condition": "open",
+      "trace": {
+        "SEQ": "1",
+        "ENTRY": "1",
+        "AFTER_CLEAR": "0",
+        "END": "1",
+        "RC": "0"
+      },
+      "distance": {
+        "STATUS": "POSITIVE_RETURN",
+        "L_MM": "5005",
+        "LAG_MILLI": "152828",
+        "IN_SPAN": "1",
+        "MODEL": "1",
+        "DIAGNOSTIC": "1"
+      },
+      "measurement": {
+        "SEQ": "2",
+        "RAW_AVAILABLE": "1"
+      },
+      "rounded_lag_distance_consistency_mm": 0.24518289135721716
+    },
+    {
+      "condition": "matched",
+      "trace": {
+        "SEQ": "1",
+        "ENTRY": "1",
+        "AFTER_CLEAR": "0",
+        "END": "1",
+        "RC": "0"
+      },
+      "distance": {
+        "STATUS": "LOW_RETURN",
+        "L_MM": "-1",
+        "LAG_MILLI": "-1",
+        "IN_SPAN": "0",
+        "MODEL": "1",
+        "DIAGNOSTIC": "1"
+      },
+      "measurement": {
+        "SEQ": "3",
+        "RAW_AVAILABLE": "1"
+      }
+    }
+  ],
+  "hmi_verification_method": "user_confirmed_MEASURE_page_three_states_in_chat",
+  "mode5_regression": {
+    "trigger": "HMI_SINGLE",
+    "measurement_sequence": 7,
+    "RC": 0,
+    "STATUS": "NO_ECHO",
+    "L_MM": -1,
+    "DELAY_MILLI": 29874,
+    "ECHO_Q2_X10": -57,
+    "R2_MILLI": 158,
+    "DC_Q2_X10": 5664,
+    "pass_line_present": true
+  },
+  "additional_evidence": [
+    {
+      "file": "stage18_hmi_mode5_confirmation_20261029.txt",
+      "sha256": "86edcae123f27e779bdef9b2c7c3ffae3474cfbafca93dda01d70c9a0aa0da49",
+      "evidence_type": "user_pasted_Mode5_log_and_HMI_confirmation",
+      "scope": "HMI three-state agreement and Mode5 SINGLE regression"
+    }
+  ],
+  "confirmation_history": [
+    {
+      "hmi_user_reply": "还没有查看屏幕显示",
+      "hmi_display_verified": false,
+      "mode5_after_stage18_verified": false
+    },
+    {
+      "hmi_user_reply": "其他一致",
+      "hmi_display_verified": true,
+      "mode5_after_stage18_verified": true,
+      "source_file": "stage18_hmi_mode5_confirmation_20261029.txt"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+    "schema":  "PN_CAL_BATCH_1",
+    "session":  "pn_cal_5m_validation_20261028_233423_127",
+    "plan":  {
+                 "schema":  "PN_CAL_1",
+                 "length_m":  5,
+                 "length_mm":  5000,
+                 "role":  "validation",
+                 "waveform":  "PN127",
+                 "sample_rate_hz":  200000000,
+                 "repeats_per_state":  3,
+                 "total_captures":  9,
+                 "order":  [
+                               "matched",
+                               "open",
+                               "short"
+                           ],
+                 "calibrated":  false,
+                 "length_source":  "operator_declared_known_length",
+                 "fit_lengths_m":  [
+                                       1,
+                                       15
+                                   ],
+                 "validation_lengths_m":  [
+                                              3,
+                                              5
+                                          ]
+             },
+    "operator_port":  "COM7",
+    "status":  "complete",
+    "captures":  [
+                     {
+                         "file":  "pn_capture_pn_cal_5m_validation_20261028_233423_127_matched_r1_20261028_233430_181.txt",
+                         "state":  "matched",
+                         "repeat":  1,
+                         "sequence":  30,
+                         "length_mm":  5000,
+                         "role":  "validation",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "e3938c93534a8d7e751eb0b66151f5e89e2b709b49eda7e7f9c5fb493aed205b"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_5m_validation_20261028_233423_127_matched_r2_20261028_233432_271.txt",
+                         "state":  "matched",
+                         "repeat":  2,
+                         "sequence":  31,
+                         "length_mm":  5000,
+                         "role":  "validation",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "4d684784880d9340209d5b10b9910d5200cf7fde8714c852a1d72fb2b0d6b1c8"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_5m_validation_20261028_233423_127_matched_r3_20261028_233434_297.txt",
+                         "state":  "matched",
+                         "repeat":  3,
+                         "sequence":  32,
+                         "length_mm":  5000,
+                         "role":  "validation",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "4b317d0535cdd3388f1e3dc6c04dc1dad890946834eab3b4947f0cfc4ee06316"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_5m_validation_20261028_233423_127_open_r1_20261028_233443_252.txt",
+                         "state":  "open",
+                         "repeat":  1,
+                         "sequence":  33,
+                         "length_mm":  5000,
+                         "role":  "validation",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "498f9c6c149fd7b45f2c3e0919ee9ef495735829a6ddecd2eb896bd4fefc9ad6"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_5m_validation_20261028_233423_127_open_r2_20261028_233445_341.txt",
+                         "state":  "open",
+                         "repeat":  2,
+                         "sequence":  34,
+                         "length_mm":  5000,
+                         "role":  "validation",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "29f063c1445cf051cde844c52e98aa80b33ab44441fce11c4ac00244203ed9e4"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_5m_validation_20261028_233423_127_open_r3_20261028_233447_442.txt",
+                         "state":  "open",
+                         "repeat":  3,
+                         "sequence":  35,
+                         "length_mm":  5000,
+                         "role":  "validation",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "194a1c018d7be55986d54277caa38621c941ff9341613d02aca5b13e29bd3bee"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_5m_validation_20261028_233423_127_short_r1_20261028_233458_157.txt",
+                         "state":  "short",
+                         "repeat":  1,
+                         "sequence":  36,
+                         "length_mm":  5000,
+                         "role":  "validation",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "3edd20e04047cddc650dd372be6b019e7f31bb60a60d6016631c20b2d3f511a9"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_5m_validation_20261028_233423_127_short_r2_20261028_233500_138.txt",
+                         "state":  "short",
+                         "repeat":  2,
+                         "sequence":  37,
+                         "length_mm":  5000,
+                         "role":  "validation",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "36482abf106abba8422a7ca072c232fa76f77812dfa4f425f5db536ed26197ae"
+                     },
+                     {
+                         "file":  "pn_capture_pn_cal_5m_validation_20261028_233423_127_short_r3_20261028_233502_103.txt",
+                         "state":  "short",
+                         "repeat":  3,
+                         "sequence":  38,
+                         "length_mm":  5000,
+                         "role":  "validation",
+                         "validation":  "RAW_CORR_ALL_256_EXACT",
+                         "sha256":  "1ef9975713830d1a3a847b4ff43a2e837f38ec35462b1f35c7adff080d68d19b"
+                     }
+                 ]
+}

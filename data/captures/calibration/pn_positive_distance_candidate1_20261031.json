@@ -1,0 +1,113 @@
+{
+  "schema": "PN_POSITIVE_DISTANCE_CANDIDATE1_FROZEN_1",
+  "model_id": "WEAK_POSITIVE_CANDIDATE1",
+  "frozen_utc": "2026-10-31T04:19:47.957103+00:00",
+  "deployment": "HOST_ONLY_AWAITING_NEW_B_VALIDATION",
+  "required_firmware_stage": 38,
+  "context": {
+    "FS_HZ": 200000000,
+    "PAIR_HZ": 100000000,
+    "CHIP_HZ": 50000000,
+    "PN_SEED": 127,
+    "PN_AMPLITUDE": 4096,
+    "AVG_FRAMES": 32,
+    "REF_BANK_CRC32": "02FEEBDD",
+    "REF_PROFILE_ID": 1,
+    "template_length": 640,
+    "template_sum": 65536,
+    "template_s16le_sha256": "9274a8b23d55d1c418ea14ffd6ff1dccc9d07b8e3d6b8a80807a4cf7cc6871e5",
+    "pretrigger_samples": 128,
+    "lag_count": 256
+  },
+  "metric": {
+    "formula": "N[k]=128*corr[k]-dc_sum_delta_first128*65536",
+    "denominator": 128,
+    "global_lags": [
+      0,
+      255
+    ],
+    "tie": "lowest_lag",
+    "gate_q16": 16777216,
+    "gate_numerator": 2147483648,
+    "comparison": "strict_greater"
+  },
+  "mapping": {
+    "positive_polarity_only": true,
+    "nominal_mm_per_lag": 500,
+    "fitted_lag_zero": 143,
+    "fit_lag_span": [
+      153,
+      173
+    ],
+    "nominal_fit_distance_mm": [
+      5000,
+      15000
+    ],
+    "edge_lags_rejected": [
+      0,
+      255
+    ],
+    "extrapolation": false
+  },
+  "training": {
+    "fixture": "A27 SERIES PCB",
+    "source_archive": "captures/weak_distance_validation/pn_positive_A_fit_5m_15m_20261031_121313_626.zip",
+    "source_archive_sha256": "78be5445ed25a223ccdeb6f7146b5227914e6c30a8e3b9def645eaccdeb53201",
+    "same5m_and15m_cables_swapped_total_m": 20,
+    "sample_sequences": [
+      [
+        70,
+        71,
+        72
+      ],
+      [
+        82,
+        83,
+        84
+      ]
+    ],
+    "observed_lags": [
+      [
+        153,
+        153,
+        153
+      ],
+      [
+        173,
+        173,
+        173
+      ]
+    ],
+    "technical_repeats_per_position": 3,
+    "negative_model_or_gate_changed": false,
+    "same_structure_Normal_PCB": false,
+    "fit_quality_note": "endpoint fit; not independent accuracy evidence; earlier5m attempts retained but not used for fit"
+  },
+  "predeclared_validation": {
+    "fixture": "B4p7 SERIES PCB",
+    "front_m": 10,
+    "back_m": 3,
+    "nominal_total_m": 13,
+    "kind": "new-data weaker-positive interpolation/transfer; differs in fixture and total length",
+    "fresh_explicit_barrel50ohm_reference_required": true,
+    "new_boot_allowed": true,
+    "required_profile_id": 1,
+    "required_profile_mask": 1,
+    "technical_repeats_per_state": 3,
+    "controls": "all6 LOW_RETURN/no distance",
+    "sample": "all3 POSITIVE_DISTANCE_CANDIDATE,10000+/-500mm",
+    "nominal_target_mm": 10000,
+    "individual_nominal_tolerance_mm": 500,
+    "retune_after_receipt_allowed": false
+  },
+  "prior_B_data_note": "Earlier B10m exploratory data already exists; this is a newly collected prospective check after freezing, not a blind trial.",
+  "formal_distance_validated": false,
+  "calibrated_Gamma": false,
+  "detector_statistics_validated": false,
+  "qualification": "Nominal labels and barrel-for-PCB reference.500mm step is not accuracy/resolution;143 is a fitted intercept, not measured physical zero. Positive electrical residual only, no resistance-only attribution.",
+  "source_sha256": {
+    "pn_dev/work/stage39_positive_A_board_audit_20261031.json": "c8018e643c17014c934254cbff30ec7730a68178a7a42cc5887850c2033d0e33",
+    "captures/calibration/pn_weak_distance_candidate1_20261030.json": "c038ed417b9c8030344891b9d6e875aa4c881a1ec2def88dbc0f90213189dcc4",
+    "pn_dev/freeze_positive_distance_candidate1.py": "35199c01dead52f5aa9f6ab3baccfffe85af7ecbec9c718f0187c904bb6a0c2b"
+  }
+}

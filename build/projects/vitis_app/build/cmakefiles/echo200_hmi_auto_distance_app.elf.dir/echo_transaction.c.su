@@ -1,0 +1,4 @@
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_transaction.c:21:12:wait_done_impl	80	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_transaction.c:70:5:echo_wait_done	16	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_transaction.c:76:5:echo_run_transaction_traced	56	static
+D:/vivado_project/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/echo_transaction.c:146:5:echo_run_transaction	16	static

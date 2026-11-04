@@ -1,0 +1,31 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Wed Oct 28 18:58:18 2026
+| Host         : LAPTOP-MUM2STS9 running 64-bit major release  (build 9200)
+| Command      : report_cdc -file D:/vivado_project/vitis_echo200_hmi_ws/echo200_ps_integration/reports/pn_stage17/cdc.rpt
+| Design       : system_wrapper
+| Device       : 7z020-clg484
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock                                                                                Destination Clock                                                                           CDC Type                 Exceptions               Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  ------------------------------------------------------------------------------------------  ------------------------------------------------------------------------------------------  -----------------------  -----------------------  ---------  ----  ------  -------  ------------  
+Critical  sys_clk                                                                                     adc_clock_unbuffered                                                                        No Common Primary Clock  Asynch Clock Groups              3     1       2        0             0  
+Critical  adc_clock_unbuffered                                                                        clk_fpga_0                                                                                  No Common Primary Clock  Asynch Clock Groups             46    42       4        0             0  
+Critical  sys_clk                                                                                     dac_clock_unbuffered                                                                        No Common Primary Clock  Asynch Clock Groups              3     2       1        0             0  
+Info      adc_dco_clk                                                                                 adc_clock_unbuffered                                                                        Safely Timed             None                            14    14       0        0             0  
+Info      clk_fpga_0                                                                                  adc_clock_unbuffered                                                                        No Common Primary Clock  Asynch Clock Groups              1     1       0        0             0  
+Info      dac_clock_unbuffered                                                                        adc_clock_unbuffered                                                                        Safely Timed             None                            33    33       0        0             0  
+Info      dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  adc_clock_unbuffered                                                                        No Common Primary Clock  Max Delay Datapath Only          9     9       0        0             0  
+Info      adc_clock_unbuffered                                                                        dac_clock_unbuffered                                                                        Safely Timed             None                             2     2       0        0             0  
+Info      clk_fpga_0                                                                                  dac_clock_unbuffered                                                                        No Common Primary Clock  Asynch Clock Groups             10    10       0        0             0  
+Info      adc_clock_unbuffered                                                                        dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  No Common Primary Clock  Max Delay Datapath Only          2     2       0        0             0  
+Info      sys_clk                                                                                     ref_unbuffered                                                                              Safely Timed             None                             1     1       0        0             0  
+Info      adc_clock_unbuffered                                                                        sys_clk                                                                                     No Common Primary Clock  Asynch Clock Groups              2     2       0        0             0  
+Info      adc_dco_clk                                                                                 sys_clk                                                                                     No Common Primary Clock  Asynch Clock Groups              1     1       0        0             0  
+Info      input port clock                                                                            sys_clk                                                                                     No Common Primary Clock  False Path                       1     1       0        0             0  
+

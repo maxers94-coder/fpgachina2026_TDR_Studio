@@ -1,0 +1,1 @@
+{"samples":[4,8,12,16,20,24],"baseline":[0,0,0,0,0,0],"template":[1,-1,1],"count":4,"dc_count":2,"expected_correlation":[8,12,16,20],"expected_dc_numerator":[4,12,20,28]}
