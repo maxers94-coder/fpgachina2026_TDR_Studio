@@ -7,7 +7,7 @@ test_negative_sign (test_checker.CheckerTests.test_negative_sign) ... ok
 test_wide_accumulator (test_checker.CheckerTests.test_wide_accumulator) ... ok
 
 ----------------------------------------------------------------------
-Ran 6 tests in 0.000s
+Ran 6 tests in 0.001s
 
 OK
 
@@ -20,7 +20,7 @@ test_wire_reversal (test_payload.PayloadTests.test_wire_reversal) ... ok
 test_wrong_direction (test_payload.PayloadTests.test_wrong_direction) ... ok
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.000s
+Ran 5 tests in 0.001s
 
 OK
 

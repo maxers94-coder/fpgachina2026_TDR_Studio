@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "loadable_image_sha256": "bf9b169eb96fdc25935822f76662c985d47d0aaa8188ca9f21345d6228fab647",
+  "original_elf_sha256": "21cc9ebc4d6bcd2b80799144db2276ea71f32fc83e5380d8bb2b68bda17c4a04",
+  "rebuilt_elf_sha256": "21cc9ebc4d6bcd2b80799144db2276ea71f32fc83e5380d8bb2b68bda17c4a04",
+  "note": "ELF debug paths can differ; objcopy binary represents the actual loadable image."
+}

@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "date": "2026-11-04",
+  "toolchain": "AMD Vivado/Vitis 2026.1 on Windows",
+  "build_inputs_verified": 7304,
+  "source_map_unchanged": true,
+  "ps_fresh_rebuild": "PASS",
+  "ps_rebuilt_elf_byte_identical": true,
+  "ps_elf_sha256": "21cc9ebc4d6bcd2b80799144db2276ea71f32fc83e5380d8bb2b68bda17c4a04",
+  "boot_preserved_sha256": "1c8f01b0a4fbd2c8f1c90321c280b8243512dc7aea370b8ff105122a03278f6e",
+  "host_regression": {
+    "groups": 157,
+    "checks": 215476,
+    "actual_raw_replays": 71,
+    "uart_and_driver": "mocked"
+  },
+  "portable_checks": {
+    "unit_tests": 11,
+    "cli_cases": 3,
+    "status": "PASS"
+  },
+  "pc_unit_and_hidden_ui_tests": {
+    "tests": 48,
+    "status": "PASS"
+  },
+  "pc_embedded_file_check": {
+    "files": 332,
+    "database_integrity": "ok",
+    "foreign_key_errors": 0
+  },
+  "rtl_replay": {
+    "real_cases": 51,
+    "synthetic_cases": 2,
+    "difference_values_checked": 54272,
+    "correlation_values_checked": 13568,
+    "bram_readbacks_checked": 13568,
+    "status": "PASS"
+  },
+  "pl_full_rebuild": {
+    "status": "PASS",
+    "bitstream_generated": true,
+    "bus_skew_slack_ns": [
+      9.369,
+      9.38,
+      9.413,
+      9.406
+    ],
+    "wns_ns": 0.165,
+    "whs_ns": 0.039,
+    "drc_error_gate": "PASS"
+  },
+  "cdc_static_clean": false,
+  "cdc_existing_findings": {
+    "CDC-10_critical": 3,
+    "CDC-11_critical": 4,
+    "closure": "Not waived or fixed in this packaging task; retained and disclosed from original routed design."
+  },
+  "live_board_retested": false,
+  "sealed_boot_replaced": false,
+  "original_manifest_document_only_issues": [
+    "README.md changed",
+    "report/README.md changed",
+    "report/release_scope.md changed",
+    "report/competition_report.docx absent"
+  ],
+  "manifest_action": "Corrected missing-report references and reindexed actual submission content after preserving and validating all source-map hashes."
+}

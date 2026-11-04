@@ -1,0 +1,53 @@
+test_normal_board_not_anomaly (test_cables.CableLayoutTests.test_normal_board_not_anomaly) ... ok
+test_position_and_correction (test_cables.CableLayoutTests.test_position_and_correction) ... ok
+test_attachment_hash_and_delete (test_database.DatabaseTests.test_attachment_hash_and_delete) ... ok
+test_backup_and_restore (test_database.DatabaseTests.test_backup_and_restore) ... ok
+test_delete_protection_for_category_and_config (test_database.DatabaseTests.test_delete_protection_for_category_and_config) ... ok
+test_persistence_after_reopen (test_database.DatabaseTests.test_persistence_after_reopen) ... ok
+test_trial_update_audit_retains_before_and_after (test_database.DatabaseTests.test_trial_update_audit_retains_before_and_after) ... ok
+test_duplicate_codes_are_preserved_not_dropped (test_excel_import.ExcelImportTests.test_duplicate_codes_are_preserved_not_dropped) ... ok
+test_duplicate_import_is_blocked_and_can_be_forced (test_excel_import.ExcelImportTests.test_duplicate_import_is_blocked_and_can_be_forced) ... ok
+test_import_fw63_79_groups (test_excel_import.ExcelImportTests.test_import_fw63_79_groups) ... ok
+test_ai_package_manifest_and_files (test_export.ExportTests.test_ai_package_manifest_and_files) ... ok
+test_csv_zip (test_export.ExportTests.test_csv_zip) ... ok
+test_dataset_statistics (test_export.ExportTests.test_dataset_statistics) ... ok
+test_excel_roundtrip_preserves_trials (test_export.ExportTests.test_excel_roundtrip_preserves_trials) ... ok
+test_json_is_strict_and_recomputable (test_export.ExportTests.test_json_is_strict_and_recomputable) ... ok
+test_detection_fail (test_judgement.JudgementTests.test_detection_fail) ... ok
+test_hardware_error_fail (test_judgement.JudgementTests.test_hardware_error_fail) ... ok
+test_insufficient_is_not_pass (test_judgement.JudgementTests.test_insufficient_is_not_pass) ... ok
+test_invalid_rate_fail (test_judgement.JudgementTests.test_invalid_rate_fail) ... ok
+test_normal_false_alarm_fail (test_judgement.JudgementTests.test_normal_false_alarm_fail) ... ok
+test_not_tested_is_not_pass (test_judgement.JudgementTests.test_not_tested_is_not_pass) ... ok
+test_pass_all_rules (test_judgement.JudgementTests.test_pass_all_rules) ... ok
+test_empty (test_reflection.DistanceMetricTests.test_empty) ... ok
+test_percentile (test_reflection.DistanceMetricTests.test_percentile) ... ok
+test_single_has_no_sample_std (test_reflection.DistanceMetricTests.test_single_has_no_sample_std) ... ok
+test_two_sample_std (test_reflection.DistanceMetricTests.test_two_sample_std) ... ok
+test_custom_and_invalid (test_reflection.ReflectionTests.test_custom_and_invalid) ... ok
+test_documented_values (test_reflection.ReflectionTests.test_documented_values) ... ok
+test_measured_ohm_uses_same_formula (test_reflection.ReflectionTests.test_measured_ohm_uses_same_formula) ... ok
+test_normal_open_short (test_reflection.ReflectionTests.test_normal_open_short) ... ok
+test_one_kohm_shunt (test_reflection.ReflectionTests.test_one_kohm_shunt) ... ok
+test_sign_and_strength (test_reflection.ReflectionTests.test_sign_and_strength) ... ok
+test_two_ohm_series (test_reflection.ReflectionTests.test_two_ohm_series) ... ok
+test_aggregate_mixed_modes (test_statistics.AggregateTests.test_aggregate_mixed_modes) ... ok
+test_ambiguous_symmetric_result (test_statistics.MultiStatsTests.test_ambiguous_symmetric_result) ... ok
+test_candidate_count_not_success (test_statistics.MultiStatsTests.test_candidate_count_not_success) ... ok
+test_matching_four_and_extra (test_statistics.MultiStatsTests.test_matching_four_and_extra) ... ok
+test_multi_stats_extra_and_missing (test_statistics.MultiStatsTests.test_multi_stats_extra_and_missing) ... ok
+test_one_to_one_and_missed (test_statistics.MultiStatsTests.test_one_to_one_and_missed) ... ok
+test_wrong_polarity_still_matches_but_flags (test_statistics.MultiStatsTests.test_wrong_polarity_still_matches_but_flags) ... ok
+test_acceptance_five_trials (test_statistics.SingleStatsTests.test_acceptance_five_trials) ... ok
+test_all_not_detected_never_zero_distance (test_statistics.SingleStatsTests.test_all_not_detected_never_zero_distance) ... ok
+test_edge_policy_and_quality (test_statistics.SingleStatsTests.test_edge_policy_and_quality) ... ok
+test_empty (test_statistics.SingleStatsTests.test_empty) ... ok
+test_invalid_and_rejected_kept_in_total (test_statistics.SingleStatsTests.test_invalid_and_rejected_kept_in_total) ... ok
+test_normal_false_alarm (test_statistics.SingleStatsTests.test_normal_false_alarm) ... ok
+test_wrong_polarity_fails_comprehensive (test_statistics.SingleStatsTests.test_wrong_polarity_fails_comprehensive) ... ok
+test_launch_and_navigate_all_pages (test_ui_smoke.UISmokeTests.test_launch_and_navigate_all_pages) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 22.619s
+
+OK

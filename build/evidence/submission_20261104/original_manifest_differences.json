@@ -1,0 +1,15 @@
+{
+  "original_check_errors": [
+    "README.md",
+    "report/README.md",
+    "report/competition_report.docx",
+    "report/release_scope.md"
+  ],
+  "staging_after_documentation_and_new_skill_tests": [
+    "README.md",
+    "build/evidence/current_packaging/skill_tests.txt",
+    "report/README.md",
+    "report/competition_report.docx",
+    "report/release_scope.md"
+  ]
+}

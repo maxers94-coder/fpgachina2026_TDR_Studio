@@ -1,0 +1,69 @@
+{"status": "RESTORE_PASS", "scope": "app", "count": 224, "output": "C:\\Users\\maxer\\TDR_FW63_UPLOAD_20261104\\qa\\app_restored"}
+-- The C compiler identification is GNU 13.4.0
+-- The CXX compiler identification is GNU 13.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+-- Configuring done (6.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/maxer/TDR_FW63_UPLOAD_20261104/qa/app_build
+[1/27] ==========Application Build Information ==========
+
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/Users/maxer/
+TDR_FW63_UPLOAD_20261104/qa/app_restored/workspace/vitis_echo200_hmi_ws/echo200_hmi_platform/export/
+echo200_hmi_platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -IC:/Users/maxer/TDR_FW63_UPLOAD_20261
+104/qa/app_restored/workspace/vitis_echo200_hmi_ws/echo200_hmi_platform/export/echo200_hmi_platform/
+sw/standalone_ps7_cortexa9_0/include -fstack-usage  
+
+Linker Flags:  -Wl,-T -Wl,"C:/Users/maxer/TDR_FW63_UPLOAD_20261104/qa/app_restored/workspace/vitis_e
+cho200_hmi_ws/echo200_hmi_auto_distance_app/src/lscript.ld" -L"C:/Users/maxer/TDR_FW63_UPLOAD_202611
+04/qa/app_restored/workspace/vitis_echo200_hmi_ws/echo200_hmi_auto_distance_app/src/" -L"C:/Users/ma
+xer/TDR_FW63_UPLOAD_20261104/qa/app_restored/workspace/vitis_echo200_hmi_ws/echo200_hmi_platform/exp
+ort/echo200_hmi_platform/sw/standalone_ps7_cortexa9_0/lib/" -L"/" -Wl,--start-group,-lxilstandalone,
+
+-lxiltimer,-lxil,-lgcc,-lc,-lm -Wl,--end-group
+
+
+===========================================
+[2/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_calibration.c.obj
+[3/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_hw_info.c.obj
+[4/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_pl.c.obj
+[5/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_pn.c.obj
+[6/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_bringup.c.obj
+[7/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_locator.c.obj
+[8/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_distance.c.obj
+[9/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_pn_range.c.obj
+[10/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_hmi_wave.c.obj
+[11/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_healthy_baseline.c.obj
+[12/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/long_endpoint1.c.obj
+[13/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_decision.c.obj
+[14/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_transaction.c.obj
+[15/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_result.c.obj
+[16/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/positive_candidate1.c.obj
+[17/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_reference_guard.c.obj
+[18/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_mmio_zynq.c.obj
+[19/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/negative_extension1.c.obj
+[20/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/multireturn_candidate1.c.obj
+[21/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/echo_multi61.c.obj
+[22/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/return_candidate1.c.obj
+[23/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/weak_candidate1.c.obj
+[24/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/unified_candidate2.c.obj
+[25/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/tdr_hmi_protocol.c.obj
+[26/27] Building C object CMakeFiles/echo200_hmi_auto_distance_app.elf.dir/main.c.obj
+[27/27] Linking C executable echo200_hmi_auto_distance_app.elf
+   text	   data	    bss	    dec	    hex	filename
+
+ 176207	   1904	  48032	 226143	  3735f	echo200_hmi_auto_distance_app.elf
+
+APP_BUILD_PASS: C:\Users\maxer\TDR_FW63_UPLOAD_20261104\qa\app_build\echo200_hmi_auto_distance_app.elf
+This builds an application only; it does not replace the sealed BOOT or access a board.
+NEW_APP_OUTPUT: C:\Users\maxer\TDR_FW63_UPLOAD_20261104\qa\app_build

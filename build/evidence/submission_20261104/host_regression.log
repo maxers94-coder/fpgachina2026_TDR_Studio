@@ -1,0 +1,4 @@
+{"status": "RESTORE_PASS", "scope": "host", "count": 2231, "output": "C:\\Users\\maxer\\TDR_FW63_UPLOAD_20261104\\qa\\host_restored"}
+STAGE63_MULTI_MAIN_HOST_PASS: 157 groups; 215476 checks;71 actual RAW replays; UART/driver mocks only
+FINITE_RX capacity=64 dropped=0 locked=0 tx=3->4 pending=0
+FINITE_RX capacity=32 dropped=0 locked=0 tx=3->4 pending=0

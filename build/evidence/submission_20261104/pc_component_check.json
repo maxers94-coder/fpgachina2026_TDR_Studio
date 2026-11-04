@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "archive_sha256": "26edce485af72b213f5534e9bf0006e7ea7f3f82fc564c9c5c6291d9c5cfc2c0",
+  "files_checked": 332,
+  "zip_crc": "PASS",
+  "database_integrity": [
+    [
+      "ok"
+    ]
+  ],
+  "foreign_key_errors": []
+}
