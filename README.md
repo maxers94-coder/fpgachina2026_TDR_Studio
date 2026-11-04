@@ -75,4 +75,4 @@ MIT License, see [LICENSE](LICENSE).
 
 ## 报告与数据
 
-设计报告将在最终提交前补充到 `report/competition_report.docx`；当前已提供 AI 协作记录、测试范围和数据结构说明。[数据说明](data/README.md) 说明实验分组及结果配对方法，[大模型协作说明](report/ai_collaboration.md) 记录辅助开发方式和验证方法。功能与测试条件见 [测试范围](report/release_scope.md)。
+竞赛设计报告：[DOCX](report/competition_report.docx) · [PDF](report/competition_report.pdf)。报告第 2 页包含报名名称与实际作品的选题说明；另提供 AI 协作记录、测试范围和数据结构说明。[数据说明](data/README.md) 说明实验分组及结果配对方法，[大模型协作说明](report/ai_collaboration.md) 记录辅助开发方式和验证方法。功能与测试条件见 [测试范围](report/release_scope.md)。

@@ -1,19 +1,21 @@
 {
   "schema": "TDR_CURRENT_FILE_INDEX_1",
-  "date": "2026-11-04",
-  "indexed_files": 7365,
-  "bytes": 416910844,
+  "date": "2026-11-03",
+  "indexed_files": 7368,
+  "bytes": 437857557,
   "files_by_root": {
     ".gitattributes": 1,
     ".gitignore": 1,
+    "LICENSE": 1,
     "README.md": 1,
     "board": 32,
     "build": 4981,
     "data": 2017,
-    "report": 28,
+    "report": 29,
     "sim": 157,
     "skill": 10,
     "src": 136,
+    "topic_notice.md": 1,
     "verify_project.cmd": 1
   },
   "mapped_build_inputs": 7304,
@@ -31,9 +33,14 @@
       "sha256": "3f86749759d3cb4e71bb6b403999dfb803aaf8446e8b3baef554254e5cb9446a"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "8b4d32d45d05d29d9212cda62753c12a23df3e5f612a29f8386d6efe943518eb"
+    },
+    {
       "path": "README.md",
-      "bytes": 4708,
-      "sha256": "7ab077943324a69ede6358581f05e0a7911a86d90cab4a91f77a855ae3de5926"
+      "bytes": 5511,
+      "sha256": "7f133fc2bbcf98363b4bda208e87a9df58de430ae35979e730700534506b0a7f"
     },
     {
       "path": "board/README.md",
@@ -35187,8 +35194,8 @@
     },
     {
       "path": "report/README.md",
-      "bytes": 435,
-      "sha256": "e1ddbbe157c59efdd558ad4b1ae56926c10a1c931821ded0b21fac0ae19bd152"
+      "bytes": 549,
+      "sha256": "1999bbbd050bc579dc465f9b1d244fa18b6638cf3cab6bcf8d182964f3a5eff6"
     },
     {
       "path": "report/ai_collaboration.md",
@@ -35237,8 +35244,13 @@
     },
     {
       "path": "report/competition_report.docx",
-      "bytes": 483717,
-      "sha256": "4e666a6c20ee0d54c075c4c66dd1459ec276a8b83c6ef8762aae6ca49c8febf0"
+      "bytes": 18527743,
+      "sha256": "a6ef5e030c60748d1035e7c3123848dd159315d5a17f13225d52a4e8ae795519"
+    },
+    {
+      "path": "report/competition_report.pdf",
+      "bytes": 2898723,
+      "sha256": "7a07b63d305280ffbd73f907f3ee2b2af773a2ab81c9916404aa604710ed43ca"
     },
     {
       "path": "report/reference/ac820/ac820-core-20240531-_.pdf",
@@ -35317,8 +35329,8 @@
     },
     {
       "path": "report/release_scope.md",
-      "bytes": 1500,
-      "sha256": "4287adb5ccb0ea161fdd33f09579879b417829cd28fee5e8b39473204f3a81f4"
+      "bytes": 1586,
+      "sha256": "1fdae7f68698f8e235a25f465e33d508db99a6a5427743aa07a32a68c24598ac"
     },
     {
       "path": "report/third_party.md",
@@ -36839,6 +36851,11 @@
       "path": "src/rtl/sync_pulse_engine.sv",
       "bytes": 7317,
       "sha256": "be9b8c81556256ccf91cb12be1284f1b6f5e6cc83fc9360b8f8f08905163a3e6"
+    },
+    {
+      "path": "topic_notice.md",
+      "bytes": 1895,
+      "sha256": "ef7447d7817ba32114315c9ddb331c79c59365b421b16c288cf8cc39c20dd95e"
     },
     {
       "path": "verify_project.cmd",
